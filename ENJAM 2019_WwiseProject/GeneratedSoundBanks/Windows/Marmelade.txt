@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	868960062	Stop_Test2D			\Default Work Unit\Stop_Test2D	
+	2238930752	Play_Test2D			\Default Work Unit\Play_Test2D	
+	2255708371	Play_Test3D			\Default Work Unit\Play_Test3D	
+	2362122491	Play_Tension_Test			\Default Work Unit\Play_Tension_Test	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2122627167	RTPC_Tension			\Default Work Unit\RTPC_Tension	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	164716348	EFX EXT GROUP Female Celebration Scream 01 A	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\EFX EXT GROUP Female Celebration Scream 01 A _D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tension_Test\EFX EXT GROUP Female Celebration Scream 01 A		4772352
+	354118787	Tension - warbley burning tone 1	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Tension - warbley burning tone 1_3055FEAD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tension_Test\Tension - warbley burning tone 1		2223352
+	509541422	Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_58971D91.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test2D\Voice\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431		8484
+	663886832	Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_01	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_71B0CE05.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test2D\Voice\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_01		14608
+	682388989	TM_GLITCH UI_CPGN wet_03	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\TM_GLITCH UI_CPGN wet_06_0BEB448B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test2D\Glitch\TM_GLITCH UI_CPGN wet_03		13592
+	685614710	TM_GLITCH UI_CPGN wet_02	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\TM_GLITCH UI_CPGN wet_06_8D3C7576.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test2D\Glitch\TM_GLITCH UI_CPGN wet_02		18344
+	734736358	RT_office, heater tone 2	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\RT_office, heater tone 2_F7A88F48.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tension_Test\RT_office, heater tone 2		2713516
+	803886606	Kitchen, Coffee Maker, Filter, Running SND4009	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Kitchen, Coffee Maker, Filter, Running SND4009_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test3D\Kitchen, Coffee Maker, Filter, Running SND4009		1524312
+	919419780	TM_GLITCH UI_CPGN wet_01	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\TM_GLITCH UI_CPGN wet_06_A7B564B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test2D\Glitch\TM_GLITCH UI_CPGN wet_01		13320
+	923417225	TM_GLITCH UI_CPGN wet_06	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\TM_GLITCH UI_CPGN wet_06_965DE2A3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test2D\Glitch\TM_GLITCH UI_CPGN wet_06		18804
+	1007790698	Kitchen, Espresso Maker, Pressure Valve  SND0423	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Kitchen, Espresso Maker, Pressure Valve  SND0423_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test3D\Kitchen, Espresso Maker, Pressure Valve  SND0423		2142996
+
