@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{06F2013A-1746-44D3-BBC0-014585FCDA00}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{06F2013A-1746-44D3-BBC0-014585FCDA00}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Test2D" ID="{BC0E0673-812D-4AC2-BA9D-9E60DD1C4FBB}">
+					<ChildrenList>
+						<Action Name="" ID="{6B75BF9C-2832-4A39-BE9C-582E105CC630}" ShortID="628199948">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Test2D" ID="{DC0464E7-1AEE-4CCC-A9DC-624CC6CFF8D4}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Test3D" ID="{60A3BA33-6F64-43CA-9555-E3688A0E5229}">
+					<ChildrenList>
+						<Action Name="" ID="{C8DD9D54-1A5E-40A7-A54E-55A522D57732}" ShortID="1008517646">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Test3D" ID="{D723A799-09DA-4266-99A8-C9825FCAE2FF}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Test2D" ID="{889AE8AD-A522-46AB-A352-3C2CC955C34F}">
+					<ChildrenList>
+						<Action Name="" ID="{530D26DB-5FB7-452B-B2DB-ED03F425270C}" ShortID="883917957">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Test2D" ID="{DC0464E7-1AEE-4CCC-A9DC-624CC6CFF8D4}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Tension_Test" ID="{BE954D45-B79A-48B3-BAC4-E59DD49DC61E}">
+					<ChildrenList>
+						<Action Name="" ID="{562AD4B8-DE14-439F-B580-2429DD7EF183}" ShortID="275864733">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tension_Test" ID="{EAB08A67-DBE0-4B24-B075-BCE6F6A9E79E}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}" SchemaVersion="94">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}" PersistMode="Standalone">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Test2D" ID="{DC0464E7-1AEE-4CCC-A9DC-624CC6CFF8D4}" ShortID="816197195">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{9C171893-131C-4A2C-9E35-68B226792F3E}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="90"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{20F4F687-9D96-4A01-9F18-4169FEE48A3F}"/>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-450</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{9D6C4F75-4534-4F10-B22B-860D171641E3}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="120"/>
+											<Property Name="Min" Type="Real64" Value="-640"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+						<Property Name="Volume" Type="Real64">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{3F163B24-30BD-4C6C-855C-E9B92D7F6653}">
+										<PropertyList>
+											<Property Name="Min" Type="Real64" Value="-10"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B719F101-F240-481F-BF11-B0C83B0AC25D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Voice" ID="{9D060FDC-A104-4EBC-B69E-0FA772DBB36C}" ShortID="582511164">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9946CACC-4FE2-4412-9DA8-F86DE004D6D3}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B5E26E40-5BA7-4FA8-B9F4-0539A3F69D17}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="120"/>
+													<Property Name="Min" Type="Real64" Value="-430"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{DACF0248-2162-4DD8-BB23-58BC37787127}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B719F101-F240-481F-BF11-B0C83B0AC25D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431" ID="{0CDF2E05-E7B7-4E9C-A08B-952C7CC73532}" ShortID="201637940">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>3.001</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B719F101-F240-481F-BF11-B0C83B0AC25D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431" ID="{64664700-CBE1-4D32-A819-DCD9FBED6735}" ShortID="509541422">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="4.9842442756495E-03"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.99054656538972E-03"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.241237422941436"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.28509877256715"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431" ID="{64664700-CBE1-4D32-A819-DCD9FBED6735}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_01" ID="{B7DB2E74-B4A5-4C30-B6CD-D91D93FC5106}" ShortID="694985330">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B719F101-F240-481F-BF11-B0C83B0AC25D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431" ID="{2EF442DB-D588-4D37-84D4-8EC2A729445E}" ShortID="663886832">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="4.9842442756495E-03"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.99054656538972E-03"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.307029447380009"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.38278996036988"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431" ID="{2EF442DB-D588-4D37-84D4-8EC2A729445E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Glitch" ID="{34CC70E4-5EB7-4065-A25B-25DAD5B280E9}" ShortID="214882111">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{70D441AB-15AD-499D-A48F-0C240B3B807A}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="90"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-450</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D9573634-B009-4B30-96E5-CBA295894089}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="120"/>
+													<Property Name="Min" Type="Real64" Value="-640"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{AB0466A2-91A4-44CD-8B48-6B89DA5FEC84}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Weight" Type="Real64">
+									<ValueList>
+										<Value>91</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B719F101-F240-481F-BF11-B0C83B0AC25D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="TM_GLITCH UI_CPGN wet_01" ID="{E58E2821-503E-4942-B4B5-7C52502253F8}" ShortID="8492901">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B719F101-F240-481F-BF11-B0C83B0AC25D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TM_GLITCH UI_CPGN wet_06" ID="{8F2AC5A6-A217-4081-BDDD-EB2128F75A53}" ShortID="685614710">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.80889476001761E-03"/>
+												<Property Name="TrimEnd" Type="Real64" Value="7.28451122853368E-02"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>TM_GLITCH UI_CPGN wet_06.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="919419780"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TM_GLITCH UI_CPGN wet_06" ID="{8F2AC5A6-A217-4081-BDDD-EB2128F75A53}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TM_GLITCH UI_CPGN wet_02" ID="{E28EFF84-6788-450C-B419-DDD15D96A955}" ShortID="795021414">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B719F101-F240-481F-BF11-B0C83B0AC25D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TM_GLITCH UI_CPGN wet_06" ID="{8770874B-01D5-4111-9D85-021F734D4A3B}" ShortID="682388989">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="8.18912373403787E-02"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.177113606340819"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>TM_GLITCH UI_CPGN wet_06.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="685614710"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TM_GLITCH UI_CPGN wet_06" ID="{8770874B-01D5-4111-9D85-021F734D4A3B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TM_GLITCH UI_CPGN wet_03" ID="{A2036291-C467-4204-91D1-AAA0F54C0D7C}" ShortID="722592637">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B719F101-F240-481F-BF11-B0C83B0AC25D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TM_GLITCH UI_CPGN wet_06" ID="{DBC8CA8E-21E3-45B7-BACE-4FC0D847BC8B}" ShortID="923417225">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.182826948480846"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.253291501541171"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>TM_GLITCH UI_CPGN wet_06.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="682388989"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TM_GLITCH UI_CPGN wet_06" ID="{DBC8CA8E-21E3-45B7-BACE-4FC0D847BC8B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TM_GLITCH UI_CPGN wet_06" ID="{B90E5522-FC93-482D-A9F7-3DEB84496C7E}" ShortID="635288495">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B719F101-F240-481F-BF11-B0C83B0AC25D}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TM_GLITCH UI_CPGN wet_06" ID="{50A2EC61-EF25-48B9-8CE9-90EB05CB5EEF}" ShortID="919419780">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.2594809555262"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.357083883751651"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>TM_GLITCH UI_CPGN wet_06.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="923417225"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TM_GLITCH UI_CPGN wet_06" ID="{50A2EC61-EF25-48B9-8CE9-90EB05CB5EEF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Test3D" ID="{D723A799-09DA-4266-99A8-C9825FCAE2FF}" ShortID="1054354590">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{FBE0C665-9D96-4409-A486-B5E178A60C00}" ShortID="658377071">
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{E2C28E3E-9C54-42DE-9344-621C0D8E7910}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>100</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B719F101-F240-481F-BF11-B0C83B0AC25D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Kitchen, Coffee Maker, Filter, Running SND4009" ID="{017DF953-E669-4524-9338-5638A5D0B4CD}" ShortID="141807770">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B719F101-F240-481F-BF11-B0C83B0AC25D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Kitchen, Coffee Maker, Filter, Running SND4009" ID="{34C4B076-7B5B-4169-A59C-8DBAEE263657}" ShortID="803886606">
+									<Language>SFX</Language>
+									<AudioFile>Kitchen, Coffee Maker, Filter, Running SND4009.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Kitchen, Coffee Maker, Filter, Running SND4009" ID="{34C4B076-7B5B-4169-A59C-8DBAEE263657}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Kitchen, Espresso Maker, Pressure Valve  SND0423" ID="{2F423497-255E-4977-8636-132FEB031D59}" ShortID="723578312">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B719F101-F240-481F-BF11-B0C83B0AC25D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Kitchen, Espresso Maker, Pressure Valve  SND0423" ID="{4F6E407A-EA61-4464-B86E-56C63EEEB67A}" ShortID="1007790698">
+									<Language>SFX</Language>
+									<AudioFile>Kitchen, Espresso Maker, Pressure Valve  SND0423.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Kitchen, Espresso Maker, Pressure Valve  SND0423" ID="{4F6E407A-EA61-4464-B86E-56C63EEEB67A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Kitchen, Coffee Maker, Filter, Running SND4009" ID="{017DF953-E669-4524-9338-5638A5D0B4CD}"/>
+						<ItemRef Name="Kitchen, Espresso Maker, Pressure Valve  SND0423" ID="{2F423497-255E-4977-8636-132FEB031D59}"/>
+					</Playlist>
+				</RandomSequenceContainer>
+				<BlendContainer Name="Tension_Test" ID="{EAB08A67-DBE0-4B24-B075-BCE6F6A9E79E}" ShortID="624127068">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B719F101-F240-481F-BF11-B0C83B0AC25D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="RT_office, heater tone 2" ID="{40E0787B-0D5E-4201-B37B-4E92897CC740}" ShortID="479060843">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B719F101-F240-481F-BF11-B0C83B0AC25D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RT_office, heater tone 2" ID="{14312E07-D7DA-4ED6-B7C5-12DB3FFE5BD1}" ShortID="734736358">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="716.071"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.510803872192866"/>
+										<Property Name="LoopEnd" Type="Real64" Value="13.8484605350066"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="9.45933096653455E-02"/>
+										<Property Name="TrimEnd" Type="Real64" Value="14.226833773668"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>RT_office, heater tone 2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RT_office, heater tone 2" ID="{14312E07-D7DA-4ED6-B7C5-12DB3FFE5BD1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="EFX EXT GROUP Female Celebration Scream 01 A" ID="{91F0D263-3C49-4877-BD48-3F9DACD4867B}" ShortID="973186929">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="EFX EXT GROUP Female Celebration Scream 01 A" ID="{F22C2BD3-DD76-4481-BE0B-6F780953B512}" ShortID="164716348">
+									<Language>SFX</Language>
+									<AudioFile>EFX EXT GROUP Female Celebration Scream 01 A .wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="EFX EXT GROUP Female Celebration Scream 01 A" ID="{F22C2BD3-DD76-4481-BE0B-6F780953B512}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Tension - warbley burning tone 1" ID="{B4E2268E-622B-4E9D-AEF6-F52DD4232C7B}" ShortID="563401746">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Tension - warbley burning tone 1" ID="{FC4922C0-6939-4299-B310-906390522E04}" ShortID="354118787">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="909.692"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.521884191985909"/>
+										<Property Name="LoopEnd" Type="Real64" Value="11.0248035557023"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="11.5793055096874"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Tension - warbley burning tone 1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Tension - warbley burning tone 1" ID="{FC4922C0-6939-4299-B310-906390522E04}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<BlendTrackList>
+						<BlendTrack Name="Amb_Office" ID="{5627693F-E05D-45C3-9777-3F2CAF62CDBF}" ShortID="794788132">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="RTPC_Tension" ID="{0F342DF9-EEEA-4583-A5D8-2A20272EC287}" WorkUnitID="{DCA58E7D-DE4E-4C4C-BA3E-C7662CCF3688}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="RT_office, heater tone 2" ID="{40E0787B-0D5E-4201-B37B-4E92897CC740}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>0</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>3</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Screams" ID="{9CA9F385-14C8-4E0E-9408-E12EE27A96A1}" ShortID="888385772">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{8FE1C52D-0122-45DC-B8DD-00290E366E5A}" ShortID="366402621">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_Tension" ID="{0F342DF9-EEEA-4583-A5D8-2A20272EC287}" WorkUnitID="{DCA58E7D-DE4E-4C4C-BA3E-C7662CCF3688}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2103AE23-7F77-451C-9B2F-EA9AF6FDC9F4}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>2</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2.999</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="RTPC_Tension" ID="{0F342DF9-EEEA-4583-A5D8-2A20272EC287}" WorkUnitID="{DCA58E7D-DE4E-4C4C-BA3E-C7662CCF3688}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="EFX EXT GROUP Female Celebration Scream 01 A" ID="{91F0D263-3C49-4877-BD48-3F9DACD4867B}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>1</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>3</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+						<BlendTrack Name="Music" ID="{6169A9E1-2BA3-448E-B635-75B4D54CE574}" ShortID="492007428">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{05A96F78-A48A-4217-8777-24EB85D3256A}" ShortID="469218694">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_Tension" ID="{0F342DF9-EEEA-4583-A5D8-2A20272EC287}" WorkUnitID="{DCA58E7D-DE4E-4C4C-BA3E-C7662CCF3688}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5AC4C8CB-51E2-4D61-AEAF-EADDC8D7FE2F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>1.00508</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>2</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>3</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="RTPC_Tension" ID="{0F342DF9-EEEA-4583-A5D8-2A20272EC287}" WorkUnitID="{DCA58E7D-DE4E-4C4C-BA3E-C7662CCF3688}"/>
+								</Reference>
+							</ReferenceList>
+							<BlendTrackAssocList>
+								<BlendTrackAssoc>
+									<ItemRef Name="Tension - warbley burning tone 1" ID="{B4E2268E-622B-4E9D-AEF6-F52DD4232C7B}"/>
+									<CrossfadingInfo>
+										<LeftEdgePos>1</LeftEdgePos>
+										<LeftFadingMode>Automatic</LeftFadingMode>
+										<RightEdgePos>3</RightEdgePos>
+										<RightFadingMode>Automatic</RightFadingMode>
+									</CrossfadingInfo>
+								</BlendTrackAssoc>
+							</BlendTrackAssocList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
