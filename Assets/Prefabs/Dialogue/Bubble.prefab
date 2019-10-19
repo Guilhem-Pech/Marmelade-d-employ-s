@@ -306,6 +306,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slowLetterDuration: 0.06
   fastLetterDuration: 0.005
+  buttonPrefab: {fileID: 925742140726280322, guid: b802e52a69bd0904ca4b81cab12b4041,
+    type: 3}
 --- !u!1 &5425508630872446187
 GameObject:
   m_ObjectHideFlags: 0

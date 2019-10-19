@@ -2,20 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Dialogue : MonoBehaviour
+public class DialogueWithChoice : Dialogue
 {
-    [SerializeField] [TextArea(1, 3)] protected string[] sentences;
-    [SerializeField] protected GameObject bubble;
-    [SerializeField] protected float heightBubble = 1f;
-    protected bool triggered = false;
-    
+    [SerializeField] private Dialogue nextDialogue = null;
+    [SerializeField] private string[] choices;
 
-    public virtual void TriggerDialogue()
+    public override void TriggerDialogue()
     {
         if (!triggered)
         {
             DialogueManager thisBubble = GameObject.Instantiate(bubble, transform.position + heightBubble * Vector3.up, Quaternion.identity, transform).GetComponent<DialogueManager>();
-            thisBubble.GiveDialogues(sentences);
+            thisBubble.GiveDialogues(sentences, false, nextDialogue, choices);
             triggered = true;
         }
     }

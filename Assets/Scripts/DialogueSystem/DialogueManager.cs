@@ -8,8 +8,10 @@ public enum DialogueStyle {basic, fast};
 public class DialogueManager : MonoBehaviour
 {
     private DialogueStyle style = DialogueStyle.basic;
-
+    
     private Queue<string> sentences = new Queue<string>();
+    private Dialogue nextDialogue = null;
+    private string[] choices = null;
 
     private string currentSentence;
     private int currentPosition;
@@ -17,10 +19,12 @@ public class DialogueManager : MonoBehaviour
     private TextMeshProUGUI text;
     private bool active = false;
     private bool autoPass = true;
-
-    [SerializeField] private float slowLetterDuration = 0.05f;
-    [SerializeField] private float fastLetterDuration = 0.2f;
     private float textDuration = 2f;
+    private bool buttonExists = false;
+
+    [SerializeField] private float slowLetterDuration = 0.06f;
+    [SerializeField] private float fastLetterDuration = 0.006f;
+    [SerializeField] private GameObject buttonPrefab;
 
 
 
@@ -48,7 +52,16 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void GiveDialogues(string[] theseSentences, bool auto = true)
+    public void TriggerChoice(int id)
+    {
+        if(nextDialogue != null)
+        {
+            nextDialogue.TriggerDialogue();
+        }
+        Destroy(gameObject);
+    }
+
+    public void GiveDialogues(string[] theseSentences, bool auto = true, Dialogue next = null, string[] theseChoices = null)
     {
         if (theseSentences == null)
         {
@@ -63,6 +76,8 @@ public class DialogueManager : MonoBehaviour
         currentSentence = "";
         counter = 0.0f;
         autoPass = auto;
+        nextDialogue = next;
+        choices = theseChoices;
     }
     
     private void Update()
@@ -89,9 +104,26 @@ public class DialogueManager : MonoBehaviour
             {
                 PassDialogue();
             }
-        } else if(sentences.Count == 0 && active)
+        } else if(sentences.Count == 0 && active && autoPass)
         {
             PassDialogue();
+        }
+        else if(sentences.Count == 0 && active && !autoPass)
+        {
+            if (!buttonExists)
+            {
+                CreateButtons();
+                buttonExists = true;
+            }
+        }
+    }
+
+    private void CreateButtons()
+    {
+        for(int i = 0; i < choices.Length; ++i)
+        {
+            GameObject thisChoice = GameObject.Instantiate(buttonPrefab, transform.position - Vector3.up * 0.5f * (i+1), Quaternion.identity, transform.GetComponentInChildren<Canvas>().transform);
+            thisChoice.GetComponent<DialogueChoice>().Init(choices[i],this,i);
         }
     }
 }
