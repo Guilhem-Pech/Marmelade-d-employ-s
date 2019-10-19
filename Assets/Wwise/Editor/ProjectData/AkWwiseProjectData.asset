@@ -17,21 +17,21 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3790e99a5dd4a7409c9b540a5f2e6174
     GuidInternal: 
-    m_lastTime: -8586301343551872313
+    m_lastTime: -8586301329334402768
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: c2123d2667a31f4e99b73846efbbbe3e
     GuidInternal: 
-    m_lastTime: -8586301343552570684
+    m_lastTime: -8586301329337823736
     List: []
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 31e9206dfc5d43408b21fbebfdad0ab8
     GuidInternal: 
-    m_lastTime: -8586301293562449877
+    m_lastTime: -8586301285284659088
     List:
     - name: Marmelade
       guid: c9f1ad2b34682248a241270851b0669d
@@ -47,7 +47,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3a01f2064617d344bbc0014585fcda00
     GuidInternal: 
-    m_lastTime: -8586301295846795098
+    m_lastTime: -8586301285286394571
     List:
     - name: Play_Tension_Test
       guid: 454d95be9ab7b348bac4e59dd49dc61e
@@ -102,7 +102,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 7d8ea5dc4ede4c4cba3ec7662ccf3688
     GuidInternal: 
-    m_lastTime: -8586301297825799629
+    m_lastTime: -8586301285286384598
     List:
     - name: RTPC_Tension
       guid: f92d340feaee8345a5d82a20272ec287
@@ -118,27 +118,25 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: d05f0b839e0bb94b89146c1aea7712ff
     GuidInternal: 
-    m_lastTime: -8586301343552002245
+    m_lastTime: -8586301329335509521
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: f8c907c0c9ae05429857bc83d634bb6e
     GuidInternal: 
-    m_lastTime: -8586301343551942400
+    m_lastTime: -8586301329335480732
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 084a5c34028ce749b3e042c331e05d96
     GuidInternal: 
-    m_lastTime: -8586301343552959687
+    m_lastTime: -8586301329334627987
     List: []
   ExpandedItems:
   - /ENJAM 2019_WwiseProject
   - /ENJAM 2019_WwiseProject/Events
   - /ENJAM 2019_WwiseProject/Events/Default Work Unit
-  - /ENJAM 2019_WwiseProject/SoundBanks
-  - /ENJAM 2019_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

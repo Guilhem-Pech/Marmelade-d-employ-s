@@ -178,6 +178,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &730094784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 730094786}
+  - component: {fileID: 730094785}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &730094785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730094784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4673e5d1d249a38459ae3cb3155dc407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tension: 0
+  ambient: {fileID: 2121992923}
+--- !u!4 &730094786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730094784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.35696197, y: -1.1867298, z: -15.237566}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1468016106
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,7 +284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b14fe4c85ccaf9d47adc6e18bb9f1b35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c
+  triggerList: 
   useOtherObject: 0
   actionOnEventType: 0
   curveInterpolation: 4
@@ -291,7 +336,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1468016106}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8112179, y: -0.51317394, z: -11.296973}
+  m_LocalPosition: {x: 0.95, y: 0.41, z: -11.296973}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -597,7 +642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b14fe4c85ccaf9d47adc6e18bb9f1b35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c
+  triggerList: 
   useOtherObject: 0
   actionOnEventType: 0
   curveInterpolation: 4
