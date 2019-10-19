@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnClick(InputAction.CallbackContext context)
     {
-        if(!context.performed) return;
+        if(!context.performed || Math.Abs(XAxis) > 0.2f) return;
         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
  
         if(hit.collider != null && hit.transform.parent && hit.transform.parent.gameObject.CompareTag("Usable") )
@@ -64,11 +64,10 @@ public class PlayerController : MonoBehaviour
     {
         float key = context.ReadValue<float>();
         
-        if (isAutoMoving && Math.Abs(XAxis - key) > 0.1)
+        if (isAutoMoving)
         {
             StopCoroutine(automove);
             isAutoMoving = false;
-            return;
         }
             
         XAxis = key;
