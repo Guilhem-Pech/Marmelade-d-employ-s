@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Objects;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -11,7 +12,10 @@ public class PlayerController : MonoBehaviour
     private float XAxis = 0f;
     private Vector2 mousePos = Vector2.zero;
     private Rigidbody2D _rigidbody2D;
-
+    private bool isAutoMoving = false;
+    private Coroutine automove;
+    
+    
     private void Start()
     {
         _rigidbody2D = GetComponent<Rigidbody2D>();
@@ -21,20 +25,53 @@ public class PlayerController : MonoBehaviour
     public void OnMouseChangePos(InputAction.CallbackContext context)
     {
         mousePos = context.ReadValue<Vector2>();
-        // TODO Do a feedback when we hover an NPC / Something we can interact
     }
 
     public void OnClick(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if(!context.performed) return;
+        RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+ 
+        if(hit.collider != null && hit.transform.parent && hit.transform.parent.gameObject.CompareTag("Usable") )
         {
-            // TODO Open dialogue or something
+            hit.transform.parent.gameObject.GetComponent<Usable>().Use(this);
         }
+
+    }
+
+    public void StartAutoMove(Talkable caller, float distance = 2f)
+    {
+        if (!isAutoMoving)
+            automove = StartCoroutine(AutoMove(caller, distance));
+    }
+
+    private IEnumerator AutoMove(Talkable caller, float distance)
+    {
+        float XPos = caller.gameObject.transform.position.x;
+        
+        isAutoMoving = true;
+        for (; Math.Abs(transform.position.x - XPos) > distance ; )
+        {
+            XAxis = transform.position.x - XPos > 0 ? -1 : 1;
+            yield return null;
+        }
+        XAxis = 0;
+        isAutoMoving = false;
+        caller.Use(this);
     }
 
     public void OnMove(InputAction.CallbackContext context)
     {
-        XAxis = context.ReadValue<float>();
+        float key = context.ReadValue<float>();
+        
+        if (isAutoMoving && Math.Abs(XAxis - key) > 0.1)
+        {
+            StopCoroutine(automove);
+            isAutoMoving = false;
+            return;
+        }
+            
+        XAxis = key;
     }
 
     private void FixedUpdate()
