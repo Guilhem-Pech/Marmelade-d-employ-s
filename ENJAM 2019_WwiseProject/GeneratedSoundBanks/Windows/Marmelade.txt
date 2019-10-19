@@ -1,25 +1,154 @@
 Event	ID	Name			Wwise Object Path	Notes
-	868960062	Stop_Test2D			\Default Work Unit\Stop_Test2D	
-	2238930752	Play_Test2D			\Default Work Unit\Play_Test2D	
-	2255708371	Play_Test3D			\Default Work Unit\Play_Test3D	
-	2362122491	Play_Tension_Test			\Default Work Unit\Play_Tension_Test	
-
-Game Parameter	ID	Name			Wwise Object Path	Notes
-	2122627167	RTPC_Tension			\Default Work Unit\RTPC_Tension	
+	858668496	Play_Object_CoffeeMachine_Lp			\Default Work Unit\Play_Object_CoffeeMachine_Lp	
+	917943910	Play_Amb_Elevator_Open			\Default Work Unit\Play_Amb_Elevator_Open	
+	1076911320	Stop_Voice_Text_Male			\Default Work Unit\Stop_Voice_Text_Male	
+	1106433289	Play_Object_CoffeeMachine_Activated			\Default Work Unit\Play_Object_CoffeeMachine_Activated	
+	1733885923	Play_Walking			\Default Work Unit\Play_Walking	
+	1952082182	Play_Voice_Text_Boss			\Default Work Unit\Play_Voice_Text_Boss	
+	2101409896	Play_Amb_Elevator_Loop			\Default Work Unit\Play_Amb_Elevator_Loop	
+	2167671212	Play_Fan_Lp			\Default Work Unit\Play_Fan_Lp	
+	2322580507	Play_AI_Stress			\Default Work Unit\Play_AI_Stress	
+	2649440043	Play_Clock_Lp			\Default Work Unit\Play_Clock_Lp	
+	2851638236	Stop_Voice_Text_Boss			\Default Work Unit\Stop_Voice_Text_Boss	
+	3113663929	Play_Voice_Text_Female			\Default Work Unit\Play_Voice_Text_Female	
+	3343170315	Stop_Voice_Text_Female			\Default Work Unit\Stop_Voice_Text_Female	
+	3674702600	Play_Keyboard_04			\Default Work Unit\Play_Keyboard_04	
+	3674702601	Play_Keyboard_05			\Default Work Unit\Play_Keyboard_05	
+	3674702605	Play_Keyboard_01			\Default Work Unit\Play_Keyboard_01	
+	3674702606	Play_Keyboard_02			\Default Work Unit\Play_Keyboard_02	
+	3674702607	Play_Keyboard_03			\Default Work Unit\Play_Keyboard_03	
+	4019994706	Play_Voice_Text_Male			\Default Work Unit\Play_Voice_Text_Male	
+	4111603208	Play_Amb_Workspace			\Default Work Unit\Play_Amb_Workspace	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\SFX\Player	
+	1404066300	AMBIANCES			\Default Work Unit\Master Audio Bus\AMBIANCES	
+	1695690031	OBJECTS			\Default Work Unit\Master Audio Bus\OBJECTS	
+	1886858547	AI			\Default Work Unit\Master Audio Bus\SFX\AI	
+	2614290243	Music_Out			\Default Work Unit\Master Audio Bus\MUSIC\Music_Out	
+	2896208836	Music_In			\Default Work Unit\Master Audio Bus\MUSIC\Music_In	
+	2944766722	AMBIANCES_3D			\Default Work Unit\Master Audio Bus\AMBIANCES\AMBIANCES_3D	
+	2961544349	AMBIANCES_2D			\Default Work Unit\Master Audio Bus\AMBIANCES\AMBIANCES_2D	
+	3545700988	REVERBS			\Default Work Unit\Master Audio Bus\REVERBS	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	920540693	OpenSpace			\Default Work Unit\Master Audio Bus\REVERBS\OpenSpace	
+	1777547212	Workspace			\Default Work Unit\Master Audio Bus\REVERBS\Workspace	
+	2421980327	Welcome			\Default Work Unit\Master Audio Bus\REVERBS\Welcome	
+	3705378287	Elevator			\Default Work Unit\Master Audio Bus\REVERBS\Elevator	
+
+Effect plug-ins	ID	Name	Type				Notes
+	533673010	Wwise_Guitar_Distortion_(Custom)	Wwise Guitar Distortion			
+	750671875	Wwise_Guitar_Distortion_(Custom)	Wwise Guitar Distortion			
+	2891462749	Room_Medium_High_Absorbtion	Wwise RoomVerb			
+	2945072214	My_Closet	Wwise RoomVerb			
+	2995775460	Room_Small	Wwise RoomVerb			
+	3290519051	Aluminium_Tank	Wwise RoomVerb			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	8004050	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_03\Silence\Wwise Silence	
+	39159249	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Female\Voice\Silence_01\Wwise Silence	
+	175003601	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Boss\Voice\Silence\Wwise Silence	
+	246170491	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Female\Voice\Silence_02\Wwise Silence	
+	274278106	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Male\Voice\Silence_02\Wwise Silence	
+	327838123	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\Objects\Keyboard & Mouse\Keyboard_05\Silence\Wwise Silence	
+	372276920	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\Objects\Keyboard & Mouse\Keyboard_02\Silence\Wwise Silence	
+	413847005	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_04\Silence\Wwise Silence	
+	545932951	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Female\Glitch\Silence\Wwise Silence	
+	664683485	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Male\Voice\Silence_01\Wwise Silence	
+	673254415	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_01\Silence\Wwise Silence	
+	718172930	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Male\Glitch\Silence\Wwise Silence	
+	726653326	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_02\Silence\Wwise Silence	
+	767925557	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\Objects\Keyboard & Mouse\Keyboard_03\Silence\Wwise Silence	
+	782299110	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\Objects\Keyboard & Mouse\Keyboard_01\Silence\Wwise Silence	
+	875119400	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\Objects\Keyboard & Mouse\Keyboard_04\Silence\Wwise Silence	
+	928809408	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Female\Voice\Silence\Wwise Silence	
+	1041412840	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Boss\Glitch\Silence\Wwise Silence	
+	1062296469	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Male\Voice\Silence\Wwise Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	164716348	EFX EXT GROUP Female Celebration Scream 01 A	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\EFX EXT GROUP Female Celebration Scream 01 A _D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tension_Test\EFX EXT GROUP Female Celebration Scream 01 A		4772352
-	354118787	Tension - warbley burning tone 1	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Tension - warbley burning tone 1_3055FEAD.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tension_Test\Tension - warbley burning tone 1		2223352
-	509541422	Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_58971D91.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test2D\Voice\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431		8484
-	663886832	Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_01	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_71B0CE05.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test2D\Voice\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_01		14608
-	682388989	TM_GLITCH UI_CPGN wet_03	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\TM_GLITCH UI_CPGN wet_06_0BEB448B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test2D\Glitch\TM_GLITCH UI_CPGN wet_03		13592
-	685614710	TM_GLITCH UI_CPGN wet_02	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\TM_GLITCH UI_CPGN wet_06_8D3C7576.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test2D\Glitch\TM_GLITCH UI_CPGN wet_02		18344
-	734736358	RT_office, heater tone 2	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\RT_office, heater tone 2_F7A88F48.wem		\Actor-Mixer Hierarchy\Default Work Unit\Tension_Test\RT_office, heater tone 2		2713516
-	803886606	Kitchen, Coffee Maker, Filter, Running SND4009	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Kitchen, Coffee Maker, Filter, Running SND4009_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test3D\Kitchen, Coffee Maker, Filter, Running SND4009		1524312
-	919419780	TM_GLITCH UI_CPGN wet_01	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\TM_GLITCH UI_CPGN wet_06_A7B564B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test2D\Glitch\TM_GLITCH UI_CPGN wet_01		13320
-	923417225	TM_GLITCH UI_CPGN wet_06	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\TM_GLITCH UI_CPGN wet_06_965DE2A3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test2D\Glitch\TM_GLITCH UI_CPGN wet_06		18804
-	1007790698	Kitchen, Espresso Maker, Pressure Valve  SND0423	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Kitchen, Espresso Maker, Pressure Valve  SND0423_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Test3D\Kitchen, Espresso Maker, Pressure Valve  SND0423		2142996
+	19293135	SFX_Tap_Keyboard_04	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_04_49718417.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_04\SFX_Tap_Keyboard_04		143383
+	33049998	SFX_Tap_Keyboard_06	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_02_1861080F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_02\SFX_Tap_Keyboard_06		10033
+	38883043	Cough_Female_01	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Cough_Female\Cough_Female_01_49718417.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Cough_Female\Cough_Female_01		11347
+	38977841	SFX_Tap_Keyboard_05	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_03_77A81688.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_03\SFX_Tap_Keyboard_05		10703
+	44638294	Ambiant_Elevator_High_Lp	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Elevator\Ambiant_Elevator_High_Lp_B587EF35.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Elevator\Amb_Elevator_Loop\Ambiant_Elevator_High_Lp		29751
+	93263097	SFX_Tap_Keyboard_05	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_01_11182A74.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_01\SFX_Tap_Keyboard_05		42049
+	96391955	SFX_Tap_Keyboard_04	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_03_9A77D080.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_03\SFX_Tap_Keyboard_04		22614
+	116563707	Voice_03	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_40EEE87F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Female\Voice\Voice_03		1752
+	117705601	Object_CoffeeMachine_Activated	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Coffee_Machine\Object_CoffeeMachine_Activated_49718417.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\Objects\Coffee_Machine\Object_CoffeeMachine_Activated		110778
+	125988947	Pen_Click_Multiple_01	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Pen_Click_Multiple_01_49718417.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\AI_Stress\AI_Pen_Click_Lp\Pen_Click_Multiple_01		10115
+	164702294	SFX_Tap_Keyboard_04	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_01_A51A8948.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_01\SFX_Tap_Keyboard_04		39389
+	166708709	Bossa Nova Game Theme Loop by Mrthenoronha Id-371844	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Bossa Nova Game Theme Loop by Mrthenoronha Id-371844_B587EF35.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Music_IN\Music_Elevator\Bossa Nova Game Theme Loop by Mrthenoronha Id-371844		297335
+	170329498	FTS_Female_Asphalt_03	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\FTS_Female_Asphalt_4A8D1FC6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Walking\FTS\Left\FTS_Female_Asphalt_03		3469
+	172677436	FTS_Female_Asphalt_03	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\FTS_Female_Asphalt_83131553.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Walking\FTS\Right\FTS_Female_Asphalt_03		3288
+	189540697	FTS_Female_Asphalt_07	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\FTS_Female_Asphalt_25EA177B.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Walking\FTS\Left\FTS_Female_Asphalt_07		3017
+	273021314	SFX_Tap_Keyboard_05	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_05_49718417.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\Objects\Keyboard & Mouse\Keyboard_05\SFX_Tap_Keyboard_05		154629
+	276493804	Pen_Click_Multiple_06	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Pen_Click_Multiple_02_FFBB2FD4.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\AI_Stress\AI_Pen_Click_Lp\Pen_Click_Multiple_06		39189
+	276866130	SFX_Tap_Keyboard_02	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_03_6D8968F7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_03\SFX_Tap_Keyboard_02		18833
+	279153955	FTS_Female_Asphalt_04	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\FTS_Female_Asphalt_AAA81797.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Walking\FTS\Left\FTS_Female_Asphalt_04		3098
+	321510293	FTS_Female_Asphalt_05	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\FTS_Female_Asphalt_7E311765.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Walking\FTS\Left\FTS_Female_Asphalt_05		3139
+	336406509	SFX_TypingText_02	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\SFX_TypingText_019BA851.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Boss\Glitch\SFX_TypingText_02		2831
+	368469905	SFX_TypingText_03	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\SFX_TypingText_AD9957C0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Boss\Glitch\SFX_TypingText_03		4122
+	391999547	Voice_01	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_95A47753.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Female\Voice\Voice_01		1318
+	394179167	SFX_Tap_Keyboard_03	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_03_BFD98BD6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_03\SFX_Tap_Keyboard_03		19840
+	427812714	SFX_TypingText_01	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\SFX_TypingText_436A2B42.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Boss\Glitch\SFX_TypingText_01		2944
+	428976644	SFX_Tap_Keyboard_06	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_03_EA50CE08.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_03\SFX_Tap_Keyboard_06		34788
+	429769361	SFX_Tap_Keyboard_01	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_01_7D2D073F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_01\SFX_Tap_Keyboard_01		9304
+	431020556	Cough_Female_02	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Cough_Female\Cough_Female_02_49718417.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Cough_Female\Cough_Female_02		15131
+	439793230	Phone_Ring_03	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Phone_Ring_03_1E567580.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Phone_Ring\Phone_Ring_03		206234
+	445913758	Phone_Ring_01	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Phone_Ring_01_49718417.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Phone_Ring\Phone_Ring_01		12490
+	451569963	Cough_Female_03	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Cough_Female\Cough_Female_03_49718417.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Cough_Female\Cough_Female_03		11513
+	484917647	FTS_Female_Asphalt_02	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\FTS_Female_Asphalt_5CB88F71.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Walking\FTS\Right\FTS_Female_Asphalt_02		3517
+	520880609	FTS_Female_Asphalt_01	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\FTS_Female_Asphalt_5FBED85C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Walking\FTS\Left\FTS_Female_Asphalt_01		3368
+	530620339	Pen_Click_01	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Pen_Click_01_49718417.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\AI_Stress\AI_Pen_Click_Lp\Pen_Click_01		4682
+	547995697	SFX_Tap_Keyboard_03	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_02_4482DC9A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_02\SFX_Tap_Keyboard_03		15460
+	576970077	Voice_02	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Cartoon, Voice, Male, Says Uh Ohh SND15466 1_8ABC51A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Boss\Voice\Voice_02		1027
+	584555987	FTS_Female_Asphalt_04	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\FTS_Female_Asphalt_F8755708.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Walking\FTS\Right\FTS_Female_Asphalt_04		2977
+	594058188	SFX_Tap_Keyboard_04	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_02_398908D8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_02\SFX_Tap_Keyboard_04		20184
+	599995729	Voice_02	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_450AC5DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Female\Voice\Voice_02		1836
+	604379601	FTS_Female_Asphalt_07	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\FTS_Female_Asphalt_365E1209.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Walking\FTS\Right\FTS_Female_Asphalt_07		3460
+	617374258	Phone_Ring_04	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Phone_Ring_04_49718417.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Phone_Ring\Phone_Ring_04		25629
+	650019927	FTS_Female_Asphalt_06	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\FTS_Female_Asphalt_56F0CB84.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Walking\FTS\Right\FTS_Female_Asphalt_06		3179
+	665843715	FTS_Female_Asphalt_06	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\FTS_Female_Asphalt_EE63DB2C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Walking\FTS\Left\FTS_Female_Asphalt_06		3172
+	676073426	Voice_04	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_BD76EEB6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Female\Voice\Voice_04		1830
+	685633141	SFX_Tap_Keyboard_02	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_01_23A9468D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_01\SFX_Tap_Keyboard_02		25680
+	738685224	Pen_Click_Multiple_02	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Pen_Click_Multiple_02_182ECEC1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\AI_Stress\AI_Pen_Click_Lp\Pen_Click_Multiple_02		8971
+	741352547	Voice_04	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Cartoon, Voice, Male, Says Uh Ohh SND15466 1_45EF3DE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Boss\Voice\Voice_04		1743
+	747241765	Object_CoffeeMachine_Lp	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Coffee_Machine\Object_CoffeeMachine_Lp_EAC8A687.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\Objects\Coffee_Machine\Object_CoffeeMachine_Lp		98109
+	755537333	Pen_Click_03	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Pen_Click_03_49718417.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\AI_Stress\AI_Pen_Click_Lp\Pen_Click_03		3165
+	797223564	FTS_Female_Asphalt_01	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\FTS_Female_Asphalt_6B84FBF8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Walking\FTS\Right\FTS_Female_Asphalt_01		3561
+	813121715	Voice_05	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_758ED878.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Female\Voice\Voice_05		1799
+	829006532	Ambiant_Elevator_Opening	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Elevator\Ambiant_Elevator_Opening_49718417.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Elevator\Amb_Elevator_Open\Ambiant_Elevator_Opening		101057
+	840619654	FTS_Female_Asphalt	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\FTS_Female_Asphalt_C8E4C7E3.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Walking\FTS\Right\FTS_Female_Asphalt		3431
+	840688158	SFX_Tap_Keyboard_01	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_02_D1CCB5A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_02\SFX_Tap_Keyboard_01		20677
+	840821199	FTS_Female_Asphalt_05	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\FTS_Female_Asphalt_1202ED34.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Walking\FTS\Right\FTS_Female_Asphalt_05		3358
+	850618144	FTS_Female_Asphalt	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\FTS_Female_Asphalt_908798E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Walking\FTS\Left\FTS_Female_Asphalt		3802
+	860656575	SFX_Tap_Keyboard_01	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_03_7A870744.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_03\SFX_Tap_Keyboard_01		10008
+	867017251	Phone_Ring_02	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Phone_Ring_02_49718417.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Phone_Ring\Phone_Ring_02		76178
+	876965150	SFX_Tap_Keyboard_07	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_03_DFACEF9F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_03\SFX_Tap_Keyboard_07		42178
+	891283293	Cough_Female_04	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Cough_Female_04_49718417.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Cough_Female\Cough_Female_04		5599
+	897894530	Ambiant_Elevator_GoingUp_Lp	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Elevator\Ambiant_Elevator_GoingUp_Lp_B587EF35.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Elevator\Amb_Elevator_Loop\Ambiant_Elevator_GoingUp_Lp		207873
+	915526573	Pen_Click_02	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Pen_Click_02_49718417.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\AI_Stress\AI_Pen_Click_Lp\Pen_Click_02		3495
+	923917129	Pen_Click_Multiple_05	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Pen_Click_Multiple_02_A068D7FD.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\AI_Stress\AI_Pen_Click_Lp\Pen_Click_Multiple_05		9470
+	945580868	SFX_Tap_Keyboard_05	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_02_1A228002.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_02\SFX_Tap_Keyboard_05		13445
+	960592157	AI_FTS_Stress	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\AI_FTS_Stress_3E3AD122.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\AI_Stress\AI_FootStress\AI_FTS_Stress		25666
+	971770019	SFX_TypingText	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\SFX_TypingText_A662A0EC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Boss\Glitch\SFX_TypingText		4607
+	978497906	Pen_Click_Multiple_03	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Pen_Click_Multiple_02_2A6B1B90.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\AI_Stress\AI_Pen_Click_Lp\Pen_Click_Multiple_03		8362
+	981435351	SFX_Tap_Keyboard_03	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_01_2335B31B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_01\SFX_Tap_Keyboard_03		38786
+	989287488	SFX_Tap_Keyboard_08	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_03_118A61D9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_03\SFX_Tap_Keyboard_08		29327
+	1008397269	SFX_Tap_Keyboard_02	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_02_5237C881.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_02\SFX_Tap_Keyboard_02		24133
+	1009989541	Voice_01	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Cartoon, Voice, Male, Says Uh Ohh SND15466 1_AF9088B3.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Boss\Voice\Voice_01		1328
+	1013561681	FTS_Female_Asphalt_02	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\FTS_Female_Asphalt_3AB4213E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Walking\FTS\Left\FTS_Female_Asphalt_02		3169
+	1024018116	Pen_Click_Multiple_04	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Pen_Click_Multiple_02_4567ACCD.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\AI_Stress\AI_Pen_Click_Lp\Pen_Click_Multiple_04		8710
+	1028730438	Object_Clock_Lp	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Clock\Object_Clock_Lp_B587EF35.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\Objects\Clock_Lp\Object_Clock_Lp		71004
+	1029157515	Voice_03	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Cartoon, Voice, Male, Says Uh Ohh SND15466 1_5DF7C62D.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Boss\Voice\Voice_03		1800
+	1051076383	Ambiant_Elevator_Roomtone_Lp	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Elevator\Ambiant_Elevator_Roomtone_Lp_B587EF35.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Elevator\Amb_Elevator_Loop\Ambiant_Elevator_Roomtone_Lp		159127
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	341183906	Amb_2D_RoomTone_Low_Lp	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Amb_2D_RoomTone_Low_Lp_748DCDF2.wem	341183906.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Amb_2D_RoomTone_Low_Lp	
+	441076736	Object_Fan_Lp	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Object_Fan_Lp_B587EF35.wem	441076736.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\Objects\Fan_Lp\Object_Fan_Lp	
+	475920907	Amb_2D_RoomTone_Office_Lp	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Amb_2D_RoomTone_Office_Lp_7BA1A1BA.wem	475920907.wem	\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Amb_2D_RoomTone_Office_Lp	
 

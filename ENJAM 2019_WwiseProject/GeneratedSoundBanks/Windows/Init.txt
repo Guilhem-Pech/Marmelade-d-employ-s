@@ -1,5 +1,27 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\SFX\Player	
+	1404066300	AMBIANCES			\Default Work Unit\Master Audio Bus\AMBIANCES	
+	1695690031	OBJECTS			\Default Work Unit\Master Audio Bus\OBJECTS	
+	1886858547	AI			\Default Work Unit\Master Audio Bus\SFX\AI	
+	2614290243	Music_Out			\Default Work Unit\Master Audio Bus\MUSIC\Music_Out	
+	2896208836	Music_In			\Default Work Unit\Master Audio Bus\MUSIC\Music_In	
+	2944766722	AMBIANCES_3D			\Default Work Unit\Master Audio Bus\AMBIANCES\AMBIANCES_3D	
+	2961544349	AMBIANCES_2D			\Default Work Unit\Master Audio Bus\AMBIANCES\AMBIANCES_2D	
+	3545700988	REVERBS			\Default Work Unit\Master Audio Bus\REVERBS	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	920540693	OpenSpace			\Default Work Unit\Master Audio Bus\REVERBS\OpenSpace	
+	1777547212	Workspace			\Default Work Unit\Master Audio Bus\REVERBS\Workspace	
+	2421980327	Welcome			\Default Work Unit\Master Audio Bus\REVERBS\Welcome	
+	3705378287	Elevator			\Default Work Unit\Master Audio Bus\REVERBS\Elevator	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2891462749	Room_Medium_High_Absorbtion	Wwise RoomVerb			
+	2945072214	My_Closet	Wwise RoomVerb			
+	3290519051	Aluminium_Tank	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
