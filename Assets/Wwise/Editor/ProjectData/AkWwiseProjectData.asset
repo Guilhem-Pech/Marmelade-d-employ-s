@@ -12,14 +12,133 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51649ee87c71f3542a99e82748347dda, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
-  ExpandedItems: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 3790e99a5dd4a7409c9b540a5f2e6174
+    GuidInternal: 
+    m_lastTime: -8586301343551872313
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c2123d2667a31f4e99b73846efbbbe3e
+    GuidInternal: 
+    m_lastTime: -8586301343552570684
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 31e9206dfc5d43408b21fbebfdad0ab8
+    GuidInternal: 
+    m_lastTime: -8586301293562449877
+    List:
+    - name: Marmelade
+      guid: c9f1ad2b34682248a241270851b0669d
+      id: 3095671609
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Marmelade
+        ObjectType: 7
+      Path: Default Work Unit\Marmelade
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 3a01f2064617d344bbc0014585fcda00
+    GuidInternal: 
+    m_lastTime: -8586301295846795098
+    List:
+    - name: Play_Tension_Test
+      guid: 454d95be9ab7b348bac4e59dd49dc61e
+      id: 2362122491
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Tension_Test
+        ObjectType: 3
+      Path: Default Work Unit\Play_Tension_Test
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Test2D
+      guid: 73060ebc2d81c24aba9d9e60dd1c4fbb
+      id: 2238930752
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Test2D
+        ObjectType: 3
+      Path: Default Work Unit\Play_Test2D
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Test3D
+      guid: 33baa360646fca439555e3688a0e5229
+      id: 2255708371
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Test3D
+        ObjectType: 3
+      Path: Default Work Unit\Play_Test3D
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Test2D
+      guid: ade89a8822a5ab46a3523c2cc955c34f
+      id: 868960062
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Test2D
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Test2D
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 7d8ea5dc4ede4c4cba3ec7662ccf3688
+    GuidInternal: 
+    m_lastTime: -8586301297825799629
+    List:
+    - name: RTPC_Tension
+      guid: f92d340feaee8345a5d82a20272ec287
+      id: 2122627167
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: RTPC_Tension
+        ObjectType: 13
+      Path: Default Work Unit\RTPC_Tension
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: d05f0b839e0bb94b89146c1aea7712ff
+    GuidInternal: 
+    m_lastTime: -8586301343552002245
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f8c907c0c9ae05429857bc83d634bb6e
+    GuidInternal: 
+    m_lastTime: -8586301343551942400
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 084a5c34028ce749b3e042c331e05d96
+    GuidInternal: 
+    m_lastTime: -8586301343552959687
+    List: []
+  ExpandedItems:
+  - /ENJAM 2019_WwiseProject
+  - /ENJAM 2019_WwiseProject/Events
+  - /ENJAM 2019_WwiseProject/Events/Default Work Unit
+  - /ENJAM 2019_WwiseProject/SoundBanks
+  - /ENJAM 2019_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

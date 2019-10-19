@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3095671609" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Marmelade</ObjectPath>
+			<ShortName>Marmelade</ShortName>
+			<Path>Marmelade.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2362122491" Name="Play_Tension_Test" ObjectPath="\Events\Default Work Unit\Play_Tension_Test" DurationType="Infinite"/>
+				<Event Id="2238930752" Name="Play_Test2D" ObjectPath="\Events\Default Work Unit\Play_Test2D" DurationType="Infinite"/>
+				<Event Id="2255708371" Name="Play_Test3D" ObjectPath="\Events\Default Work Unit\Play_Test3D" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="7.938802" DurationMax="11.161104"/>
+				<Event Id="868960062" Name="Stop_Test2D" ObjectPath="\Events\Default Work Unit\Stop_Test2D" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="164716348" Language="SFX">
+					<ShortName>EFX EXT GROUP Female Celebration Scream 01 A .wav</ShortName>
+					<Path>SFX\EFX EXT GROUP Female Celebration Scream 01 A _D79FB2B7.wem</Path>
+				</File>
+				<File Id="354118787" Language="SFX">
+					<ShortName>Tension - warbley burning tone 1.wav</ShortName>
+					<Path>SFX\Tension - warbley burning tone 1_3055FEAD.wem</Path>
+				</File>
+				<File Id="509541422" Language="SFX">
+					<ShortName>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</ShortName>
+					<Path>SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_58971D91.wem</Path>
+				</File>
+				<File Id="663886832" Language="SFX">
+					<ShortName>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</ShortName>
+					<Path>SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_71B0CE05.wem</Path>
+				</File>
+				<File Id="682388989" Language="SFX">
+					<ShortName>TM_GLITCH UI_CPGN wet_06.wav</ShortName>
+					<Path>SFX\TM_GLITCH UI_CPGN wet_06_0BEB448B.wem</Path>
+				</File>
+				<File Id="685614710" Language="SFX">
+					<ShortName>TM_GLITCH UI_CPGN wet_06.wav</ShortName>
+					<Path>SFX\TM_GLITCH UI_CPGN wet_06_8D3C7576.wem</Path>
+				</File>
+				<File Id="734736358" Language="SFX">
+					<ShortName>RT_office, heater tone 2.wav</ShortName>
+					<Path>SFX\RT_office, heater tone 2_F7A88F48.wem</Path>
+				</File>
+				<File Id="803886606" Language="SFX">
+					<ShortName>Kitchen, Coffee Maker, Filter, Running SND4009.wav</ShortName>
+					<Path>SFX\Kitchen, Coffee Maker, Filter, Running SND4009_10C4C929.wem</Path>
+				</File>
+				<File Id="919419780" Language="SFX">
+					<ShortName>TM_GLITCH UI_CPGN wet_06.wav</ShortName>
+					<Path>SFX\TM_GLITCH UI_CPGN wet_06_A7B564B2.wem</Path>
+				</File>
+				<File Id="923417225" Language="SFX">
+					<ShortName>TM_GLITCH UI_CPGN wet_06.wav</ShortName>
+					<Path>SFX\TM_GLITCH UI_CPGN wet_06_965DE2A3.wem</Path>
+				</File>
+				<File Id="1007790698" Language="SFX">
+					<ShortName>Kitchen, Espresso Maker, Pressure Valve  SND0423.wav</ShortName>
+					<Path>SFX\Kitchen, Espresso Maker, Pressure Valve  SND0423_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
