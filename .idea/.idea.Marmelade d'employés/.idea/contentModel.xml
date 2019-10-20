@@ -40,6 +40,10 @@
           <e p="Sounds" t="Include">
             <e p="RTPCtension.cs" t="Include" />
           </e>
+          <e p="Trigger" t="Include">
+            <e p="TriggerBeginOpenSpace.cs" t="Include" />
+            <e p="TriggerDeskAlicia.cs" t="Include" />
+          </e>
         </e>
         <e p="StreamingAssets" t="Include">
           <e p="desc.txt" t="Include" />

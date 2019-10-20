@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static bool bersekModActivated = false;
     public static GameManager instance;
     public Killable[] killable;
+    public Crosshair crosshair;
     
     private void Awake()
     {
@@ -29,6 +30,7 @@ public class GameManager : MonoBehaviour
             obj.SetOutline();
         }
 
+        crosshair.enabled = true;
         bersekModActivated = true;
     }
     
