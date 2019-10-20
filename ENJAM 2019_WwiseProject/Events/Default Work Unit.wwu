@@ -32,6 +32,9 @@
 				<Event Name="Play_Object_CoffeeMachine_Activated" ID="{3505ECBF-E021-479C-95E2-0664BC008628}">
 					<ChildrenList>
 						<Action Name="" ID="{18A9F4B7-D11A-43C6-8674-74C6F28C8E68}" ShortID="351229446">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Object_CoffeeMachine_Activated" ID="{727AF9F8-2D5B-4B41-8F19-EE74B1A0F100}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
@@ -43,6 +46,9 @@
 				<Event Name="Play_Object_CoffeeMachine_Lp" ID="{5E3CAC91-9551-400F-846A-6A628E9C28AD}">
 					<ChildrenList>
 						<Action Name="" ID="{78873B27-0390-4F5A-ADEB-33A4D0E376AC}" ShortID="835717688">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Object_CoffeeMachine_Lp" ID="{7D7E00AB-D96E-4BA0-BB7C-FCD605CA4127}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
@@ -288,12 +294,45 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Clock_Lp" ID="{BAF559D1-265D-4A3C-8B85-2001BF76861A}">
+				<Event Name="Play_Clock_Boss_Lp" ID="{BAF559D1-265D-4A3C-8B85-2001BF76861A}">
 					<ChildrenList>
 						<Action Name="" ID="{96306E2E-F637-45FB-A647-0998D52921B7}" ShortID="343017046">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Clock_Lp" ID="{8C050E64-61A9-4389-BF75-25257F1ECE7B}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+									<ObjectRef Name="Clock_Boss" ID="{8C050E64-61A9-4389-BF75-25257F1ECE7B}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AI_Secretaire_Typing" ID="{240A01DA-69E9-472E-8C5E-BD7A276B07A8}">
+					<ChildrenList>
+						<Action Name="" ID="{AEBA981E-CA07-42F9-B0F5-546B6AACD61C}" ShortID="300857089">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AI_Secretaire_Typing" ID="{86A9C001-B752-42F5-A20C-DB555C66CDC4}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Amb_Reception" ID="{4DD22D28-B6C0-4F94-AD2D-CFE45DBB982B}">
+					<ChildrenList>
+						<Action Name="" ID="{E298C46D-F6B2-43D1-853D-B9181F0D1615}" ShortID="828121294">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Reception" ID="{524B0D02-1BC7-4159-9B59-A01DFE808588}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Clock_Loop" ID="{CAED14EC-EB3E-478F-85A1-DCFB0EECCF68}">
+					<ChildrenList>
+						<Action Name="" ID="{FAB9EDB1-FB39-4D87-94C1-8ED709E72A00}" ShortID="887910484">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Clock_Loop" ID="{6DC02B51-19D1-429E-A43E-4F32AD030627}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

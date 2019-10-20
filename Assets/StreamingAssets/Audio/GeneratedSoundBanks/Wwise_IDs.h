@@ -13,11 +13,14 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AI_SECRETAIRE_TYPING = 1429432556U;
         static const AkUniqueID PLAY_AI_STRESS = 2322580507U;
         static const AkUniqueID PLAY_AMB_ELEVATOR_LOOP = 2101409896U;
         static const AkUniqueID PLAY_AMB_ELEVATOR_OPEN = 917943910U;
+        static const AkUniqueID PLAY_AMB_RECEPTION = 2157442200U;
         static const AkUniqueID PLAY_AMB_WORKSPACE = 4111603208U;
-        static const AkUniqueID PLAY_CLOCK_LP = 2649440043U;
+        static const AkUniqueID PLAY_CLOCK_BOSS_LP = 1964598239U;
+        static const AkUniqueID PLAY_CLOCK_LOOP = 4009980857U;
         static const AkUniqueID PLAY_FAN_LP = 2167671212U;
         static const AkUniqueID PLAY_KEYBOARD_01 = 3674702605U;
         static const AkUniqueID PLAY_KEYBOARD_02 = 3674702606U;
@@ -66,7 +69,7 @@ namespace AK
     {
         static const AkUniqueID ELEVATOR = 3705378287U;
         static const AkUniqueID OPENSPACE = 920540693U;
-        static const AkUniqueID WELCOME = 2421980327U;
+        static const AkUniqueID RECEPTION = 1983982812U;
         static const AkUniqueID WORKSPACE = 1777547212U;
     } // namespace AUX_BUSSES
 

@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: c2123d2667a31f4e99b73846efbbbe3e
     GuidInternal: 
-    m_lastTime: -8586300920973803974
+    m_lastTime: -8586300432827712412
     List:
     - name: Elevator
       guid: b7227c2021a7054888ea8c476cfcdc1d
@@ -52,9 +52,9 @@ MonoBehaviour:
       - ElementName: OpenSpace
         ObjectType: 1
       Path: Default Work Unit\Master Audio Bus\REVERBS\OpenSpace
-    - name: Welcome
+    - name: Reception
       guid: 31572d15436a7b4caa3b196cc1e7bc26
-      id: 2421980327
+      id: 1983982812
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
@@ -62,9 +62,9 @@ MonoBehaviour:
         ObjectType: 2
       - ElementName: REVERBS
         ObjectType: 2
-      - ElementName: Welcome
+      - ElementName: Reception
         ObjectType: 1
-      Path: Default Work Unit\Master Audio Bus\REVERBS\Welcome
+      Path: Default Work Unit\Master Audio Bus\REVERBS\Reception
     - name: Workspace
       guid: f2b9f80543df08468b443a09a1e4d742
       id: 1777547212
@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 31e9206dfc5d43408b21fbebfdad0ab8
     GuidInternal: 
-    m_lastTime: -8586301096898844436
+    m_lastTime: -8586300504192029918
     List:
     - name: Marmelade
       guid: c9f1ad2b34682248a241270851b0669d
@@ -99,8 +99,68 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3a01f2064617d344bbc0014585fcda00
     GuidInternal: 
-    m_lastTime: -8586300921391805974
+    m_lastTime: -8586300432827871983
     List:
+    - name: Play_AI_Secretaire_Typing
+      guid: da010a24e9692e478c5ebd7a276b07a8
+      id: 1429432556
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_AI_Secretaire_Typing
+        ObjectType: 3
+      Path: Default Work Unit\Play_AI_Secretaire_Typing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AI_Stress
+      guid: 5b7f59dac366df4389ec692338a3ebc4
+      id: 2322580507
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_AI_Stress
+        ObjectType: 3
+      Path: Default Work Unit\Play_AI_Stress
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Amb_Elevator_Loop
+      guid: f68397cd5c20d541b2ecdd5ae7c9de05
+      id: 2101409896
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Amb_Elevator_Loop
+        ObjectType: 3
+      Path: Default Work Unit\Play_Amb_Elevator_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Amb_Elevator_Open
+      guid: fe19396c855ad14f82ef8dd18a5c5bda
+      id: 917943910
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Amb_Elevator_Open
+        ObjectType: 3
+      Path: Default Work Unit\Play_Amb_Elevator_Open
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Amb_Reception
+      guid: 282dd24dc0b6944fad2dcfe45dbb982b
+      id: 2157442200
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Amb_Reception
+        ObjectType: 3
+      Path: Default Work Unit\Play_Amb_Reception
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Amb_Workspace
       guid: 85319194022c77449f9f7e552b480bf9
       id: 4111603208
@@ -110,6 +170,30 @@ MonoBehaviour:
       - ElementName: Play_Amb_Workspace
         ObjectType: 3
       Path: Default Work Unit\Play_Amb_Workspace
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Clock_Boss_Lp
+      guid: d159f5ba5d263c4a8b852001bf76861a
+      id: 1964598239
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Clock_Boss_Lp
+        ObjectType: 3
+      Path: Default Work Unit\Play_Clock_Boss_Lp
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Clock_Loop
+      guid: ec14edca3eeb8f4785a1dcfb0eeccf68
+      id: 4009980857
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Clock_Loop
+        ObjectType: 3
+      Path: Default Work Unit\Play_Clock_Loop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -298,7 +382,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 7d8ea5dc4ede4c4cba3ec7662ccf3688
     GuidInternal: 
-    m_lastTime: -8586301291586125230
+    m_lastTime: -8586301285286384598
     List:
     - name: RTPC_Tension
       guid: f92d340feaee8345a5d82a20272ec287

@@ -15,7 +15,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	920540693	OpenSpace			\Default Work Unit\Master Audio Bus\REVERBS\OpenSpace	
 	1777547212	Workspace			\Default Work Unit\Master Audio Bus\REVERBS\Workspace	
-	2421980327	Welcome			\Default Work Unit\Master Audio Bus\REVERBS\Welcome	
+	1983982812	Reception			\Default Work Unit\Master Audio Bus\REVERBS\Reception	
 	3705378287	Elevator			\Default Work Unit\Master Audio Bus\REVERBS\Elevator	
 
 Effect plug-ins	ID	Name	Type				Notes
