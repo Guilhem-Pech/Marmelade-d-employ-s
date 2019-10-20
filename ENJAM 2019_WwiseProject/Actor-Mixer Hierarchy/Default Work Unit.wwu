@@ -39,6 +39,11 @@
 										<BlendContainer Name="Amb_Elevator_Loop" ID="{1930A06C-AB30-4C31-8854-C551D77AB814}" ShortID="708026432">
 											<PropertyList>
 												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -7669,27 +7674,36 @@
 							<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+							<ObjectRef Name="SFX" ID="{83B5B3EA-0A88-429A-B5CC-1A3C9F9CA98A}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<BlendContainer Name="Player" ID="{90F31AE1-4893-4414-BC55-64DC499A9062}" ShortID="107554423">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+									<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<BlendContainer Name="Walking" ID="{3AAD686B-9703-4949-B24F-3DD66110642C}" ShortID="1025056628">
+									<PropertyList>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="OpenSpace" ID="{2729BA07-189E-4926-B813-42610ECE0EA3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -8183,15 +8197,718 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</BlendContainer>
+								<BlendContainer Name="Gun" ID="{113E6034-240A-47EB-A90F-2DEFD1824DD8}" ShortID="103671695">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="Take_Gun" ID="{60261141-27B8-4BE6-B79E-1867BFCCAF94}" ShortID="277464217">
+											<PropertyList>
+												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="OpenSpace" ID="{2729BA07-189E-4926-B813-42610ECE0EA3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Player_Take_Gun" ID="{9C5D4292-81BE-409F-94FA-0A6292321282}" ShortID="153275964">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Player_Take_Gun" ID="{9852AA66-627D-43B6-825B-55C3A97211D3}" ShortID="1017886683">
+															<Language>SFX</Language>
+															<AudioFile>Gun\Take_Gun\Player_Take_Gun.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Player_Take_Gun" ID="{9852AA66-627D-43B6-825B-55C3A97211D3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="Gun_Fire" ID="{F70FD2FA-7B41-4CA8-B7A6-BBF82FBE0F39}" ShortID="850062020">
+											<PropertyList>
+												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9E989D4D-2791-4B9B-BD0A-D42BFB8D84C6}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="240"/>
+																	<Property Name="Min" Type="Real64" Value="-120"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{28653F8D-56B6-4492-BB93-E9B2C200E4B0}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="OpenSpace" ID="{2729BA07-189E-4926-B813-42610ECE0EA3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Bullet_Shells" ID="{8E15098C-9E9C-4234-8DF8-50F74121FC8D}" ShortID="919333230">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Bullet_Shells_01" ID="{882AA459-D07E-4F26-8DEE-1CD4BE2722F3}" ShortID="653973624">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Bullet_Shells_01" ID="{4C6B01E7-AC89-457F-B026-8EDDB4123A33}" ShortID="123547194">
+																	<Language>SFX</Language>
+																	<AudioFile>Gun\Gun_Fire\Bullet_Shells_01.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Bullet_Shells_01" ID="{4C6B01E7-AC89-457F-B026-8EDDB4123A33}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Bullet_Shells_02" ID="{B88F20F2-2E70-433A-A6EB-A300AF168F98}" ShortID="543187928">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Bullet_Shells_02" ID="{1D39C44B-3D83-4180-9190-331610E26D6D}" ShortID="594348878">
+																	<Language>SFX</Language>
+																	<AudioFile>Gun\Gun_Fire\Bullet_Shells_02.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Bullet_Shells_02" ID="{1D39C44B-3D83-4180-9190-331610E26D6D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Bullet_Shells_03" ID="{85AF694E-069B-41BE-8216-F0BA63ED7D56}" ShortID="351812028">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Bullet_Shells_03" ID="{7790C9EE-A5E3-4581-8F78-D6959895739A}" ShortID="155973201">
+																	<Language>SFX</Language>
+																	<AudioFile>Gun\Gun_Fire\Bullet_Shells_03.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Bullet_Shells_03" ID="{7790C9EE-A5E3-4581-8F78-D6959895739A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Bullet_Shells_04" ID="{DCD0E205-97FC-4F1A-BDE8-A7ED8F241571}" ShortID="797019385">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Bullet_Shells_04" ID="{C9949742-0FC8-4B7B-9016-3D2297EFFFFB}" ShortID="139965528">
+																	<Language>SFX</Language>
+																	<AudioFile>Gun\Gun_Fire\Bullet_Shells_04.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Bullet_Shells_04" ID="{C9949742-0FC8-4B7B-9016-3D2297EFFFFB}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Bullet_Shells_05" ID="{A13272E2-E696-4367-8EDD-2AB21D1DBACF}" ShortID="732060642">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Bullet_Shells_05" ID="{A03917DB-4F7E-4021-892E-480A8A3DE1C1}" ShortID="117273361">
+																	<Language>SFX</Language>
+																	<AudioFile>Gun\Gun_Fire\Bullet_Shells_05.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Bullet_Shells_05" ID="{A03917DB-4F7E-4021-892E-480A8A3DE1C1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Explosion_Head" ID="{9B74E695-E5D4-47D5-A68A-C75BF7B366E9}" ShortID="236644974">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Explosion_Head_01" ID="{4CF83E3E-BCC1-4BEE-8EC2-D570F30A5C8E}" ShortID="890194987">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Explosion_Head_01" ID="{00BBBB2D-1D48-4EA0-9CB3-161E6C8D850F}" ShortID="926383993">
+																	<Language>SFX</Language>
+																	<AudioFile>Gun\Gun_Fire\Explosion_Head_01.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Explosion_Head_01" ID="{00BBBB2D-1D48-4EA0-9CB3-161E6C8D850F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Explosion_Head_02" ID="{F5AD5673-5BDF-4D8A-92C4-18EE806F539C}" ShortID="755261422">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Explosion_Head_02" ID="{1DA39417-FB8B-40E7-B097-7314FBD38902}" ShortID="901807882">
+																	<Language>SFX</Language>
+																	<AudioFile>Gun\Gun_Fire\Explosion_Head_02.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Explosion_Head_02" ID="{1DA39417-FB8B-40E7-B097-7314FBD38902}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Fire_Impact" ID="{80ADD3A8-3D06-4990-A9B4-AF14F2CF17E8}" ShortID="355285208">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Gun_Fire_Impact_01" ID="{8B29F927-0935-4E05-B4F6-2C0EF4BDDE46}" ShortID="808482255">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Gun_Fire_Impact_01" ID="{891E9B3E-91EF-499A-9B3E-D571D1676DC4}" ShortID="551466046">
+																	<Language>SFX</Language>
+																	<AudioFile>Gun\Gun_Fire\Gun_Fire_Impact_01.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Gun_Fire_Impact_01" ID="{891E9B3E-91EF-499A-9B3E-D571D1676DC4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Gun_Fire_Impact_02" ID="{53F58504-F13A-4C97-80D0-A56C05AD2CB4}" ShortID="438424449">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Gun_Fire_Impact_02" ID="{C11A0BCA-085D-4220-9124-40260D71BAC6}" ShortID="303989619">
+																	<Language>SFX</Language>
+																	<AudioFile>Gun\Gun_Fire\Gun_Fire_Impact_02.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Gun_Fire_Impact_02" ID="{C11A0BCA-085D-4220-9124-40260D71BAC6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Gun_Fire_Impact_03" ID="{F252DEAA-3473-4C16-81AC-418FBCEE029A}" ShortID="230618232">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Gun_Fire_Impact_03" ID="{579D9CC9-83E0-425F-B887-BE64F064199B}" ShortID="911850638">
+																	<Language>SFX</Language>
+																	<AudioFile>Gun\Gun_Fire\Gun_Fire_Impact_03.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Gun_Fire_Impact_03" ID="{579D9CC9-83E0-425F-B887-BE64F064199B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Fire_Low" ID="{F99FEB81-615D-478B-B51A-3012CBE36252}" ShortID="318636926">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>20</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Gun_Fire_Low_01" ID="{1EA1035B-8DE7-4780-ABDF-137CFC33DF00}" ShortID="219646484">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Gun_Fire_Low_01" ID="{E1838BF7-C401-4547-99E6-CEA8F7DEEB55}" ShortID="296591361">
+																	<Language>SFX</Language>
+																	<AudioFile>Gun\Gun_Fire\Gun_Fire_Low_01.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Gun_Fire_Low_01" ID="{E1838BF7-C401-4547-99E6-CEA8F7DEEB55}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Gun_Fire_Low_02" ID="{EE483B4F-11FB-40BB-8506-86E977ABE303}" ShortID="559121082">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Gun_Fire_Low_02" ID="{A96D2146-7072-4561-8F23-AB9522883CF2}" ShortID="1036632099">
+																	<Language>SFX</Language>
+																	<AudioFile>Gun\Gun_Fire\Gun_Fire_Low_02.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Gun_Fire_Low_02" ID="{A96D2146-7072-4561-8F23-AB9522883CF2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Gun_Fire_Low_03" ID="{A390295D-C923-4671-9202-DA0662054A67}" ShortID="725712522">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Gun_Fire_Low_03" ID="{8E3A63F9-8797-4501-9031-07F7205EA13D}" ShortID="530743915">
+																	<Language>SFX</Language>
+																	<AudioFile>Gun\Gun_Fire\Gun_Fire_Low_03.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Gun_Fire_Low_03" ID="{8E3A63F9-8797-4501-9031-07F7205EA13D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Explosion_Gore" ID="{FDC8EC06-E2DA-4F2E-82A9-5F766050DAF4}" ShortID="568978022">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Explosion_Gore" ID="{BAD24FE4-0616-410E-8EA0-8F51CBD3EF48}" ShortID="1003037241">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Explosion_Gore" ID="{D30FC5A9-1399-4226-B795-3FD777C6DED2}" ShortID="1027884627">
+																	<Language>SFX</Language>
+																	<AudioFile>Gun\Explosion_Gore\Explosion_Gore.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Explosion_Gore" ID="{D30FC5A9-1399-4226-B795-3FD777C6DED2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Explosion_Gore_01" ID="{A37F52EB-D7D3-4C6F-81A3-75CD8550B9B8}" ShortID="264641648">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Explosion_Gore_01" ID="{F5228326-1FDF-4F19-9890-AB207B4BBBD2}" ShortID="470104272">
+																	<Language>SFX</Language>
+																	<AudioFile>Gun\Explosion_Gore\Explosion_Gore_01.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Explosion_Gore_01" ID="{F5228326-1FDF-4F19-9890-AB207B4BBBD2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Explosion_Gore_02" ID="{D1700D72-954B-43C3-9B83-E6504D3992B4}" ShortID="1002231284">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Explosion_Gore_02" ID="{D5E2AE83-6121-47A2-81B4-28818372E044}" ShortID="468334710">
+																	<Language>SFX</Language>
+																	<AudioFile>Gun\Explosion_Gore\Explosion_Gore_02.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Explosion_Gore_02" ID="{D5E2AE83-6121-47A2-81B4-28818372E044}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Explosion_Gore_03" ID="{E9623A4A-A16F-45B7-B7F0-23FB19C79B2A}" ShortID="399505078">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Explosion_Gore_03" ID="{5D65BCE7-CA71-4805-8132-8918EEA41A6A}" ShortID="440391395">
+																	<Language>SFX</Language>
+																	<AudioFile>Gun\Explosion_Gore\Explosion_Gore_03.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Explosion_Gore_03" ID="{5D65BCE7-CA71-4805-8132-8918EEA41A6A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="Gate" ID="{484DB669-BC92-424B-802B-D5709D7E802B}" ShortID="1042439787">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Gate_Ok" ID="{B9F6B369-2AEC-41B9-95F9-39F61121F094}" ShortID="455164630">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gate_Ok" ID="{25B5A24E-EA02-48D4-B494-01CFA7EAEEC2}" ShortID="372773196">
+													<Language>SFX</Language>
+													<AudioFile>Gate\Gate_Ok.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gate_Ok" ID="{25B5A24E-EA02-48D4-B494-01CFA7EAEEC2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="Gate_Ok_Bip" ID="{DB75454A-5887-4DD8-A936-3580F93FF1D8}" ShortID="277210677">
+											<PropertyList>
+												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reception" ID="{152D5731-6A43-4C7B-AA3B-196CC1E7BC26}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gate_Ok_Bip" ID="{F4CFFAA1-A984-4C0E-8A69-7267684EBAC1}" ShortID="406870874">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gate_Ok_Bip" ID="{E0EEE49E-7A3C-428D-9E80-6B54EC39839A}" ShortID="818016258">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.696311583197788"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Gate\Gate_Ok_Bip.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gate_Ok_Bip" ID="{E0EEE49E-7A3C-428D-9E80-6B54EC39839A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Gate_Ok_Bip_01" ID="{FE92678C-86FA-4A48-86D7-740D8177E2DB}" ShortID="732123290">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>480</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-7</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gate_Ok_Bip" ID="{62F483D6-A06E-490E-92DF-8F99B4748BCE}" ShortID="973772282">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.697648073760548"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Gate\Gate_Ok_Bip.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gate_Ok_Bip" ID="{62F483D6-A06E-490E-92DF-8F99B4748BCE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="Gate_Ok_Bip" ID="{F4CFFAA1-A984-4C0E-8A69-7267684EBAC1}"/>
+												<ItemRef Name="Gate_Ok_Bip_01" ID="{FE92678C-86FA-4A48-86D7-740D8177E2DB}"/>
+											</Playlist>
+										</RandomSequenceContainer>
+										<BlendContainer Name="Gate_Wrong" ID="{44764EA6-7B00-423B-923F-58808C90B551}" ShortID="348435463">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gate_Wrong" ID="{97D05A19-1649-4298-ADE1-2075F9A02C9B}" ShortID="74685918">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gate_Wrong" ID="{1DDF4E69-9990-455F-87A3-AA252E5C93A4}" ShortID="420401424">
+															<Language>SFX</Language>
+															<AudioFile>Gate\Gate_Wrong.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gate_Wrong" ID="{1DDF4E69-9990-455F-87A3-AA252E5C93A4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Gate_Wrong_Bip" ID="{71D000A3-9643-42A1-B58D-3E6383E4AF75}" ShortID="752172581">
+													<PropertyList>
+														<Property Name="InitialDelay" Type="Real64">
+															<ValueList>
+																<Value>0.5</Value>
+															</ValueList>
+														</Property>
+														<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Reception" ID="{152D5731-6A43-4C7B-AA3B-196CC1E7BC26}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gate_Wrong_Bip" ID="{16CD6B37-D608-405E-8396-9BBF3B6E27BE}" ShortID="1069132099">
+															<Language>SFX</Language>
+															<AudioFile>Gate\Gate_Wrong_Bip.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gate_Wrong_Bip" ID="{16CD6B37-D608-405E-8396-9BBF3B6E27BE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="AI" ID="{AAC33406-F441-46AC-9D54-D7C59E0AC49C}" ShortID="744063871">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+									<ObjectRef Name="AI" ID="{BCA007A5-9B91-45F3-B9A9-962C58768098}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -11481,7 +12198,7 @@
 							<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+							<ObjectRef Name="MUSIC" ID="{961CA982-BE7E-4EBA-B98C-D5514B93A0A8}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
