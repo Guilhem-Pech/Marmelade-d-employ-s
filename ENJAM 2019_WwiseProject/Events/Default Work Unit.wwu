@@ -8,11 +8,23 @@
 						<Action Name="" ID="{E4F9AAE3-9B50-4EDE-9BA4-24A1EC067D0B}" ShortID="667510386">
 							<PropertyList>
 								<Property Name="FadeInCurve" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Amb_Workspace" ID="{806AC087-9488-408D-94C5-5A99E34D646B}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{299A09FC-FB7F-4384-B5B8-1C46485C448B}" ShortID="261067579">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="3.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Reception" ID="{524B0D02-1BC7-4159-9B59-A01DFE808588}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -96,48 +108,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Voice_Text_Male" ID="{B75B99A8-F61E-4459-BA8E-6B6770D80CD0}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_Voice_Text_Male" ID="{55320B6B-CCFB-4E67-8203-C430D9BE7A53}">
-					<ChildrenList>
-						<Action Name="" ID="{57F09962-69DE-41EE-90D5-9EBEA9609F53}" ShortID="879410429">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Voice_Text_Male" ID="{B75B99A8-F61E-4459-BA8E-6B6770D80CD0}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_Voice_Text_Female" ID="{FCCDB5FC-E7FB-4D32-AA05-39B044AE54AD}">
-					<ChildrenList>
-						<Action Name="" ID="{8A2B2461-9485-4948-9FC9-78ED58985691}" ShortID="614642723">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Voice_Text_Female" ID="{1C6D3EA3-8E52-4B4A-B211-6237BB2AC2C2}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_Voice_Text_Boss" ID="{E64EFA5E-95A0-4628-A8BC-BA621B636208}">
-					<ChildrenList>
-						<Action Name="" ID="{CA504FB1-8FDE-41F3-9DA2-742879A72A13}" ShortID="864957995">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Voice_Text_Boss" ID="{41A77561-31E7-42A1-BAA3-30260C426A67}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -281,14 +251,14 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_AI_Stress" ID="{DA597F5B-66C3-43DF-89EC-692338A3EBC4}">
-					<ChildrenList>
-						<Action Name="" ID="{D0803D5E-63C7-4325-8AD5-C928DE5BA036}" ShortID="733126181">
+						<Action Name="" ID="{7EF1C8FE-ECD7-40EB-BFF0-7BF00766234E}" ShortID="493957369">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="AI_Stress" ID="{FBA93E40-74F6-4B4C-B27E-420ED349D9FA}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+									<ObjectRef Name="Amb_Reception" ID="{524B0D02-1BC7-4159-9B59-A01DFE808588}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -305,7 +275,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_AI_Secretaire_Typing" ID="{240A01DA-69E9-472E-8C5E-BD7A276B07A8}">
+				<Event Name="Play_Secretaire_Typing" ID="{240A01DA-69E9-472E-8C5E-BD7A276B07A8}">
 					<ChildrenList>
 						<Action Name="" ID="{AEBA981E-CA07-42F9-B0F5-546B6AACD61C}" ShortID="300857089">
 							<ReferenceList>
@@ -333,6 +303,54 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Clock_Loop" ID="{6DC02B51-19D1-429E-A43E-4F32AD030627}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Boss_Laugh" ID="{CCC5C984-FB8B-43B4-B370-1FC84E20A248}">
+					<ChildrenList>
+						<Action Name="" ID="{F9CC8B75-75BE-43A3-A23F-87A0D3CC754D}" ShortID="414549340">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boss_Laugh" ID="{0AA6D679-BEA6-4B76-83AE-6B59736870F4}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Boss_Hit" ID="{F0112BE4-5795-4742-AF85-4A4A67168169}">
+					<ChildrenList>
+						<Action Name="" ID="{76DC1131-4E71-4E9D-A28B-A98875EC2C7A}" ShortID="101106109">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boss_Hit" ID="{4727378B-2BB5-4C20-BC58-17F7D57452B6}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AI_FootStress" ID="{CDEDCBEA-5994-48E9-BD86-E859182BC383}">
+					<ChildrenList>
+						<Action Name="" ID="{1BC5E5D3-C37B-4567-98A3-F4D13CF17366}" ShortID="702117872">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AI_FootStress" ID="{F0C30D0C-CD8F-4892-A482-6FE46107347E}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_AI_Pen_Click" ID="{4F16492E-BC56-4145-B945-B29E672DC9C2}">
+					<ChildrenList>
+						<Action Name="" ID="{9267E1A4-38E3-47CD-998C-DD6568B25D36}" ShortID="507227550">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AI_Pen_Click_Lp" ID="{23598417-BCFF-409A-A03E-8714365720C9}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

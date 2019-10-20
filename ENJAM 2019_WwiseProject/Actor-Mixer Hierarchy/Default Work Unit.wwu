@@ -180,7 +180,7 @@
 										<Property Name="BlendBehavior" Type="int16" Value="1"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>9</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -438,7 +438,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-16</Value>
+														<Value>-12</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -701,7 +701,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-13</Value>
+														<Value>-9</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
@@ -903,7 +903,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-11</Value>
+														<Value>-8</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1827,9 +1827,10 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-21</Value>
+														<Value>-17</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1898,6 +1899,64 @@
 																	</Modifier>
 																</ModifierInfo>
 															</ModifierList>
+															<RTPCList>
+																<RTPC Name="" ID="{202EB653-95B2-4F54-9C55-CAC53C35E066}" ShortID="820304619">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<Custom>
+																				<ModulatorLfo Name="Modulator LFO (Custom)" ID="{5865F957-8F8E-4167-9488-BF1E395A708A}" ShortID="583637086">
+																					<PropertyList>
+																						<Property Name="LfoAttack" Type="Real64" Value="2.16">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{5636AAAB-976C-4630-8640-D44D3FB2FA3D}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="1"/>
+																											<Property Name="Min" Type="Real64" Value="-1"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="LfoFrequency" Type="Real64" Value="0.3">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{0841A18A-5CF2-4C81-ACFA-DBCF715918CE}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="3"/>
+																											<Property Name="Min" Type="Real64" Value="-3"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="LfoSmoothing" Type="Real64" Value="29"/>
+																					</PropertyList>
+																				</ModulatorLfo>
+																			</Custom>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{E2C3D61C-7655-476D-A04C-6CBC499506AD}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>21</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>53</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
 														</Property>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
@@ -2444,6 +2503,64 @@
 																	</Modifier>
 																</ModifierInfo>
 															</ModifierList>
+															<RTPCList>
+																<RTPC Name="" ID="{40A3889F-1181-434D-862A-74E7DAC9F436}" ShortID="322493235">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<Custom>
+																				<ModulatorLfo Name="Modulator LFO (Custom)" ID="{19CF7106-BF59-425C-97E1-B539C553CC70}" ShortID="680148794">
+																					<PropertyList>
+																						<Property Name="LfoAttack" Type="Real64" Value="2.16">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{B7692A9F-9630-46BE-97C8-CBB0AAB5D208}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="1"/>
+																											<Property Name="Min" Type="Real64" Value="-1"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="LfoFrequency" Type="Real64" Value="0.3">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{FA8D456E-6086-42C3-A5D4-E81A571F8089}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="3"/>
+																											<Property Name="Min" Type="Real64" Value="-0.2"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="LfoSmoothing" Type="Real64" Value="29"/>
+																					</PropertyList>
+																				</ModulatorLfo>
+																			</Custom>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{19D056B7-FEE1-4003-BFEB-0E23D18902D5}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>21</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>53</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
 														</Property>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
@@ -2918,6 +3035,64 @@
 																	</Modifier>
 																</ModifierInfo>
 															</ModifierList>
+															<RTPCList>
+																<RTPC Name="" ID="{31A69F32-A0ED-437A-AB51-B902C33DE607}" ShortID="706656197">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<Custom>
+																				<ModulatorLfo Name="Modulator LFO (Custom)" ID="{9D803316-6862-49DF-A9FD-5E836ABC4234}" ShortID="619565279">
+																					<PropertyList>
+																						<Property Name="LfoAttack" Type="Real64" Value="2.16">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{7E71ADB4-CC29-41DB-BBC7-CC32A416189B}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="1"/>
+																											<Property Name="Min" Type="Real64" Value="-1"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="LfoFrequency" Type="Real64" Value="0.3">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{B4DDA253-4533-4D61-8DBB-37CD98CA7489}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="3"/>
+																											<Property Name="Min" Type="Real64" Value="-3"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="LfoSmoothing" Type="Real64" Value="29"/>
+																					</PropertyList>
+																				</ModulatorLfo>
+																			</Custom>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{61260644-EBF3-4CE6-AD29-9C3900DDAB47}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>21</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>53</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
 														</Property>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
@@ -3464,6 +3639,65 @@
 																	</Modifier>
 																</ModifierInfo>
 															</ModifierList>
+															<RTPCList>
+																<RTPC Name="" ID="{D0DE98B6-0F08-43B0-9DC6-970A39FCCC30}" ShortID="157052323">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<Custom>
+																				<ModulatorLfo Name="Modulator LFO (Custom)" ID="{F2D0ADFC-1686-4485-9A8C-13CD98D0AC40}" ShortID="1061600255">
+																					<PropertyList>
+																						<Property Name="LfoAttack" Type="Real64" Value="2.16">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{3D9A20F3-B110-469A-8218-D1BD7556D6B8}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="1"/>
+																											<Property Name="Min" Type="Real64" Value="-1"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="LfoFrequency" Type="Real64" Value="0.2">
+																							<ModifierList>
+																								<ModifierInfo>
+																									<Modifier Name="" ID="{4EAFB7FA-D44C-4951-9AAD-2418C45CBE69}">
+																										<PropertyList>
+																											<Property Name="Enabled" Type="bool" Value="True"/>
+																											<Property Name="Max" Type="Real64" Value="1"/>
+																											<Property Name="Min" Type="Real64" Value="-0.1"/>
+																										</PropertyList>
+																									</Modifier>
+																								</ModifierInfo>
+																							</ModifierList>
+																						</Property>
+																						<Property Name="LfoSmoothing" Type="Real64" Value="29"/>
+																						<Property Name="ModulatorScope" Type="int32" Value="2"/>
+																					</PropertyList>
+																				</ModulatorLfo>
+																			</Custom>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{2A8C47B8-B9AB-418A-93DD-785127F6C9BD}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>21</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>53</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
 														</Property>
 														<Property Name="Weight" Type="Real64">
 															<ValueList>
@@ -3887,7 +4121,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-6</Value>
+														<Value>-3</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -3938,7 +4172,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>5</Value>
+														<Value>10</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -7363,6 +7597,11 @@
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>9</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -10398,7 +10637,7 @@
 											<PropertyList>
 												<Property Name="Highpass" Type="int16">
 													<ValueList>
-														<Value>52</Value>
+														<Value>30</Value>
 													</ValueList>
 												</Property>
 												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
@@ -10418,14 +10657,13 @@
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5">
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{42B98F9E-7C57-4B5B-9937-FB4DB57AF4E1}">
 																<PropertyList>
 																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="0.2"/>
-																	<Property Name="Min" Type="Real64" Value="-1"/>
+																	<Property Name="Min" Type="Real64" Value="-0.5"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
@@ -10435,6 +10673,11 @@
 												<Property Name="UserAuxSendVolume0" Type="Real64">
 													<ValueList>
 														<Value>-19</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>11</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -10681,6 +10924,11 @@
 																<Value>-19</Value>
 															</ValueList>
 														</Property>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>26</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Attenuation">
@@ -10721,6 +10969,11 @@
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.1"/>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -10734,6 +10987,11 @@
 												<Sound Name="AI_FTS_Stress" ID="{9FB394A8-9254-4C7C-8F3D-B348BAD30597}" ShortID="87531467">
 													<PropertyList>
 														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>12</Value>
+															</ValueList>
+														</Property>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -10984,6 +11242,233 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="AI_Boss" ID="{8C134F2B-EF6F-4332-86E7-779E16A19031}" ShortID="36252869">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="Boss_Laugh" ID="{0AA6D679-BEA6-4B76-83AE-6B59736870F4}" ShortID="585718330">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Laugh" ID="{B4487B82-135B-4123-B452-1085D42A0FDE}" ShortID="987630397">
+													<PropertyList>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Boss_Laugh" ID="{F6B607DB-6CBC-4AD3-BFEC-FECD18AADB9A}" ShortID="941134309">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Boss_Laugh" ID="{9233A22E-C577-48C4-9070-5F2D971E2A03}" ShortID="734202224">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.131870159828637"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.2229541228256"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Boss_Laugh.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Boss_Laugh" ID="{9233A22E-C577-48C4-9070-5F2D971E2A03}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Boss_Caugh" ID="{8F5C03B1-8FF1-4550-8009-DC58D417B392}" ShortID="397234995">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Boss_Caugh" ID="{BEC005EC-AAD6-4B75-865F-C88B9663B98D}" ShortID="982100990">
+																	<Language>SFX</Language>
+																	<AudioFile>Boss_Caugh.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Boss_Caugh" ID="{BEC005EC-AAD6-4B75-865F-C88B9663B98D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<Playlist>
+														<ItemRef Name="Boss_Laugh" ID="{F6B607DB-6CBC-4AD3-BFEC-FECD18AADB9A}"/>
+														<ItemRef Name="Boss_Caugh" ID="{8F5C03B1-8FF1-4550-8009-DC58D417B392}"/>
+													</Playlist>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="Boss_Hit" ID="{4727378B-2BB5-4C20-BC58-17F7D57452B6}" ShortID="787509735">
+											<PropertyList>
+												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Workspace" ID="{05F8B9F2-DF43-4608-8B44-3A09A1E4D742}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Boss_Hit_Big" ID="{75A7393D-6A42-4DBC-A8EB-77C86C14D289}" ShortID="953829298">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_Hit_Big" ID="{B82F1B11-E74D-46DC-9DCB-46BBBDF67C99}" ShortID="196656851">
+															<Language>SFX</Language>
+															<AudioFile>Boss_Hit_Big.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_Hit_Big" ID="{B82F1B11-E74D-46DC-9DCB-46BBBDF67C99}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_Hit_Low" ID="{C99C4263-57CF-4094-9213-D25D0A475CBD}" ShortID="1013140102">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_Hit_Low" ID="{A29C6D28-E32F-45B6-A839-15BAC12D363A}" ShortID="909026969">
+															<Language>SFX</Language>
+															<AudioFile>Boss_Hit_Low.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_Hit_Low" ID="{A29C6D28-E32F-45B6-A839-15BAC12D363A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_Hit_Table" ID="{5F3FDEAB-011C-430D-B5B6-9B41C38058D8}" ShortID="752608829">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_Hit_Table" ID="{9A5789DA-BBF3-4573-A7D5-8BFDDFD5E7FD}" ShortID="402750840">
+															<Language>SFX</Language>
+															<AudioFile>Boss_Hit_Table.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_Hit_Table" ID="{9A5789DA-BBF3-4573-A7D5-8BFDDFD5E7FD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Boss_Growl" ID="{B6B8D58E-A9D0-4D34-937C-41C413FA8393}" ShortID="334724042">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>-620</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Boss_Growl" ID="{67F2D03F-E8CD-4D59-A8A4-E8A465F40333}" ShortID="216372197">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="4.18546712802768E-02"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.181370242214533"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Boss_Growl.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Boss_Growl" ID="{67F2D03F-E8CD-4D59-A8A4-E8A465F40333}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
 									</ChildrenList>
 								</BlendContainer>
 							</ChildrenList>

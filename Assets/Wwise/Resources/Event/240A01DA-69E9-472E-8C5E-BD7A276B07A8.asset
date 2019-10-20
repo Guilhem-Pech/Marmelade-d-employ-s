@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7c315ad40aabff46aa1eb9e7eafef11, type: 3}
   m_Name: 240A01DA-69E9-472E-8C5E-BD7A276B07A8
   m_EditorClassIdentifier: 
-  objectName: Play_AI_Secretaire_Typing
-  id: 1429432556
+  objectName: Play_Secretaire_Typing
+  id: 3519258715
   guid: 240A01DA-69E9-472E-8C5E-BD7A276B07A8
