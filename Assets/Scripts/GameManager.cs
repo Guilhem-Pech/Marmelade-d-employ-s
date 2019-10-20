@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad( this.gameObject );
     }
 
-    void setBerserkMode()
+    public void SetBerserkMode()
     {
         foreach (Killable obj in killable)
         {

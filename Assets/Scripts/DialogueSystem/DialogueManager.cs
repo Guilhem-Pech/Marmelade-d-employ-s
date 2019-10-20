@@ -178,7 +178,7 @@ public class DialogueManager : MonoBehaviour
     {
         for(int i = 0; i < choices.Length; ++i)
         {
-            GameObject thisChoice = GameObject.Instantiate(buttonPrefab, transform.position - Vector3.up * 0.5f*(i+1), Quaternion.identity, transform.GetComponentInChildren<Canvas>().transform);
+            GameObject thisChoice = GameObject.Instantiate(buttonPrefab, transform.position - Vector3.up * 0.6f*(i+1), Quaternion.identity, transform.GetComponentInChildren<Canvas>().transform);
             thisChoice.GetComponent<DialogueChoice>().Init(choices[i],this,i, i >= notPossibleChoice);
         }
     }

@@ -712,6 +712,7 @@ GameObject:
   m_Component:
   - component: {fileID: 720925399}
   - component: {fileID: 720925398}
+  - component: {fileID: 720925400}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -755,6 +756,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &720925400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720925397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54875f15bfdf43548ad109b50cd9fe92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.99972534
+      inSlope: -0.9934502
+      outSlope: -0.9934502
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.0062751295
+      inSlope: -0.9934502
+      outSlope: -0.9934502
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &737447637
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,6 +1216,150 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1576381538}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1136645022 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1977404750462970589, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+    type: 3}
+  m_PrefabInstance: {fileID: 8022033780514381681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1136645027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136645022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fbab04d55ba1314885e590191d0082f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sentences: []
+  bubble: {fileID: 0}
+  heightBubble: 1
+  voice: 0
+--- !u!114 &1136645028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136645022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091604fa2ebcf98489d3895989e22754, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sentences:
+  - "Wait, you don\u2019t want to work for me anymore? After all I have done for you?"
+  bubble: {fileID: 5350984738605046153, guid: fce1d1118c6a5d048957393c3553819c, type: 3}
+  heightBubble: 1
+  voice: 2
+  nextDialogue: {fileID: 1136645027}
+  choices:
+  - No. The gig is over.
+  - No. Please, just let me finish my last file.
+  - "No. I won\u2019t work for you anymore. I hate you."
+  notPossibleChoice: 3
+--- !u!114 &1136645029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136645022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091604fa2ebcf98489d3895989e22754, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sentences:
+  - I asked you to come because I need you to finish a big file for tonight.
+  - "You won\u2019t mind staying a little bit more, the curtain falls for you anyway."
+  bubble: {fileID: 5350984738605046153, guid: fce1d1118c6a5d048957393c3553819c, type: 3}
+  heightBubble: 1
+  voice: 2
+  nextDialogue: {fileID: 1136645028}
+  choices:
+  - "I\u2026 don\u2019t know. weren\u2019t we supposed to party a bit?"
+  - "that wasn\u2019t planned, isn\u2019t it supposed to be my starting pot?"
+  - Go fuck yourself.
+  notPossibleChoice: 2
+--- !u!114 &1136645030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136645022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091604fa2ebcf98489d3895989e22754, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sentences:
+  - To be honest,  we have not look for a stand-in yet. I guess it won't be difficult
+    to find.
+  bubble: {fileID: 5350984738605046153, guid: fce1d1118c6a5d048957393c3553819c, type: 3}
+  heightBubble: 1
+  voice: 2
+  nextDialogue: {fileID: 1136645029}
+  choices:
+  - Probably, my job in not that unique anyway.
+  - You are right, there are a lot of young and talented workers out there.
+  - This is ridiculous, noone sane of mind would ever want to work with you.
+  notPossibleChoice: 2
+--- !u!114 &1136645031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136645022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091604fa2ebcf98489d3895989e22754, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sentences:
+  - My favorite employee! I hope you're not gonna miss us too much, Alyssa.
+  bubble: {fileID: 5350984738605046153, guid: fce1d1118c6a5d048957393c3553819c, type: 3}
+  heightBubble: 1
+  voice: 2
+  nextDialogue: {fileID: 1136645030}
+  choices:
+  - "Greetings, Sir. I won\u2019t forget such great co-workers that easily!"
+  - "After 30 years of work, I can\u2019t leave without a pinch to the heart, Mr.
+    von Juguetes."
+  - Clearly no. I will finally be free of your bullshit. Nevertheless, I will be rid
+    of you.
+  notPossibleChoice: 2
+--- !u!114 &1136645032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136645022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95a839acd1fe4507b371bff8ee93e0f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  firstDialogue: {fileID: 1136645031}
+  distance: 2
+--- !u!114 &1136645033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136645022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b329c175ac549a745916da62bd519b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1164293768 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6657214638511377542, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
@@ -2738,6 +2919,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8686509235966702284, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 7988813817477191002, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
         type: 3}
       propertyPath: m_IsActive
@@ -2953,18 +3139,33 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 1.8
       objectReference: {fileID: 0}
+    - target: {fileID: 1977404750462970589, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Usable
+      objectReference: {fileID: 0}
     - target: {fileID: 8022033780439492030, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 65b4338433c4b9b41a21d6a4b1fdf999,
         type: 3}
+    - target: {fileID: 8022033780439492030, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 8022033780439492000, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 65b4338433c4b9b41a21d6a4b1fdf999,
         type: 3}
+    - target: {fileID: 5113154760445019859, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8655998367083453971, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -2978,7 +3179,7 @@ PrefabInstance:
     - target: {fileID: 1453216628824855413, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2, type: 3}
