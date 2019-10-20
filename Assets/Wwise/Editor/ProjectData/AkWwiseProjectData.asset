@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: c2123d2667a31f4e99b73846efbbbe3e
     GuidInternal: 
-    m_lastTime: -8586300432827712412
+    m_lastTime: -8586300221777823168
     List:
     - name: Elevator
       guid: b7227c2021a7054888ea8c476cfcdc1d
@@ -99,29 +99,77 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3a01f2064617d344bbc0014585fcda00
     GuidInternal: 
-    m_lastTime: -8586300432827871983
+    m_lastTime: -8586300023857381090
     List:
-    - name: Play_AI_Secretaire_Typing
-      guid: da010a24e9692e478c5ebd7a276b07a8
-      id: 1429432556
+    - name: ND_Amb_Boss_Room
+      guid: de45d358689aae439bcaec49865e1920
+      id: 2749318824
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_AI_Secretaire_Typing
+      - ElementName: ND_Amb_Boss_Room
         ObjectType: 3
-      Path: Default Work Unit\Play_AI_Secretaire_Typing
+      Path: Default Work Unit\ND_Amb_Boss_Room
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_AI_Stress
-      guid: 5b7f59dac366df4389ec692338a3ebc4
-      id: 2322580507
+    - name: ND_Amb_Elevator_Loop
+      guid: 3aa2647fcb2b164a8f08f7a139c04ce3
+      id: 4064697344
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_AI_Stress
+      - ElementName: ND_Amb_Elevator_Loop
         ObjectType: 3
-      Path: Default Work Unit\Play_AI_Stress
+      Path: Default Work Unit\ND_Amb_Elevator_Loop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ND_Amb_Reception
+      guid: 30a742de1793f54bbf876b658d23259e
+      id: 2113161056
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ND_Amb_Reception
+        ObjectType: 3
+      Path: Default Work Unit\ND_Amb_Reception
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ND_Amb_Workspace
+      guid: 6a1b721106b3584ab244d9a89df9f7dc
+      id: 3999182656
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ND_Amb_Workspace
+        ObjectType: 3
+      Path: Default Work Unit\ND_Amb_Workspace
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AI_FootStress
+      guid: eacbedcd9459e948bd86e859182bc383
+      id: 2027976871
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_AI_FootStress
+        ObjectType: 3
+      Path: Default Work Unit\Play_AI_FootStress
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AI_Pen_Click
+      guid: 2e49164f56bc4541b945b29e672dc9c2
+      id: 1164535753
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_AI_Pen_Click
+        ObjectType: 3
+      Path: Default Work Unit\Play_AI_Pen_Click
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -149,6 +197,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Amb_End
+      guid: 7365dd37fc6bad4dbf0357e48b4877ef
+      id: 1149819680
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Amb_End
+        ObjectType: 3
+      Path: Default Work Unit\Play_Amb_End
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Amb_Reception
       guid: 282dd24dc0b6944fad2dcfe45dbb982b
       id: 2157442200
@@ -170,6 +230,30 @@ MonoBehaviour:
       - ElementName: Play_Amb_Workspace
         ObjectType: 3
       Path: Default Work Unit\Play_Amb_Workspace
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Boss_Hit
+      guid: e42b11f095574247af854a4a67168169
+      id: 1138009151
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Boss_Hit
+        ObjectType: 3
+      Path: Default Work Unit\Play_Boss_Hit
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Boss_Laugh
+      guid: 84c9c5cc8bfbb443b3701fc84e20a248
+      id: 3854046427
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Boss_Laugh
+        ObjectType: 3
+      Path: Default Work Unit\Play_Boss_Laugh
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -197,6 +281,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Door_Boss
+      guid: b5851d60a8e2de4e9aff78a661aff3d7
+      id: 3911342322
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Door_Boss
+        ObjectType: 3
+      Path: Default Work Unit\Play_Door_Boss
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Fan_Lp
       guid: bc356064fd7900489f7444cf299c4b0f
       id: 2167671212
@@ -206,6 +302,78 @@ MonoBehaviour:
       - ElementName: Play_Fan_Lp
         ObjectType: 3
       Path: Default Work Unit\Play_Fan_Lp
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Gate_Ok
+      guid: b462c8bf3c8d09449a81876f7b7dadfc
+      id: 2046120060
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Gate_Ok
+        ObjectType: 3
+      Path: Default Work Unit\Play_Gate_Ok
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Gate_Ok_Bip
+      guid: 19b0e1dd39735d4fbdef62263777d5bd
+      id: 856672752
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Gate_Ok_Bip
+        ObjectType: 3
+      Path: Default Work Unit\Play_Gate_Ok_Bip
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Gate_Wrong
+      guid: 532c8484b03dcb4d8450778d4c535d1c
+      id: 3665027749
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Gate_Wrong
+        ObjectType: 3
+      Path: Default Work Unit\Play_Gate_Wrong
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Gun_Fire
+      guid: c43657102a7d1a4aa97e1c2a62ca3cf3
+      id: 979174855
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Gun_Fire
+        ObjectType: 3
+      Path: Default Work Unit\Play_Gun_Fire
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Gun_Ground
+      guid: afdf736d8491394c95861ec392aa118a
+      id: 3493251334
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Gun_Ground
+        ObjectType: 3
+      Path: Default Work Unit\Play_Gun_Ground
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Gun_Take
+      guid: 8fb36941a7f43f45a7d0e0b0775f8272
+      id: 535299158
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Gun_Take
+        ObjectType: 3
+      Path: Default Work Unit\Play_Gun_Take
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -293,6 +461,18 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Secretaire_Typing
+      guid: da010a24e9692e478c5ebd7a276b07a8
+      id: 3519258715
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Secretaire_Typing
+        ObjectType: 3
+      Path: Default Work Unit\Play_Secretaire_Typing
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Voice_Text_Boss
       guid: 28e6c42a9ebe3b4cab74ac3963d018ce
       id: 1952082182
@@ -341,42 +521,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Stop_Voice_Text_Boss
-      guid: 5efa4ee6a0952846a8bcba621b636208
-      id: 2851638236
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Stop_Voice_Text_Boss
-        ObjectType: 3
-      Path: Default Work Unit\Stop_Voice_Text_Boss
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Stop_Voice_Text_Female
-      guid: fcb5cdfcfbe7324daa0539b044ae54ad
-      id: 3343170315
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Stop_Voice_Text_Female
-        ObjectType: 3
-      Path: Default Work Unit\Stop_Voice_Text_Female
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Stop_Voice_Text_Male
-      guid: 6b0b3255fbcc674e8203c430d9be7a53
-      id: 1076911320
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Stop_Voice_Text_Male
-        ObjectType: 3
-      Path: Default Work Unit\Stop_Voice_Text_Male
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -418,5 +562,7 @@ MonoBehaviour:
   - /ENJAM 2019_WwiseProject
   - /ENJAM 2019_WwiseProject/Events
   - /ENJAM 2019_WwiseProject/Events/Default Work Unit
+  - /ENJAM 2019_WwiseProject/SoundBanks
+  - /ENJAM 2019_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 
