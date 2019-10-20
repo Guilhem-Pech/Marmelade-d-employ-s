@@ -24,10 +24,14 @@
             <e p="Parallax.cs" t="Include" />
           </e>
           <e p="Objects" t="Include">
+            <e p="Mask.cs" t="Include" />
             <e p="Talkable.cs" t="Include" />
             <e p="Usable.cs" t="Include" />
           </e>
-          <e p="PlayerController.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="MainMenuController.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
+          </e>
           <e p="Sounds" t="Include">
             <e p="RTPCtension.cs" t="Include" />
           </e>
