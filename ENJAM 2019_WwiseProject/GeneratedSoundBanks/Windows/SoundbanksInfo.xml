@@ -161,6 +161,10 @@
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_01.wav</ShortName>
 					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_01_15C5B982.wem</Path>
 				</File>
+				<File Id="166708709" Language="SFX">
+					<ShortName>Bossa Nova Game Theme Loop by Mrthenoronha Id-371844.wav</ShortName>
+					<Path>SFX\Bossa Nova Game Theme Loop by Mrthenoronha Id-371844_2C58F9AF.wem</Path>
+				</File>
 				<File Id="170329498" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
 					<Path>SFX\FTS_Female_Asphalt_550E2F1C.wem</Path>
@@ -184,10 +188,6 @@
 				<File Id="224668201" Language="SFX">
 					<ShortName>Amb_Voices_01.wav</ShortName>
 					<Path>SFX\Amb_Voices_01_A8EACF41.wem</Path>
-				</File>
-				<File Id="237864822" Language="SFX">
-					<ShortName>02_Shop Channel.wav</ShortName>
-					<Path>SFX\02_Shop Channel_F799059D.wem</Path>
 				</File>
 				<File Id="266424499" Language="SFX">
 					<ShortName>Clock\Object_Clock_Lp_V2.wav</ShortName>
