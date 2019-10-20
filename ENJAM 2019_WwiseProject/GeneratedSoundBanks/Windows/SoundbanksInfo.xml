@@ -47,10 +47,10 @@
 				<Event Id="4111603208" Name="Play_Amb_Workspace" ObjectPath="\Events\Default Work Unit\Play_Amb_Workspace" DurationType="Infinite"/>
 				<Event Id="1138009151" Name="Play_Boss_Hit" ObjectPath="\Events\Default Work Unit\Play_Boss_Hit" DurationType="OneShot" DurationMin="7.747143" DurationMax="7.747143"/>
 				<Event Id="3854046427" Name="Play_Boss_Laugh" ObjectPath="\Events\Default Work Unit\Play_Boss_Laugh" DurationType="OneShot" DurationMin="5.477058" DurationMax="5.477058"/>
-				<Event Id="1964598239" Name="Play_Clock_Boss_Lp" ObjectPath="\Events\Default Work Unit\Play_Clock_Boss_Lp" MaxAttenuation="4.000000" DurationType="Infinite"/>
-				<Event Id="4009980857" Name="Play_Clock_Loop" ObjectPath="\Events\Default Work Unit\Play_Clock_Loop" MaxAttenuation="4.000000" DurationType="Infinite"/>
+				<Event Id="1964598239" Name="Play_Clock_Boss_Lp" ObjectPath="\Events\Default Work Unit\Play_Clock_Boss_Lp" MaxAttenuation="15.000000" DurationType="Infinite"/>
+				<Event Id="4009980857" Name="Play_Clock_Loop" ObjectPath="\Events\Default Work Unit\Play_Clock_Loop" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="3911342322" Name="Play_Door_Boss" ObjectPath="\Events\Default Work Unit\Play_Door_Boss" DurationType="OneShot" DurationMin="4.534159" DurationMax="4.534159"/>
-				<Event Id="2167671212" Name="Play_Fan_Lp" ObjectPath="\Events\Default Work Unit\Play_Fan_Lp" MaxAttenuation="4.000000" DurationType="Infinite"/>
+				<Event Id="2167671212" Name="Play_Fan_Lp" ObjectPath="\Events\Default Work Unit\Play_Fan_Lp" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="2046120060" Name="Play_Gate_Ok" ObjectPath="\Events\Default Work Unit\Play_Gate_Ok" DurationType="OneShot" DurationMin="1.111270" DurationMax="1.111270"/>
 				<Event Id="856672752" Name="Play_Gate_Ok_Bip" ObjectPath="\Events\Default Work Unit\Play_Gate_Ok_Bip" DurationType="OneShot" DurationMin="1.934336" DurationMax="1.934336"/>
 				<Event Id="3665027749" Name="Play_Gate_Wrong" ObjectPath="\Events\Default Work Unit\Play_Gate_Wrong" DurationType="OneShot" DurationMin="2.592948" DurationMax="2.592948"/>
