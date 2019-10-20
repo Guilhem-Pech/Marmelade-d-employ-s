@@ -8,6 +8,18 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{E377316A-ED3C-4CEA-B88A-2E94913F7396}" WorkUnitID="{3AA8F3AF-140A-4C40-9607-32A4F70B2116}"/>
 						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise_Compressor_(Custom)" ID="{26685BAD-84B8-4DAF-963D-4F76DA5C2455}" ShortID="437991063" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<PropertyList>
+										<Property Name="OutputGain" Type="Real32" Value="-2.1"/>
+										<Property Name="Ratio" Type="Real32" Value="18.5"/>
+										<Property Name="ReleaseTime" Type="Real32" Value="0.27"/>
+										<Property Name="Threshold" Type="Real32" Value="-8.1"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="AMBIANCES" ID="{66148E0E-C297-43E8-BB7E-B034F6E945E8}">
