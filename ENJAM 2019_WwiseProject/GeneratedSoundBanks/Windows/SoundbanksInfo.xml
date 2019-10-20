@@ -38,9 +38,9 @@
 			<ShortName>Marmelade</ShortName>
 			<Path>Marmelade.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2749318824" Name="ND_Amb_Boss_Room" ObjectPath="\Events\Default Work Unit\ND_Amb_Boss_Room" MaxAttenuation="20.000000" DurationType="OneShot" DurationMin="21.332159" DurationMax="21.332159"/>
-				<Event Id="4064697344" Name="ND_Amb_Elevator_Loop" ObjectPath="\Events\Default Work Unit\ND_Amb_Elevator_Loop" DurationType="Infinite"/>
-				<Event Id="2113161056" Name="ND_Amb_Reception" ObjectPath="\Events\Default Work Unit\ND_Amb_Reception" DurationType="Infinite"/>
+				<Event Id="2749318824" Name="ND_Amb_Boss_Room" ObjectPath="\Events\Default Work Unit\ND_Amb_Boss_Room" MaxAttenuation="10.000000" DurationType="OneShot" DurationMin="21.332159" DurationMax="21.332159"/>
+				<Event Id="4064697344" Name="ND_Amb_Elevator_Loop" ObjectPath="\Events\Default Work Unit\ND_Amb_Elevator_Loop" MaxAttenuation="10.000000" DurationType="Infinite"/>
+				<Event Id="2113161056" Name="ND_Amb_Reception" ObjectPath="\Events\Default Work Unit\ND_Amb_Reception" DurationType="OneShot" DurationMin="21.332159" DurationMax="21.332159"/>
 				<Event Id="3999182656" Name="ND_Amb_Workspace" ObjectPath="\Events\Default Work Unit\ND_Amb_Workspace" DurationType="Infinite"/>
 				<Event Id="2027976871" Name="Play_AI_FootStress" ObjectPath="\Events\Default Work Unit\Play_AI_FootStress" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="1164535753" Name="Play_AI_Pen_Click" ObjectPath="\Events\Default Work Unit\Play_AI_Pen_Click" MaxAttenuation="5.000000" DurationType="Infinite"/>
@@ -192,6 +192,10 @@
 				<File Id="224668201" Language="SFX">
 					<ShortName>Amb_Voices_01.wav</ShortName>
 					<Path>SFX\Amb_Voices_01_A8EACF41.wem</Path>
+				</File>
+				<File Id="262256158" Language="SFX">
+					<ShortName>muzak_-_2.wav</ShortName>
+					<Path>SFX\muzak_-_2_34E36CF0.wem</Path>
 				</File>
 				<File Id="266424499" Language="SFX">
 					<ShortName>Clock\Object_Clock_Lp_V2.wav</ShortName>

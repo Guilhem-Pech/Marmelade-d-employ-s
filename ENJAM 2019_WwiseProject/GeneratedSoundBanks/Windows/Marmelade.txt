@@ -36,14 +36,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	4111603208	Play_Amb_Workspace			\Default Work Unit\Play_Amb_Workspace	
 
 Modulator LFO	ID	Name			Wwise Object Path	Notes
-	356615245	Modulator LFO (Custom)				
 	583637086	Modulator LFO (Custom)				
 	619565279	Modulator LFO (Custom)				
 	680148794	Modulator LFO (Custom)				
-	956184162	Modulator LFO (Custom)				
 	1061600255	Modulator LFO (Custom)				
-	1066443042	Modulator LFO (Custom)				
-	1072496795	Modulator LFO (Custom)				
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
@@ -66,6 +62,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	3705378287	Elevator			\Default Work Unit\Master Audio Bus\REVERBS\Elevator	
 
 Effect plug-ins	ID	Name	Type				Notes
+	85251908	Wwise_Guitar_Distortion_(Custom)	Wwise Guitar Distortion			
 	437991063	Wwise_Compressor_(Custom)	Wwise Compressor			
 	533673010	Wwise_Guitar_Distortion_(Custom)	Wwise Guitar Distortion			
 	750671875	Wwise_Guitar_Distortion_(Custom)	Wwise Guitar Distortion			
@@ -80,15 +77,9 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	8004050	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_03\Silence\Wwise Silence	
 	16654839	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Voices\Voice_01\Silence_03\Wwise Silence	
 	35205069	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Reception\Amb_Workspace\Voices\Voice_02\Silence_03\Wwise Silence	
-	36857838	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Workspace_ND\Voices\Voice_02\Silence_01\Wwise Silence	
 	39159249	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Female\Voice\Silence_01\Wwise Silence	
 	50089728	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Voices\Voice_03\Silence\Wwise Silence	
-	55997305	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Reception_ND\Amb_Workspace\Keyboards\Keyboard_01\Silence\Wwise Silence	
-	63831561	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Workspace_ND\Voices\Voice_01\Silence_03\Wwise Silence	
-	81337991	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Reception_ND\Amb_Workspace\Voices\Voice_01\Silence_01\Wwise Silence	
 	90049729	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Gun\Gun_Fire\Piano_OneHit\Silence_06\Wwise Silence	
-	130813736	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Workspace_ND\Voices\Voice_01\Silence\Wwise Silence	
-	147237168	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Workspace_ND\Voices\Voice_03\Silence_03\Wwise Silence	
 	172039892	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Gun\Gun_Fire\Piano_OneHit\Silence_02\Wwise Silence	
 	175003601	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Boss\Voice\Silence\Wwise Silence	
 	182011881	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Reception\Amb_Workspace\Keyboards\Keyboard_01\Silence\Wwise Silence	
@@ -98,12 +89,8 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	246170491	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Female\Voice\Silence_02\Wwise Silence	
 	259958124	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Voices\Voice_02\Silence\Wwise Silence	
 	274278106	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Male\Voice\Silence_02\Wwise Silence	
-	282740680	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Workspace_ND\Voices\Voice_02\Silence_03\Wwise Silence	
 	308246612	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Reception\Amb_Workspace\Voices\Voice_01\Silence\Wwise Silence	
-	316521341	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Reception_ND\Amb_Workspace\Voices\Voice_01\Silence\Wwise Silence	
-	321750714	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Workspace_ND\Voices\Voice_03\Silence\Wwise Silence	
 	327838123	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\AI_Secretaire_Typing\Keyboard_05\Silence\Wwise Silence	
-	353090001	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Workspace_ND\Voices\Voice_03\Silence_01\Wwise Silence	
 	366340063	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Voices\Voice_01\Silence_01\Wwise Silence	
 	368138928	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Voices\Voice\Silence_02\Wwise Silence	
 	372276920	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\Objects\Keyboard & Mouse\Keyboard_02\Silence\Wwise Silence	
@@ -111,20 +98,16 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	387318802	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Gun\Gun_Fire\Piano_OneHit\Silence_05\Wwise Silence	
 	413847005	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_04\Silence\Wwise Silence	
 	435705031	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Door_Boss\Kock_Door\Door_Open_Creak\Voice\Silence\Wwise Silence	
-	484542932	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Reception_ND\Amb_Workspace\Voices\Voice_02\Silence_01\Wwise Silence	
 	491479377	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Gun\Gun_Fire\Piano_OneHit\Silence_03\Wwise Silence	
 	514967510	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Voices\Voice\Silence\Wwise Silence	
-	528628966	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Workspace_ND\Voices\Voice_01\Silence_01\Wwise Silence	
 	540826000	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Reception\Amb_Workspace\Voices\Voice_02\Silence_01\Wwise Silence	
 	545932951	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Female\Glitch\Silence\Wwise Silence	
 	604125109	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Workspace_ND\Keyboards\Keyboard_02\Silence\Wwise Silence	
 	608389599	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Voices\Voice_02\Silence_03\Wwise Silence	
-	650984718	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Reception_ND\Amb_Workspace\Voices\Voice_01\Silence_03\Wwise Silence	
 	664683485	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Male\Voice\Silence_01\Wwise Silence	
 	665708191	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Gun\Gun_Fire\Piano_OneHit\Silence\Wwise Silence	
 	673254415	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_01\Silence\Wwise Silence	
 	685670696	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Reception\Amb_Workspace\Voices\Voice_01\Silence_03\Wwise Silence	
-	708941238	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Reception_ND\Amb_Workspace\Keyboards\Keyboard_02\Silence\Wwise Silence	
 	718172930	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Male\Glitch\Silence\Wwise Silence	
 	724064709	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Reception\Amb_Workspace\Voices\Voice_01\Silence_01\Wwise Silence	
 	726653326	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Keyboards\Keyboard_02\Silence\Wwise Silence	
@@ -132,22 +115,16 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	752923854	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Voices\Voice_03\Silence_01\Wwise Silence	
 	767925557	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\Objects\Keyboard & Mouse\Keyboard_03\Silence\Wwise Silence	
 	782299110	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\Objects\Keyboard & Mouse\Keyboard_01\Silence\Wwise Silence	
-	785564195	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Workspace_ND\Voices\Voice\Silence_02\Wwise Silence	
 	788742225	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Gun\Gun_Fire\Piano_OneHit\Silence_09\Wwise Silence	
-	788844704	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Reception_ND\Amb_Workspace\Voices\Voice_02\Silence\Wwise Silence	
-	799380222	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Workspace_ND\Voices\Voice_02\Silence\Wwise Silence	
 	809571011	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Voices\Voice_02\Silence_01\Wwise Silence	
 	814845276	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Workspace_ND\Keyboards\Keyboard_04\Silence\Wwise Silence	
 	823829993	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Voices\Voice_03\Silence_03\Wwise Silence	
 	875119400	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\Objects\Keyboard & Mouse\Keyboard_04\Silence\Wwise Silence	
-	878597176	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Workspace_ND\Voices\Voice\Silence_01\Wwise Silence	
 	882858650	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Gun\Gun_Fire\Piano_OneHit\Silence_07\Wwise Silence	
 	883598729	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Voices\Voice\Silence_01\Wwise Silence	
 	914958652	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Workspace_ND\Keyboards\Keyboard_01\Silence\Wwise Silence	
 	928809408	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Female\Voice\Silence\Wwise Silence	
-	990764610	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Reception_ND\Amb_Workspace\Voices\Voice_02\Silence_03\Wwise Silence	
 	1013067755	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Gun\Gun_Fire\Piano_OneHit\Silence_01\Wwise Silence	
-	1017493088	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Workspace_ND\Voices\Voice\Silence\Wwise Silence	
 	1041412840	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Boss\Glitch\Silence\Wwise Silence	
 	1062296469	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\Voice Text\Voice_Text_Male\Voice\Silence\Wwise Silence	
 
@@ -180,6 +157,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	196656851	Boss_Hit_Big	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Boss_Hit_Big_777B46A1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\AI_Boss\Boss_Hit\Boss_Hit_Big		156862
 	216372197	Boss_Growl	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Boss_Growl_4B114126.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\AI_Boss\Boss_Hit\Boss_Growl		29909
 	224668201	Amb_Voices_03	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Amb_Voices_01_A8EACF41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_2D\Amb_Workspace\Voices\Voice_01\Amb_Voices_03		189273
+	262256158	Wii Theme	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\muzak_-_2_34E36CF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\NOT_DEFINITIVE\Amb_Elevator_Loop_ND\Music_Elevator\Wii Theme		580919
 	266424499	Object_Clock_Lp_V2	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Clock\Object_Clock_Lp_V2_2C58F9AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiances\Amb_3D\Objects\Clock_Loop\Object_Clock_Lp_V2		100822
 	273021314	SFX_Tap_Keyboard_01	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Keyboard & Mouse\SFX_Tap_Keyboard_05_501A7E09.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\AI_Secretaire_Typing\Keyboard_05\SFX_Tap_Keyboard_01		25814
 	276493804	Pen_Click_Multiple_06	D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\SFX\Pen_Click_Multiple_02_16A08BCE.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\AI\AI_Stress\AI_Pen_Click_Lp\Pen_Click_Multiple_06		48814

@@ -99,7 +99,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3a01f2064617d344bbc0014585fcda00
     GuidInternal: 
-    m_lastTime: -8586300023857381090
+    m_lastTime: -8586300016675527248
     List:
     - name: ND_Amb_Boss_Room
       guid: de45d358689aae439bcaec49865e1920
@@ -562,7 +562,5 @@ MonoBehaviour:
   - /ENJAM 2019_WwiseProject
   - /ENJAM 2019_WwiseProject/Events
   - /ENJAM 2019_WwiseProject/Events/Default Work Unit
-  - /ENJAM 2019_WwiseProject/SoundBanks
-  - /ENJAM 2019_WwiseProject/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

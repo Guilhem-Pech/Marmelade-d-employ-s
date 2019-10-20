@@ -452,22 +452,12 @@
 					<ChildrenList>
 						<Action Name="" ID="{3FB19341-A261-4FF0-A94D-BBEB138017E2}" ShortID="706884243">
 							<PropertyList>
-								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="2.5"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Amb_Elevator_Loop_ND" ID="{E9771950-5683-4C58-93F2-728B7C36EC16}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{5CFB6FAA-6562-483D-B1E4-B1426A286920}" ShortID="498728736">
-							<PropertyList>
-								<Property Name="FadeInCurve" Type="int16" Value="6"/>
-								<Property Name="FadeTime" Type="Real64" Value="4.5"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music_Elevator" ID="{CF6E15E1-D0BB-47B9-9187-47C1D7A813E6}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
