@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Simon\Documents\Gamedev\Marmelade-d-employes\ENJAM 2019_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Simon\Documents\Gamedev\Marmelade-d-employes\ENJAM 2019_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Simon\Documents\Gamedev\Marmelade-d-employes\ENJAM 2019_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Simon\Documents\Gamedev\Marmelade-d-employes\ENJAM 2019_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
@@ -75,11 +75,7 @@
 				</File>
 				<File Id="31520409" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_05.wav</ShortName>
-<<<<<<< HEAD
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_25D888C5.wem</Path>
-=======
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_620374E4.wem</Path>
->>>>>>> master
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_2A5A45AB.wem</Path>
 				</File>
 				<File Id="33049998" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_02.wav</ShortName>
@@ -135,19 +131,11 @@
 				</File>
 				<File Id="224668201" Language="SFX">
 					<ShortName>Amb_Voices_01.wav</ShortName>
-<<<<<<< HEAD
-					<Path>SFX\Amb_Voices_01_AF814BEF.wem</Path>
+					<Path>SFX\Amb_Voices_01_A8EACF41.wem</Path>
 				</File>
 				<File Id="237864822" Language="SFX">
 					<ShortName>02_Shop Channel.wav</ShortName>
-					<Path>SFX\02_Shop Channel_829AEFCF.wem</Path>
-=======
-					<Path>SFX\Amb_Voices_01_B2EAEC34.wem</Path>
-				</File>
-				<File Id="237864822" Language="SFX">
-					<ShortName>02_Shop Channel.wav</ShortName>
-					<Path>SFX\02_Shop Channel_BED88EC9.wem</Path>
->>>>>>> master
+					<Path>SFX\02_Shop Channel_F799059D.wem</Path>
 				</File>
 				<File Id="241693296" Language="SFX">
 					<ShortName>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</ShortName>
@@ -159,11 +147,7 @@
 				</File>
 				<File Id="273021314" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_05.wav</ShortName>
-<<<<<<< HEAD
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_F9B6832F.wem</Path>
-=======
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_36BF6E17.wem</Path>
->>>>>>> master
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_501A7E09.wem</Path>
 				</File>
 				<File Id="276493804" Language="SFX">
 					<ShortName>Pen_Click_Multiple_02.wav</ShortName>
@@ -179,11 +163,7 @@
 				</File>
 				<File Id="280923780" Language="SFX">
 					<ShortName>Amb_Voices_02.wav</ShortName>
-<<<<<<< HEAD
-					<Path>SFX\Amb_Voices_02_8803AC71.wem</Path>
-=======
-					<Path>SFX\Amb_Voices_02_45FA56CE.wem</Path>
->>>>>>> master
+					<Path>SFX\Amb_Voices_02_3909919B.wem</Path>
 				</File>
 				<File Id="321510293" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
@@ -199,11 +179,7 @@
 				</File>
 				<File Id="363643705" Language="SFX">
 					<ShortName>Amb_Voices_01.wav</ShortName>
-<<<<<<< HEAD
-					<Path>SFX\Amb_Voices_01_70FC2433.wem</Path>
-=======
-					<Path>SFX\Amb_Voices_01_12498D8D.wem</Path>
->>>>>>> master
+					<Path>SFX\Amb_Voices_01_46BEBBC9.wem</Path>
 				</File>
 				<File Id="368469905" Language="SFX">
 					<ShortName>SFX_TypingText.wav</ShortName>
@@ -215,11 +191,7 @@
 				</File>
 				<File Id="415037296" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_05.wav</ShortName>
-<<<<<<< HEAD
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_78654554.wem</Path>
-=======
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_AFA48DF4.wem</Path>
->>>>>>> master
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_75F763CA.wem</Path>
 				</File>
 				<File Id="427812714" Language="SFX">
 					<ShortName>SFX_TypingText.wav</ShortName>
@@ -271,11 +243,7 @@
 				</File>
 				<File Id="583814943" Language="SFX">
 					<ShortName>Amb_Voices_02.wav</ShortName>
-<<<<<<< HEAD
-					<Path>SFX\Amb_Voices_02_9DD135AA.wem</Path>
-=======
-					<Path>SFX\Amb_Voices_02_F12E26A2.wem</Path>
->>>>>>> master
+					<Path>SFX\Amb_Voices_02_585C5994.wem</Path>
 				</File>
 				<File Id="584555987" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
@@ -283,11 +251,7 @@
 				</File>
 				<File Id="586867333" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_05.wav</ShortName>
-<<<<<<< HEAD
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_59C0DAC0.wem</Path>
-=======
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_7E4E1C3A.wem</Path>
->>>>>>> master
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_DCCBD66E.wem</Path>
 				</File>
 				<File Id="594058188" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_02.wav</ShortName>
@@ -319,11 +283,7 @@
 				</File>
 				<File Id="729330927" Language="SFX">
 					<ShortName>Amb_2D_Reception_Lp.wav</ShortName>
-<<<<<<< HEAD
-					<Path>SFX\Amb_2D_Reception_Lp_C75CE49A.wem</Path>
-=======
-					<Path>SFX\Amb_2D_Reception_Lp_E1935C8B.wem</Path>
->>>>>>> master
+					<Path>SFX\Amb_2D_Reception_Lp_07F66D38.wem</Path>
 				</File>
 				<File Id="738685224" Language="SFX">
 					<ShortName>Pen_Click_Multiple_02.wav</ShortName>
@@ -363,11 +323,7 @@
 				</File>
 				<File Id="842182370" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_05.wav</ShortName>
-<<<<<<< HEAD
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_332354FA.wem</Path>
-=======
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_8E314F88.wem</Path>
->>>>>>> master
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_C1D3A9E0.wem</Path>
 				</File>
 				<File Id="850618144" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
@@ -427,11 +383,7 @@
 				</File>
 				<File Id="996685016" Language="SFX">
 					<ShortName>Amb_Voices_01.wav</ShortName>
-<<<<<<< HEAD
-					<Path>SFX\Amb_Voices_01_9ECD27F5.wem</Path>
-=======
-					<Path>SFX\Amb_Voices_01_7EF69CE1.wem</Path>
->>>>>>> master
+					<Path>SFX\Amb_Voices_01_79F75737.wem</Path>
 				</File>
 				<File Id="1008397269" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_02.wav</ShortName>
@@ -463,11 +415,7 @@
 				</File>
 				<File Id="1062347414" Language="SFX">
 					<ShortName>Amb_Voices_01.wav</ShortName>
-<<<<<<< HEAD
-					<Path>SFX\Amb_Voices_01_D2A7A3C4.wem</Path>
-=======
-					<Path>SFX\Amb_Voices_01_355C922E.wem</Path>
->>>>>>> master
+					<Path>SFX\Amb_Voices_01_59C92B0A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
