@@ -187,7 +187,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 95, y: 3.2}
+    oldSize: {x: 91.46, y: 3.2}
     newSize: {x: 47.500004, y: 1.6003419}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -196,10 +196,10 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: 47.528957, y: 7.3858204}
-      - {x: -47.55664, y: 5.338375}
-      - {x: -47.55664, y: 2.9596848}
-      - {x: -47.5, y: -1.5999999}
-      - {x: -47.54426, y: -5.8764744}
+      - {x: -51.37073, y: 7.168108}
+      - {x: -51.37073, y: 2.0061626}
+      - {x: -51.391403, y: -2.0896468}
+      - {x: -51.43566, y: -5.928016}
       - {x: 47.592873, y: -6.0593414}
       - {x: 47.5, y: -1.5999999}
       - {x: 47.5, y: 1.5999999}
@@ -1444,6 +1444,31 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1313438210 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7676126249492504277, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+    type: 3}
+  m_PrefabInstance: {fileID: 8022033780514381681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1313438212
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313438210}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ad9d033efc77ab14ba98b2001456988d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1499663026 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7988813817477191002, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
@@ -2216,6 +2241,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8655998367083453971, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.022
+      objectReference: {fileID: 0}
     - target: {fileID: 1862297190309607108, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
         type: 3}
       propertyPath: youButDed
@@ -2306,6 +2336,23 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8022033780439492001, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022033780439492030, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 65b4338433c4b9b41a21d6a4b1fdf999,
+        type: 3}
+    - target: {fileID: 8022033780439492000, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 65b4338433c4b9b41a21d6a4b1fdf999,
+        type: 3}
     - target: {fileID: 8022033782025799023, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
         type: 3}
       propertyPath: cam
