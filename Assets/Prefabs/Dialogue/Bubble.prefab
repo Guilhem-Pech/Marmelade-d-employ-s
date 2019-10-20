@@ -28,7 +28,7 @@ RectTransform:
   m_GameObject: {fileID: 4912396974124909740}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 8.77809, y: 8.77809, z: 8.77809}
+  m_LocalScale: {x: 15.679095, y: 15.679095, z: 15.679095}
   m_Children:
   - {fileID: 5061395654387557605}
   - {fileID: 4912396974640828568}
@@ -37,7 +37,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 2915.6082, y: 1818.1692}
+  m_AnchoredPosition: {x: -90, y: -230}
   m_SizeDelta: {x: 669, y: 409}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &4912396974124909737
@@ -134,7 +134,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 58, y: 37}
+  m_AnchoredPosition: {x: -5, y: 0.6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4912396974640828566
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 34
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -229,7 +229,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -284.67, y: -97, z: -154.1, w: 70.8}
+  m_margin: {x: -214.23225, y: -140.2124, z: -227.00912, w: 100.432045}
   m_textInfo:
     textComponent: {fileID: 4912396974640828567}
     characterCount: 0
@@ -285,7 +285,7 @@ RectTransform:
   m_GameObject: {fileID: 5350984738605046153}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.0014974636, y: 0.0014974636, z: 0.0014974636}
+  m_LocalScale: {x: 0.00040639425, y: 0.00040639425, z: 0.00040639425}
   m_Children:
   - {fileID: 4912396974124909736}
   m_Father: {fileID: 0}
@@ -293,7 +293,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.09, y: 1.08}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &826875650582462696
@@ -309,8 +309,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   voice: 000000000000000000000000
-  slowLetterDuration: 0.06
-  fastLetterDuration: 0.005
+  ultraSlowLetterDuration: 0.25
+  slowLetterDuration: 0.1
+  fastLetterDuration: 0.04
   buttonPrefab: {fileID: 925742140726280322, guid: b802e52a69bd0904ca4b81cab12b4041,
     type: 3}
 --- !u!114 &3634863081901707107
