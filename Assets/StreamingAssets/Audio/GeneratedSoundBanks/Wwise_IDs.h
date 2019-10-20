@@ -15,7 +15,6 @@ namespace AK
     {
         static const AkUniqueID PLAY_AI_FOOTSTRESS = 2027976871U;
         static const AkUniqueID PLAY_AI_PEN_CLICK = 1164535753U;
-        static const AkUniqueID PLAY_AI_STRESS = 2322580507U;
         static const AkUniqueID PLAY_AMB_ELEVATOR_LOOP = 2101409896U;
         static const AkUniqueID PLAY_AMB_ELEVATOR_OPEN = 917943910U;
         static const AkUniqueID PLAY_AMB_RECEPTION = 2157442200U;
@@ -25,6 +24,10 @@ namespace AK
         static const AkUniqueID PLAY_CLOCK_BOSS_LP = 1964598239U;
         static const AkUniqueID PLAY_CLOCK_LOOP = 4009980857U;
         static const AkUniqueID PLAY_FAN_LP = 2167671212U;
+        static const AkUniqueID PLAY_GATE_OK = 2046120060U;
+        static const AkUniqueID PLAY_GATE_OK_BIP = 856672752U;
+        static const AkUniqueID PLAY_GATE_WRONG = 3665027749U;
+        static const AkUniqueID PLAY_GUN_FIRE = 979174855U;
         static const AkUniqueID PLAY_KEYBOARD_01 = 3674702605U;
         static const AkUniqueID PLAY_KEYBOARD_02 = 3674702606U;
         static const AkUniqueID PLAY_KEYBOARD_03 = 3674702607U;
@@ -33,13 +36,11 @@ namespace AK
         static const AkUniqueID PLAY_OBJECT_COFFEEMACHINE_ACTIVATED = 1106433289U;
         static const AkUniqueID PLAY_OBJECT_COFFEEMACHINE_LP = 858668496U;
         static const AkUniqueID PLAY_SECRETAIRE_TYPING = 3519258715U;
+        static const AkUniqueID PLAY_TAKE_GUN = 2070511356U;
         static const AkUniqueID PLAY_VOICE_TEXT_BOSS = 1952082182U;
         static const AkUniqueID PLAY_VOICE_TEXT_FEMALE = 3113663929U;
         static const AkUniqueID PLAY_VOICE_TEXT_MALE = 4019994706U;
         static const AkUniqueID PLAY_WALKING = 1733885923U;
-        static const AkUniqueID STOP_VOICE_TEXT_BOSS = 2851638236U;
-        static const AkUniqueID STOP_VOICE_TEXT_FEMALE = 3343170315U;
-        static const AkUniqueID STOP_VOICE_TEXT_MALE = 1076911320U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
