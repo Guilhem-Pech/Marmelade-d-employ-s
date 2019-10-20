@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8870819120105503223}
-  - component: {fileID: 2737250933273034151}
   m_Layer: 0
   m_Name: Staicy
   m_TagString: Untagged
@@ -32,19 +31,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2737250933273034151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2597461001370760850}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95a839acd1fe4507b371bff8ee93e0f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  distance: 2
 --- !u!1 &4332985996463586366
 GameObject:
   m_ObjectHideFlags: 0
@@ -56,6 +42,7 @@ GameObject:
   - component: {fileID: 6888376231310596522}
   - component: {fileID: 1787463545357959796}
   - component: {fileID: 6551745760211265200}
+  - component: {fileID: 5690132384400030927}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -146,3 +133,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5690132384400030927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4332985996463586366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b329c175ac549a745916da62bd519b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
