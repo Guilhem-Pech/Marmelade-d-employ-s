@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class DialogueWithChoice : Dialogue
 {
-    [SerializeField] private Dialogue nextDialogue = null;
-    [SerializeField] private string[] choices;
-    [SerializeField] private int notPossibleChoice = 2;
+    [SerializeField] protected Dialogue nextDialogue = null;
+    [SerializeField] protected string[] choices;
+    [SerializeField] protected int notPossibleChoice = 2;
 
     public override void TriggerDialogue()
     {

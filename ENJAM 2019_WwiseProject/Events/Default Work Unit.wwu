@@ -356,6 +356,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Gun_Fire" ID="{105736C4-7D2A-4A1A-A97E-1C2A62CA3CF3}">
+					<ChildrenList>
+						<Action Name="" ID="{00C04524-0C54-4635-BA9A-5F1C0363AFDF}" ShortID="611660546">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gun_Fire" ID="{F70FD2FA-7B41-4CA8-B7A6-BBF82FBE0F39}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Take_Gun" ID="{4169B38F-F4A7-453F-A7D0-E0B0775F8272}">
+					<ChildrenList>
+						<Action Name="" ID="{D5A0362C-023F-410A-B6DD-BA1DFB9DE983}" ShortID="265193278">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Take_Gun" ID="{60261141-27B8-4BE6-B79E-1867BFCCAF94}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Gate_Ok_Bip" ID="{DDE1B019-7339-4F5D-BDEF-62263777D5BD}">
+					<ChildrenList>
+						<Action Name="" ID="{80787821-5A10-401B-A514-93CE234AA887}" ShortID="602656121">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gate_Ok_Bip" ID="{DB75454A-5887-4DD8-A936-3580F93FF1D8}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Gate_Wrong" ID="{84842C53-3DB0-4DCB-8450-778D4C535D1C}">
+					<ChildrenList>
+						<Action Name="" ID="{ECF830B9-8CDF-4572-85DE-24FD0A9B7E4E}" ShortID="938646401">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gate_Wrong" ID="{44764EA6-7B00-423B-923F-58808C90B551}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Gate_Ok" ID="{BFC862B4-8D3C-4409-9A81-876F7B7DADFC}">
+					<ChildrenList>
+						<Action Name="" ID="{8D370F70-73E5-4144-BC67-06492CA9CEA2}" ShortID="153486716">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gate_Ok" ID="{B9F6B369-2AEC-41B9-95F9-39F61121F094}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
