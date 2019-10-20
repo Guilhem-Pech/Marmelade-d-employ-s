@@ -16,8 +16,13 @@ public class Dialogue : MonoBehaviour
         if (!triggered)
         {
             DialogueManager thisBubble = GameObject.Instantiate(bubble, transform.position + heightBubble * Vector3.up, Quaternion.identity, transform).GetComponent<DialogueManager>();
-            thisBubble.GiveDialogues(sentences, voice);
+            thisBubble.GiveDialogues(sentences, this, voice);
             triggered = true;
         }
+    }
+
+    public virtual void TriggerAtEndOfDialogue()
+    {
+        //Replace in a new class that herits it with the code to trigger
     }
 }
