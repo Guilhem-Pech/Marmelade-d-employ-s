@@ -12,17 +12,25 @@
             <e p="Controls.cs" t="Include" />
           </e>
           <e p="DialogueSystem" t="Include">
+            <e p="Dialogue.cs" t="Include" />
+            <e p="DialogueChoice.cs" t="Include" />
             <e p="DialogueManager.cs" t="Include" />
+            <e p="DialogueWithChoice.cs" t="Include" />
           </e>
           <e p="Feedbacks" t="Include">
             <e p="Crosshair.cs" t="Include" />
+            <e p="Gamefeel.cs" t="Include" />
             <e p="OutlineEffect.cs" t="Include" />
+            <e p="Parallax.cs" t="Include" />
           </e>
           <e p="Objects" t="Include">
             <e p="Talkable.cs" t="Include" />
             <e p="Usable.cs" t="Include" />
           </e>
           <e p="PlayerController.cs" t="Include" />
+          <e p="Sounds" t="Include">
+            <e p="RTPCtension.cs" t="Include" />
+          </e>
         </e>
         <e p="StreamingAssets" t="Include">
           <e p="desc.txt" t="Include" />
