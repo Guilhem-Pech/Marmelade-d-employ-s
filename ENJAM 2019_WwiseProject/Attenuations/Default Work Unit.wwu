@@ -489,6 +489,12 @@
 											<SegmentShape>Exp2</SegmentShape>
 										</Point>
 										<Point>
+											<XPos>6.85208</XPos>
+											<YPos>-2.58328</YPos>
+											<Flags>0</Flags>
+											<SegmentShape>Log2</SegmentShape>
+										</Point>
+										<Point>
 											<XPos>10</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
