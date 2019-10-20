@@ -36,8 +36,9 @@ public class PlayerController : MonoBehaviour
     {
         if(!context.performed || Math.Abs(XAxis) > 0.2f) return;
         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-        if(hit.collider != null  && hit.transform.gameObject.CompareTag("Usable") )
-        {
+        print(hit.transform.gameObject);
+        if (hit.collider != null  && hit.transform.gameObject.CompareTag("Usable") )
+        {   
             if(!GameManager.bersekModActivated)
                 hit.transform.gameObject.GetComponent<Talkable>().Use(this);
             else
@@ -114,9 +115,9 @@ public class PlayerController : MonoBehaviour
         _rigidbody2D.velocity = speedModifier * XAxis * Vector2.right;
         _animator.SetFloat(Speed,_rigidbody2D.velocity.magnitude);
         
-        if(XAxis > 0 && !facingRight)
+        if(XAxis > 0.1 && !facingRight)
             Flip();
-        else if(XAxis < 0 && facingRight)
+        else if(XAxis < - 0.1 && facingRight)
             Flip();
     }
 }

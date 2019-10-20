@@ -367,6 +367,12 @@ PolygonCollider2D:
       - {x: 9.28, y: 0.44}
       - {x: 9.28, y: 0.34}
       - {x: 9.32, y: 0.24}
+--- !u!1 &93842698 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3316147651508769502, guid: 2d79b36dc62d982488067b88ef6b5078,
+    type: 3}
+  m_PrefabInstance: {fileID: 1576381538}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &96923858
 GameObject:
   m_ObjectHideFlags: 0
@@ -742,6 +748,7 @@ MonoBehaviour:
   - {fileID: 1499663028}
   - {fileID: 8022033780514381682}
   - {fileID: 1164293775}
+  crosshair: {fileID: 1857818514}
 --- !u!4 &720925399
 Transform:
   m_ObjectHideFlags: 0
@@ -1348,18 +1355,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstDialogue: {fileID: 1136645031}
   distance: 2
---- !u!114 &1136645033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1136645022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b329c175ac549a745916da62bd519b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1164293768 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6657214638511377542, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
@@ -1783,7 +1778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firstDialogue: {fileID: 1313438221}
-  distance: 2
+  distance: 3
 --- !u!114 &1313438214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1809,6 +1804,7 @@ MonoBehaviour:
   - "Shithead, I\u2019m working here for 30 years, I obviously know where the boss\u2019
     office is."
   notPossibleChoice: 2
+  player: {fileID: 93842698}
 --- !u!114 &1313438215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2316,8 +2312,24 @@ PrefabInstance:
       propertyPath: _cameraAfter
       value: 
       objectReference: {fileID: 1019734178}
+    - target: {fileID: 4109415675488214548, guid: 2d79b36dc62d982488067b88ef6b5078,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4109415675488214548, guid: 2d79b36dc62d982488067b88ef6b5078,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d79b36dc62d982488067b88ef6b5078, type: 3}
+--- !u!4 &1674925632 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3705401687178936291, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+    type: 3}
+  m_PrefabInstance: {fileID: 8022033780514381681}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1728844204 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 273521725213649295, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
@@ -2588,6 +2600,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8022033780514381681}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1857818514 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4003160871075670580, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+    type: 3}
+  m_PrefabInstance: {fileID: 8022033780514381681}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857818512}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 566d179bbba0b114f80ee1762ae4bfb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1874246021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3144,6 +3168,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Usable
       objectReference: {fileID: 0}
+    - target: {fileID: 1977404750462970589, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8022033780439492030, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
         type: 3}
       propertyPath: m_Sprite
@@ -3161,15 +3190,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 65b4338433c4b9b41a21d6a4b1fdf999,
         type: 3}
+    - target: {fileID: 4153138595857249198, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5113154760445019859, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
         type: 3}
       propertyPath: m_IsTrigger
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8655998367083453971, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.022
       objectReference: {fileID: 0}
     - target: {fileID: 7676126249492504277, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
         type: 3}
@@ -3181,6 +3210,21 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4003160871075670580, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3705401687178936291, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -29.239
+      objectReference: {fileID: 0}
+    - target: {fileID: 7555652949126852095, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+        type: 3}
+      propertyPath: aliciaDesk
+      value: 
+      objectReference: {fileID: 1674925632}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2, type: 3}
 --- !u!114 &8022033780514381682 stripped

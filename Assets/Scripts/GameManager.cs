@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
             obj.SetOutline();
         }
 
-        crosshair.enabled = true;
+        //crosshair.enabled = true;
         bersekModActivated = true;
     }
     
