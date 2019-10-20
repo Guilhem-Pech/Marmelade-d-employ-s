@@ -21,6 +21,7 @@ public class DialogueManager : MonoBehaviour
     private bool autoPass = true;
     private float textDuration = 2f;
     private bool buttonExists = false;
+    private int notPossibleChoice;
 
     [SerializeField] private float slowLetterDuration = 0.06f;
     [SerializeField] private float fastLetterDuration = 0.006f;
@@ -61,7 +62,7 @@ public class DialogueManager : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void GiveDialogues(string[] theseSentences, bool auto = true, Dialogue next = null, string[] theseChoices = null)
+    public void GiveDialogues(string[] theseSentences, bool auto = true, Dialogue next = null, string[] theseChoices = null, int thisNotPossibleChoice = 2)
     {
         if (theseSentences == null)
         {
@@ -78,6 +79,7 @@ public class DialogueManager : MonoBehaviour
         autoPass = auto;
         nextDialogue = next;
         choices = theseChoices;
+        notPossibleChoice = thisNotPossibleChoice;
     }
     
     private void Update()
@@ -110,10 +112,13 @@ public class DialogueManager : MonoBehaviour
         }
         else if(sentences.Count == 0 && active && !autoPass)
         {
-            if (!buttonExists)
+            if (choices.Length > 0)
             {
-                CreateButtons();
-                buttonExists = true;
+                if (!buttonExists)
+                {
+                    CreateButtons();
+                    buttonExists = true;
+                }
             }
         }
     }
@@ -122,8 +127,8 @@ public class DialogueManager : MonoBehaviour
     {
         for(int i = 0; i < choices.Length; ++i)
         {
-            GameObject thisChoice = GameObject.Instantiate(buttonPrefab, transform.position - Vector3.up * 0.5f * (i+1), Quaternion.identity, transform.GetComponentInChildren<Canvas>().transform);
-            thisChoice.GetComponent<DialogueChoice>().Init(choices[i],this,i);
+            GameObject thisChoice = GameObject.Instantiate(buttonPrefab, transform.position - Vector3.up * (i+1), Quaternion.identity, transform.GetComponentInChildren<Canvas>().transform);
+            thisChoice.GetComponent<DialogueChoice>().Init(choices[i],this,i, i >= notPossibleChoice);
         }
     }
 }
