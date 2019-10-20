@@ -13,7 +13,7 @@ public class DialogueWithChoice : Dialogue
         if (!triggered)
         {
             DialogueManager thisBubble = GameObject.Instantiate(bubble, transform.position + heightBubble * Vector3.up, Quaternion.identity, transform).GetComponent<DialogueManager>();
-            thisBubble.GiveDialogues(sentences, false, nextDialogue, choices, notPossibleChoice);
+            thisBubble.GiveDialogues(sentences, voice, false, nextDialogue, choices, notPossibleChoice);
             triggered = true;
         }
     }
