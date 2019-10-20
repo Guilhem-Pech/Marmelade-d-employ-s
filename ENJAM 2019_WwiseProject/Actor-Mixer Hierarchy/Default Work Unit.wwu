@@ -7866,7 +7866,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="Att_Fan" ID="{B10E96C6-D941-4281-A17B-43C1E14C4EF2}" WorkUnitID="{8A27641A-1EAE-4A5B-8522-DDDDC1563AB7}"/>
+													<ObjectRef Name="Att_Clock_Boss" ID="{D87662D0-6E5B-49A1-BF5F-DED3181E69C2}" WorkUnitID="{8A27641A-1EAE-4A5B-8522-DDDDC1563AB7}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
