@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogueWithChoice : Dialogue
+public class Charles : DialogueWithChoice
 {
-    [SerializeField] protected Dialogue nextDialogue = null;
-    [SerializeField] protected string[] choices;
-    [SerializeField] protected int notPossibleChoice = 2;
+    [SerializeField] private string nameSound;
+    private uint currentSound;
 
     public override void TriggerDialogue()
     {
@@ -15,6 +14,12 @@ public class DialogueWithChoice : Dialogue
             DialogueManager thisBubble = GameObject.Instantiate(bubble, transform.position + heightBubble * Vector3.up, Quaternion.identity, transform).GetComponent<DialogueManager>();
             thisBubble.GiveDialogues(sentences, this, voice, false, nextDialogue, choices, notPossibleChoice);
             triggered = true;
+            currentSound = AkSoundEngine.PostEvent(nameSound, gameObject);
         }
+    }
+
+    public override void TriggerAtEndOfDialogue()
+    {
+        AkSoundEngine.StopPlayingID(currentSound);
     }
 }
