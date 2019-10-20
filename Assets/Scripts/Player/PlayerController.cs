@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Configuration;
 using Objects;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -17,7 +18,8 @@ public class PlayerController : MonoBehaviour
     private Animator _animator;
     private static readonly int Speed = Animator.StringToHash("Speed");
     private bool facingRight = true;
-
+    public bool blockMovement = false;
+    
     private void Start()
     {
         _animator = GetComponentInChildren<Animator>();
@@ -86,6 +88,8 @@ public class PlayerController : MonoBehaviour
 
     public void OnMove(InputAction.CallbackContext context)
     {
+        if (blockMovement)
+            return;
         float key = context.ReadValue<float>();
         
         if (isAutoMoving)
