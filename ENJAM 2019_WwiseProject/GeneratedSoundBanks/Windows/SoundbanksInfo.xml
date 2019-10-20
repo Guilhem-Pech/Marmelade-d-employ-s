@@ -11,19 +11,19 @@
 	<StreamedFiles>
 		<File Id="341183906" Language="SFX">
 			<ShortName>Amb_2D_RoomTone_Low_Lp.wav</ShortName>
-			<Path>SFX\Amb_2D_RoomTone_Low_Lp_748DCDF2.wem</Path>
+			<Path>SFX\Amb_2D_RoomTone_Low_Lp_8CF55A80.wem</Path>
 		</File>
 		<File Id="441076736" Language="SFX">
 			<ShortName>Object_Fan_Lp.wav</ShortName>
-			<Path>SFX\Object_Fan_Lp_B587EF35.wem</Path>
+			<Path>SFX\Object_Fan_Lp_2C58F9AF.wem</Path>
 		</File>
 		<File Id="475920907" Language="SFX">
 			<ShortName>Amb_2D_RoomTone_Office_Lp.wav</ShortName>
-			<Path>SFX\Amb_2D_RoomTone_Office_Lp_7BA1A1BA.wem</Path>
+			<Path>SFX\Amb_2D_RoomTone_Office_Lp_749DE2CC.wem</Path>
 		</File>
 		<File Id="747241765" Language="SFX">
 			<ShortName>Coffee_Machine\Object_CoffeeMachine_Lp.wav</ShortName>
-			<Path>SFX\Coffee_Machine\Object_CoffeeMachine_Lp_EAC8A687.wem</Path>
+			<Path>SFX\Coffee_Machine\Object_CoffeeMachine_Lp_12F782A1.wem</Path>
 		</File>
 	</StreamedFiles>
 	<MediaFilesNotInAnyBank/>
@@ -71,351 +71,351 @@
 			<IncludedMemoryFiles>
 				<File Id="19293135" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_04.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_04_49718417.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_04_777B46A1.wem</Path>
 				</File>
 				<File Id="31520409" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_05.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_98BE70F2.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_620374E4.wem</Path>
 				</File>
 				<File Id="33049998" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_02.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_02_1861080F.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_02_D67497B5.wem</Path>
 				</File>
 				<File Id="38883043" Language="SFX">
 					<ShortName>Cough_Female\Cough_Female_01.wav</ShortName>
-					<Path>SFX\Cough_Female\Cough_Female_01_49718417.wem</Path>
+					<Path>SFX\Cough_Female\Cough_Female_01_777B46A1.wem</Path>
 				</File>
 				<File Id="38977841" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_03.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_77A81688.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_68857A2A.wem</Path>
 				</File>
 				<File Id="44638294" Language="SFX">
 					<ShortName>Elevator\Ambiant_Elevator_High_Lp.wav</ShortName>
-					<Path>SFX\Elevator\Ambiant_Elevator_High_Lp_B587EF35.wem</Path>
+					<Path>SFX\Elevator\Ambiant_Elevator_High_Lp_2C58F9AF.wem</Path>
 				</File>
 				<File Id="93263097" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_01.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_01_11182A74.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_01_15570136.wem</Path>
 				</File>
 				<File Id="96391955" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_03.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_9A77D080.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_5A3B67D6.wem</Path>
 				</File>
 				<File Id="116563707" Language="SFX">
 					<ShortName>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</ShortName>
-					<Path>SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_40EEE87F.wem</Path>
+					<Path>SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_D630475D.wem</Path>
 				</File>
 				<File Id="117705601" Language="SFX">
 					<ShortName>Coffee_Machine\Object_CoffeeMachine_Activated.wav</ShortName>
-					<Path>SFX\Coffee_Machine\Object_CoffeeMachine_Activated_49718417.wem</Path>
+					<Path>SFX\Coffee_Machine\Object_CoffeeMachine_Activated_777B46A1.wem</Path>
 				</File>
 				<File Id="125988947" Language="SFX">
 					<ShortName>Pen_Click_Multiple_01.wav</ShortName>
-					<Path>SFX\Pen_Click_Multiple_01_49718417.wem</Path>
+					<Path>SFX\Pen_Click_Multiple_01_777B46A1.wem</Path>
 				</File>
 				<File Id="164702294" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_01.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_01_A51A8948.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_01_15C5B982.wem</Path>
 				</File>
 				<File Id="170329498" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
-					<Path>SFX\FTS_Female_Asphalt_4A8D1FC6.wem</Path>
+					<Path>SFX\FTS_Female_Asphalt_550E2F1C.wem</Path>
 				</File>
 				<File Id="172677436" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
-					<Path>SFX\FTS_Female_Asphalt_83131553.wem</Path>
+					<Path>SFX\FTS_Female_Asphalt_AB26C5E5.wem</Path>
 				</File>
 				<File Id="189540697" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
-					<Path>SFX\FTS_Female_Asphalt_25EA177B.wem</Path>
+					<Path>SFX\FTS_Female_Asphalt_3D33ABED.wem</Path>
 				</File>
 				<File Id="224668201" Language="SFX">
 					<ShortName>Amb_Voices_01.wav</ShortName>
-					<Path>SFX\Amb_Voices_01_8DF8929E.wem</Path>
+					<Path>SFX\Amb_Voices_01_B2EAEC34.wem</Path>
 				</File>
 				<File Id="237864822" Language="SFX">
 					<ShortName>02_Shop Channel.wav</ShortName>
-					<Path>SFX\02_Shop Channel_5CAB60BB.wem</Path>
+					<Path>SFX\02_Shop Channel_BED88EC9.wem</Path>
 				</File>
 				<File Id="241693296" Language="SFX">
 					<ShortName>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</ShortName>
-					<Path>SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_95A47753.wem</Path>
+					<Path>SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_98A90249.wem</Path>
 				</File>
 				<File Id="266424499" Language="SFX">
 					<ShortName>Clock\Object_Clock_Lp_V2.wav</ShortName>
-					<Path>SFX\Clock\Object_Clock_Lp_V2_B587EF35.wem</Path>
+					<Path>SFX\Clock\Object_Clock_Lp_V2_2C58F9AF.wem</Path>
 				</File>
 				<File Id="273021314" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_05.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_93CDE5C1.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_36BF6E17.wem</Path>
 				</File>
 				<File Id="276493804" Language="SFX">
 					<ShortName>Pen_Click_Multiple_02.wav</ShortName>
-					<Path>SFX\Pen_Click_Multiple_02_FFBB2FD4.wem</Path>
+					<Path>SFX\Pen_Click_Multiple_02_16A08BCE.wem</Path>
 				</File>
 				<File Id="276866130" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_03.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_6D8968F7.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_490F0A51.wem</Path>
 				</File>
 				<File Id="279153955" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
-					<Path>SFX\FTS_Female_Asphalt_AAA81797.wem</Path>
+					<Path>SFX\FTS_Female_Asphalt_09CDC2B9.wem</Path>
 				</File>
 				<File Id="280923780" Language="SFX">
 					<ShortName>Amb_Voices_02.wav</ShortName>
-					<Path>SFX\Amb_Voices_02_F60E5990.wem</Path>
+					<Path>SFX\Amb_Voices_02_45FA56CE.wem</Path>
 				</File>
 				<File Id="321510293" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
-					<Path>SFX\FTS_Female_Asphalt_7E311765.wem</Path>
+					<Path>SFX\FTS_Female_Asphalt_F051CFFB.wem</Path>
 				</File>
 				<File Id="336406509" Language="SFX">
 					<ShortName>SFX_TypingText.wav</ShortName>
-					<Path>SFX\SFX_TypingText_019BA851.wem</Path>
+					<Path>SFX\SFX_TypingText_245974B3.wem</Path>
 				</File>
 				<File Id="350154472" Language="SFX">
 					<ShortName>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</ShortName>
-					<Path>SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_450AC5DF.wem</Path>
+					<Path>SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_1E8E718D.wem</Path>
 				</File>
 				<File Id="363643705" Language="SFX">
 					<ShortName>Amb_Voices_01.wav</ShortName>
-					<Path>SFX\Amb_Voices_01_3181862F.wem</Path>
+					<Path>SFX\Amb_Voices_01_12498D8D.wem</Path>
 				</File>
 				<File Id="368469905" Language="SFX">
 					<ShortName>SFX_TypingText.wav</ShortName>
-					<Path>SFX\SFX_TypingText_AD9957C0.wem</Path>
+					<Path>SFX\SFX_TypingText_89FBA356.wem</Path>
 				</File>
 				<File Id="394179167" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_03.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_BFD98BD6.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_65F1076C.wem</Path>
 				</File>
 				<File Id="415037296" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_05.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_1DC139B2.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_AFA48DF4.wem</Path>
 				</File>
 				<File Id="427812714" Language="SFX">
 					<ShortName>SFX_TypingText.wav</ShortName>
-					<Path>SFX\SFX_TypingText_436A2B42.wem</Path>
+					<Path>SFX\SFX_TypingText_41F05CAC.wem</Path>
 				</File>
 				<File Id="428976644" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_03.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_EA50CE08.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_8D3E72D2.wem</Path>
 				</File>
 				<File Id="429769361" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_01.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_01_7D2D073F.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_01_605C9489.wem</Path>
 				</File>
 				<File Id="431020556" Language="SFX">
 					<ShortName>Cough_Female\Cough_Female_02.wav</ShortName>
-					<Path>SFX\Cough_Female\Cough_Female_02_49718417.wem</Path>
+					<Path>SFX\Cough_Female\Cough_Female_02_777B46A1.wem</Path>
 				</File>
 				<File Id="439793230" Language="SFX">
 					<ShortName>Phone_Ring_03.wav</ShortName>
-					<Path>SFX\Phone_Ring_03_1E567580.wem</Path>
+					<Path>SFX\Phone_Ring_03_0103D522.wem</Path>
 				</File>
 				<File Id="445913758" Language="SFX">
 					<ShortName>Phone_Ring_01.wav</ShortName>
-					<Path>SFX\Phone_Ring_01_49718417.wem</Path>
+					<Path>SFX\Phone_Ring_01_777B46A1.wem</Path>
 				</File>
 				<File Id="451569963" Language="SFX">
 					<ShortName>Cough_Female\Cough_Female_03.wav</ShortName>
-					<Path>SFX\Cough_Female\Cough_Female_03_49718417.wem</Path>
+					<Path>SFX\Cough_Female\Cough_Female_03_777B46A1.wem</Path>
 				</File>
 				<File Id="484917647" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
-					<Path>SFX\FTS_Female_Asphalt_5CB88F71.wem</Path>
+					<Path>SFX\FTS_Female_Asphalt_9A80A3AB.wem</Path>
 				</File>
 				<File Id="520880609" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
-					<Path>SFX\FTS_Female_Asphalt_5FBED85C.wem</Path>
+					<Path>SFX\FTS_Female_Asphalt_2C2085A2.wem</Path>
 				</File>
 				<File Id="530620339" Language="SFX">
 					<ShortName>Pen_Click_01.wav</ShortName>
-					<Path>SFX\Pen_Click_01_49718417.wem</Path>
+					<Path>SFX\Pen_Click_01_777B46A1.wem</Path>
 				</File>
 				<File Id="547995697" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_02.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_02_4482DC9A.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_02_EBF09E04.wem</Path>
 				</File>
 				<File Id="576970077" Language="SFX">
 					<ShortName>Cartoon, Voice, Male, Says Uh Ohh SND15466 1.wav</ShortName>
-					<Path>SFX\Cartoon, Voice, Male, Says Uh Ohh SND15466 1_8ABC51A4.wem</Path>
+					<Path>SFX\Cartoon, Voice, Male, Says Uh Ohh SND15466 1_A919C066.wem</Path>
 				</File>
 				<File Id="583814943" Language="SFX">
 					<ShortName>Amb_Voices_02.wav</ShortName>
-					<Path>SFX\Amb_Voices_02_6C13941C.wem</Path>
+					<Path>SFX\Amb_Voices_02_F12E26A2.wem</Path>
 				</File>
 				<File Id="584555987" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
-					<Path>SFX\FTS_Female_Asphalt_F8755708.wem</Path>
+					<Path>SFX\FTS_Female_Asphalt_0A01A836.wem</Path>
 				</File>
 				<File Id="586867333" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_05.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_D4206D68.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_7E4E1C3A.wem</Path>
 				</File>
 				<File Id="594058188" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_02.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_02_398908D8.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_02_B8236342.wem</Path>
 				</File>
 				<File Id="604379601" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
-					<Path>SFX\FTS_Female_Asphalt_365E1209.wem</Path>
+					<Path>SFX\FTS_Female_Asphalt_18014147.wem</Path>
 				</File>
 				<File Id="617374258" Language="SFX">
 					<ShortName>Phone_Ring_04.wav</ShortName>
-					<Path>SFX\Phone_Ring_04_49718417.wem</Path>
+					<Path>SFX\Phone_Ring_04_777B46A1.wem</Path>
 				</File>
 				<File Id="650019927" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
-					<Path>SFX\FTS_Female_Asphalt_56F0CB84.wem</Path>
+					<Path>SFX\FTS_Female_Asphalt_12E2A202.wem</Path>
 				</File>
 				<File Id="665843715" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
-					<Path>SFX\FTS_Female_Asphalt_EE63DB2C.wem</Path>
+					<Path>SFX\FTS_Female_Asphalt_CF60DDB2.wem</Path>
 				</File>
 				<File Id="676073426" Language="SFX">
 					<ShortName>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</ShortName>
-					<Path>SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_BD76EEB6.wem</Path>
+					<Path>SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_17DCD084.wem</Path>
 				</File>
 				<File Id="685633141" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_01.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_01_23A9468D.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_01_451570C7.wem</Path>
 				</File>
 				<File Id="729330927" Language="SFX">
 					<ShortName>Amb_2D_Reception_Lp.wav</ShortName>
-					<Path>SFX\Amb_2D_Reception_Lp_12CCCF75.wem</Path>
+					<Path>SFX\Amb_2D_Reception_Lp_E1935C8B.wem</Path>
 				</File>
 				<File Id="738685224" Language="SFX">
 					<ShortName>Pen_Click_Multiple_02.wav</ShortName>
-					<Path>SFX\Pen_Click_Multiple_02_182ECEC1.wem</Path>
+					<Path>SFX\Pen_Click_Multiple_02_AB95CB87.wem</Path>
 				</File>
 				<File Id="741352547" Language="SFX">
 					<ShortName>Cartoon, Voice, Male, Says Uh Ohh SND15466 1.wav</ShortName>
-					<Path>SFX\Cartoon, Voice, Male, Says Uh Ohh SND15466 1_45EF3DE9.wem</Path>
+					<Path>SFX\Cartoon, Voice, Male, Says Uh Ohh SND15466 1_9D3177E7.wem</Path>
 				</File>
 				<File Id="755537333" Language="SFX">
 					<ShortName>Pen_Click_03.wav</ShortName>
-					<Path>SFX\Pen_Click_03_49718417.wem</Path>
+					<Path>SFX\Pen_Click_03_777B46A1.wem</Path>
 				</File>
 				<File Id="797223564" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
-					<Path>SFX\FTS_Female_Asphalt_6B84FBF8.wem</Path>
+					<Path>SFX\FTS_Female_Asphalt_A6B499F2.wem</Path>
 				</File>
 				<File Id="813121715" Language="SFX">
 					<ShortName>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</ShortName>
-					<Path>SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_758ED878.wem</Path>
+					<Path>SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_46619BF2.wem</Path>
 				</File>
 				<File Id="829006532" Language="SFX">
 					<ShortName>Elevator\Ambiant_Elevator_Opening.wav</ShortName>
-					<Path>SFX\Elevator\Ambiant_Elevator_Opening_49718417.wem</Path>
+					<Path>SFX\Elevator\Ambiant_Elevator_Opening_777B46A1.wem</Path>
 				</File>
 				<File Id="840619654" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
-					<Path>SFX\FTS_Female_Asphalt_C8E4C7E3.wem</Path>
+					<Path>SFX\FTS_Female_Asphalt_02E2F59D.wem</Path>
 				</File>
 				<File Id="840688158" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_02.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_02_D1CCB5A8.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_02_4FBD8D32.wem</Path>
 				</File>
 				<File Id="840821199" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
-					<Path>SFX\FTS_Female_Asphalt_1202ED34.wem</Path>
+					<Path>SFX\FTS_Female_Asphalt_3A6658A6.wem</Path>
 				</File>
 				<File Id="842182370" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_05.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_5BFE8FB2.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_05_8E314F88.wem</Path>
 				</File>
 				<File Id="850618144" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
-					<Path>SFX\FTS_Female_Asphalt_908798E5.wem</Path>
+					<Path>SFX\FTS_Female_Asphalt_42CC7583.wem</Path>
 				</File>
 				<File Id="860656575" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_03.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_7A870744.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_266E600E.wem</Path>
 				</File>
 				<File Id="867017251" Language="SFX">
 					<ShortName>Phone_Ring_02.wav</ShortName>
-					<Path>SFX\Phone_Ring_02_49718417.wem</Path>
+					<Path>SFX\Phone_Ring_02_777B46A1.wem</Path>
 				</File>
 				<File Id="876965150" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_03.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_DFACEF9F.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_FF569CE1.wem</Path>
 				</File>
 				<File Id="891283293" Language="SFX">
 					<ShortName>Cough_Female_04.wav</ShortName>
-					<Path>SFX\Cough_Female_04_49718417.wem</Path>
+					<Path>SFX\Cough_Female_04_777B46A1.wem</Path>
 				</File>
 				<File Id="897894530" Language="SFX">
 					<ShortName>Elevator\Ambiant_Elevator_GoingUp_Lp.wav</ShortName>
-					<Path>SFX\Elevator\Ambiant_Elevator_GoingUp_Lp_B587EF35.wem</Path>
+					<Path>SFX\Elevator\Ambiant_Elevator_GoingUp_Lp_2C58F9AF.wem</Path>
 				</File>
 				<File Id="915526573" Language="SFX">
 					<ShortName>Pen_Click_02.wav</ShortName>
-					<Path>SFX\Pen_Click_02_49718417.wem</Path>
+					<Path>SFX\Pen_Click_02_777B46A1.wem</Path>
 				</File>
 				<File Id="923917129" Language="SFX">
 					<ShortName>Pen_Click_Multiple_02.wav</ShortName>
-					<Path>SFX\Pen_Click_Multiple_02_A068D7FD.wem</Path>
+					<Path>SFX\Pen_Click_Multiple_02_B094A433.wem</Path>
 				</File>
 				<File Id="945580868" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_02.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_02_1A228002.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_02_723DA798.wem</Path>
 				</File>
 				<File Id="960592157" Language="SFX">
 					<ShortName>AI_FTS_Stress.wav</ShortName>
-					<Path>SFX\AI_FTS_Stress_3E3AD122.wem</Path>
+					<Path>SFX\AI_FTS_Stress_F79C1B64.wem</Path>
 				</File>
 				<File Id="971770019" Language="SFX">
 					<ShortName>SFX_TypingText.wav</ShortName>
-					<Path>SFX\SFX_TypingText_A662A0EC.wem</Path>
+					<Path>SFX\SFX_TypingText_F31CA626.wem</Path>
 				</File>
 				<File Id="978497906" Language="SFX">
 					<ShortName>Pen_Click_Multiple_02.wav</ShortName>
-					<Path>SFX\Pen_Click_Multiple_02_2A6B1B90.wem</Path>
+					<Path>SFX\Pen_Click_Multiple_02_3E314DE6.wem</Path>
 				</File>
 				<File Id="981435351" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_01.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_01_2335B31B.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_01_BD156A1D.wem</Path>
 				</File>
 				<File Id="989287488" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_03.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_118A61D9.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_016E12CF.wem</Path>
 				</File>
 				<File Id="996685016" Language="SFX">
 					<ShortName>Amb_Voices_01.wav</ShortName>
-					<Path>SFX\Amb_Voices_01_6EE9BFC3.wem</Path>
+					<Path>SFX\Amb_Voices_01_7EF69CE1.wem</Path>
 				</File>
 				<File Id="1008397269" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_02.wav</ShortName>
-					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_02_5237C881.wem</Path>
+					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_02_930033F7.wem</Path>
 				</File>
 				<File Id="1009989541" Language="SFX">
 					<ShortName>Cartoon, Voice, Male, Says Uh Ohh SND15466 1.wav</ShortName>
-					<Path>SFX\Cartoon, Voice, Male, Says Uh Ohh SND15466 1_AF9088B3.wem</Path>
+					<Path>SFX\Cartoon, Voice, Male, Says Uh Ohh SND15466 1_C6ECDEE1.wem</Path>
 				</File>
 				<File Id="1013561681" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
-					<Path>SFX\FTS_Female_Asphalt_3AB4213E.wem</Path>
+					<Path>SFX\FTS_Female_Asphalt_AE71BE8C.wem</Path>
 				</File>
 				<File Id="1024018116" Language="SFX">
 					<ShortName>Pen_Click_Multiple_02.wav</ShortName>
-					<Path>SFX\Pen_Click_Multiple_02_4567ACCD.wem</Path>
+					<Path>SFX\Pen_Click_Multiple_02_16A0FEBB.wem</Path>
 				</File>
 				<File Id="1028730438" Language="SFX">
 					<ShortName>Clock\Object_Clock_Lp.wav</ShortName>
-					<Path>SFX\Clock\Object_Clock_Lp_B587EF35.wem</Path>
+					<Path>SFX\Clock\Object_Clock_Lp_2C58F9AF.wem</Path>
 				</File>
 				<File Id="1029157515" Language="SFX">
 					<ShortName>Cartoon, Voice, Male, Says Uh Ohh SND15466 1.wav</ShortName>
-					<Path>SFX\Cartoon, Voice, Male, Says Uh Ohh SND15466 1_5DF7C62D.wem</Path>
+					<Path>SFX\Cartoon, Voice, Male, Says Uh Ohh SND15466 1_6070590F.wem</Path>
 				</File>
 				<File Id="1051076383" Language="SFX">
 					<ShortName>Elevator\Ambiant_Elevator_Roomtone_Lp.wav</ShortName>
-					<Path>SFX\Elevator\Ambiant_Elevator_Roomtone_Lp_B587EF35.wem</Path>
+					<Path>SFX\Elevator\Ambiant_Elevator_Roomtone_Lp_2C58F9AF.wem</Path>
 				</File>
 				<File Id="1062347414" Language="SFX">
 					<ShortName>Amb_Voices_01.wav</ShortName>
-					<Path>SFX\Amb_Voices_01_BC06E8B0.wem</Path>
+					<Path>SFX\Amb_Voices_01_355C922E.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

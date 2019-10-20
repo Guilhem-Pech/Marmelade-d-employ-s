@@ -19,24 +19,28 @@
 								</Property>
 								<Property Name="MaxSampleRate" Type="int32">
 									<ValueList>
-										<Value Platform="Windows">0</Value>
+										<Value Platform="Windows">44100</Value>
 									</ValueList>
 								</Property>
 								<Property Name="MinSampleRate" Type="int32">
 									<ValueList>
-										<Value Platform="Windows">0</Value>
+										<Value Platform="Windows">44100</Value>
 									</ValueList>
 								</Property>
 								<Property Name="SampleRate" Type="int32">
 									<ValueList>
 										<Value>3</Value>
-										<Value Platform="Windows">3</Value>
+										<Value Platform="Windows">44100</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ConversionPluginInfoList>
 								<ConversionPluginInfo Platform="Windows">
-									<ConversionPlugin Name="" ID="{2B9717F2-C5D2-4C82-87EB-F30EFC0CF4BB}" PluginName="Vorbis" CompanyID="0" PluginID="4"/>
+									<ConversionPlugin Name="" ID="{2B9717F2-C5D2-4C82-87EB-F30EFC0CF4BB}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+										<PropertyList>
+											<Property Name="QualityFactor" Type="Real32" Value="6"/>
+										</PropertyList>
+									</ConversionPlugin>
 								</ConversionPluginInfo>
 							</ConversionPluginInfoList>
 						</Conversion>
