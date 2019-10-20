@@ -12,6 +12,7 @@ namespace Trigger
             oldPos = transform.position;
             other.gameObject.GetComponent<Animator>().SetTrigger(Write);
             other.transform.parent.position= new Vector3(-29.17f,-0.08f,0);
+            other.transform.parent.localScale = new Vector3(1, 1, 1);
             Destroy(this);
         }
     }

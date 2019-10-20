@@ -28,7 +28,7 @@ public class DialogueChoice : MonoBehaviour
     {
         if (notPossible)
         {
-            Gamefeel.Instance.InitScreenshake(Camera.main, 0.1f, 0.03f);
+            Gamefeel.Instance.InitScreenshake(Camera.main, 0.1f, 0.1f);
         }
         else
         {

@@ -23,14 +23,14 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad( this.gameObject );
     }
 
-    void setBerserkMode()
+    public void SetBerserkMode()
     {
         foreach (Killable obj in killable)
         {
             obj.SetOutline();
         }
 
-        crosshair.enabled = true;
+        //crosshair.enabled = true;
         bersekModActivated = true;
     }
     

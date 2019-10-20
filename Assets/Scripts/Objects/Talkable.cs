@@ -5,6 +5,7 @@ namespace Objects
 {
     public class Talkable : MonoBehaviour , Usable
     {
+        [SerializeField] private Dialogue firstDialogue;
         public float distance = 2;
 
         private void Awake()
@@ -25,7 +26,7 @@ namespace Objects
             {
                user.StartAutoMove(this,distance);
             } else {
-                print("Hello mine turtle !");
+                firstDialogue.TriggerDialogue();
             }
         }
 
