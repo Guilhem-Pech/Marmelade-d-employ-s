@@ -19,6 +19,7 @@
             <e p="DialogueWithChoice.cs" t="Include" />
           </e>
           <e p="Feedbacks" t="Include">
+            <e p="BlackPanelEffect.cs" t="Include" />
             <e p="Crosshair.cs" t="Include" />
             <e p="Gamefeel.cs" t="Include" />
             <e p="OutlineEffect.cs" t="Include" />
