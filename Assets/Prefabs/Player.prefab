@@ -152,7 +152,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &9126696641521860332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,11 +165,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4a0a622453391841ae782f002fd5bf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  brain: {fileID: 0}
   _camera: {fileID: 0}
+  _cameraAfter: {fileID: 0}
   timeOpening: 0
-  door: {fileID: 0}
+  director: {fileID: 0}
   playerController: {fileID: 3316147651508769500}
-  TEMPTODISABLE: {fileID: 0}
+  disableMask: {fileID: 0}
+  main: {fileID: 0}
 --- !u!1 &3316147651887018028
 GameObject:
   m_ObjectHideFlags: 0

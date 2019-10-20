@@ -61,6 +61,25 @@ public class PlayerController : MonoBehaviour
         XAxis = 0;
         isAutoMoving = false;
         caller.Use(this);
+    } 
+    public void StartAutoMove(float position, float distance = 0.1f)
+    {
+        if (!isAutoMoving)
+            automove = StartCoroutine(AutoMove(position, distance));
+    }
+
+    private IEnumerator AutoMove(float position, float distance)
+    {
+        float XPos = position;
+        
+        isAutoMoving = true;
+        for (; Math.Abs(transform.position.x - XPos) > distance ; )
+        {
+            XAxis = transform.position.x - XPos > 0 ? -1 : 1;
+            yield return null;
+        }
+        XAxis = 0;
+        isAutoMoving = false;
     }
 
     public void OnMove(InputAction.CallbackContext context)
