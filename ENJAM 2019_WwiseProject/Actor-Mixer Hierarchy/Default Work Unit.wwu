@@ -7984,8 +7984,14 @@
 										<BlendContainer Name="Amb_Elevator_Loop_ND" ID="{E9771950-5683-4C58-93F2-728B7C36EC16}" ShortID="225546848">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="CenterPercentage" Type="int32">
+													<ValueList>
+														<Value>100</Value>
+													</ValueList>
+												</Property>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="UserAuxSendVolume0" Type="Real64">
 													<ValueList>
 														<Value>-9</Value>
@@ -8097,7 +8103,139 @@
 														<ActiveSource Name="Ambiant_Elevator_Roomtone_Lp" ID="{FA425380-C9CF-40EB-8A6C-F7459C9F310C}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<BlendContainer Name="Music_Elevator" ID="{ACC8E532-2A18-425C-8546-64E593D5143D}" ShortID="796016597">
+													<PropertyList>
+														<Property Name="OverrideEffect" Type="bool" Value="True"/>
+														<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+														<Property Name="UserAuxSendVolume0" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="Effect0">
+															<Custom>
+																<Effect Name="Wwise_Guitar_Distortion_(Custom)" ID="{0F1AFF7B-DD43-4A64-834C-085DDB6C60DA}" ShortID="85251908" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+																	<PropertyList>
+																		<Property Name="DistortionDrive" Type="Real32" Value="34"/>
+																		<Property Name="DistortionTone" Type="Real32" Value="17"/>
+																		<Property Name="DistortionType" Type="int32" Value="4"/>
+																		<Property Name="OutputLevel" Type="Real32" Value="-18"/>
+																		<Property Name="PostEQBand1Frequency" Type="Real32" Value="390"/>
+																		<Property Name="PostEQBand3Enable" Type="bool" Value="True"/>
+																		<Property Name="PostEQBand3FilterType" Type="int32" Value="1"/>
+																		<Property Name="PostEQBand3Frequency" Type="Real32" Value="3512"/>
+																		<Property Name="PostEQBand3Gain" Type="Real32" Value="-8"/>
+																		<Property Name="PostEQBand3QFactor" Type="Real32" Value="4.7"/>
+																		<Property Name="PreEQBand1Enable" Type="bool" Value="True"/>
+																		<Property Name="PreEQBand1FilterType" Type="int32" Value="4"/>
+																		<Property Name="PreEQBand1Frequency" Type="Real32" Value="778"/>
+																		<Property Name="PreEQBand1Gain" Type="Real32" Value="-38"/>
+																		<Property Name="PreEQBand2Enable" Type="bool" Value="True"/>
+																		<Property Name="PreEQBand2FilterType" Type="int32" Value="2"/>
+																		<Property Name="PreEQBand2Frequency" Type="Real32" Value="921"/>
+																		<Property Name="PreEQBand2Gain" Type="Real32" Value="-2"/>
+																		<Property Name="PreEQBand3Enable" Type="bool" Value="True"/>
+																		<Property Name="PreEQBand3FilterType" Type="int32" Value="3"/>
+																		<Property Name="PreEQBand3Frequency" Type="Real32" Value="3225"/>
+																		<Property Name="Rectification" Type="Real32" Value="26"/>
+																	</PropertyList>
+																</Effect>
+															</Custom>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Music_In" ID="{DFA9E9A6-35C2-4079-8760-43C7E581C387}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Elevator" ID="{207C22B7-A721-4805-88EA-8C476CFCDC1D}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Wii Theme" ID="{847A1E72-1E89-4F16-BD8B-B4C85E8771D0}" ShortID="861018258">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>6</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>6</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="Effect0">
+																	<Custom>
+																		<Effect Name="Wwise_Guitar_Distortion_(Custom)" ID="{A4501F5D-1E23-491C-9186-0C83566D71F6}" ShortID="857204647" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+																			<PropertyList>
+																				<Property Name="DistortionDrive" Type="Real32" Value="18"/>
+																				<Property Name="DistortionTone" Type="Real32" Value="17"/>
+																				<Property Name="DistortionType" Type="int32" Value="4"/>
+																				<Property Name="PostEQBand1Frequency" Type="Real32" Value="390"/>
+																				<Property Name="PreEQBand1Enable" Type="bool" Value="True"/>
+																				<Property Name="PreEQBand1FilterType" Type="int32" Value="4"/>
+																				<Property Name="PreEQBand1Frequency" Type="Real32" Value="1502"/>
+																				<Property Name="PreEQBand1Gain" Type="Real32" Value="-38"/>
+																				<Property Name="PreEQBand2Enable" Type="bool" Value="True"/>
+																				<Property Name="PreEQBand2FilterType" Type="int32" Value="2"/>
+																				<Property Name="PreEQBand2Frequency" Type="Real32" Value="964"/>
+																				<Property Name="PreEQBand2Gain" Type="Real32" Value="2.5"/>
+																				<Property Name="PreEQBand3Enable" Type="bool" Value="True"/>
+																				<Property Name="PreEQBand3FilterType" Type="int32" Value="3"/>
+																				<Property Name="PreEQBand3Frequency" Type="Real32" Value="4804"/>
+																				<Property Name="Rectification" Type="Real32" Value="1"/>
+																			</PropertyList>
+																		</Effect>
+																	</Custom>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="Elevator" ID="{207C22B7-A721-4805-88EA-8C476CFCDC1D}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Bossa Nova Game Theme Loop by Mrthenoronha Id-371844" ID="{52B155DD-E29D-4D1C-B299-2DD153D8D209}" ShortID="805447478">
+																	<Language>SFX</Language>
+																	<AudioFile>Bossa Nova Game Theme Loop by Mrthenoronha Id-371844.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="166708709"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+																<AudioFileSource Name="muzak_-_2" ID="{D52B4120-CD9E-4DB4-9944-2FA355E9D0E8}" ShortID="262256158">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="26.1512738228314"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>muzak_-_2.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="muzak_-_2" ID="{D52B4120-CD9E-4DB4-9944-2FA355E9D0E8}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</BlendContainer>
 											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{17E23C53-74DA-4A63-87E5-11F9D8B86C46}"/>
+											</PositioningInfo>
 										</BlendContainer>
 										<BlendContainer Name="Amb_Reception_ND" ID="{853831C0-F685-4B3F-8187-81036A382C84}" ShortID="449503649">
 											<PropertyList>
@@ -8161,12 +8299,19 @@
 																<Value>7</Value>
 															</ValueList>
 														</Property>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Lowpass" Type="int16">
 															<ValueList>
 																<Value>49</Value>
 															</ValueList>
 														</Property>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+														<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 														<Property Name="UserAuxSendVolume0" Type="Real64">
 															<ValueList>
 																<Value>-11</Value>
@@ -8258,7 +8403,7 @@
 																<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
-																		<Value>-8</Value>
+																		<Value>-24</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -8314,7 +8459,7 @@
 																<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
-																		<Value>-16</Value>
+																		<Value>-20</Value>
 																	</ValueList>
 																</Property>
 															</PropertyList>
@@ -8396,6 +8541,7 @@
 														</Sound>
 														<RandomSequenceContainer Name="Phone_Ring" ID="{8C8593A3-BD0D-41F9-81BE-CEEF803633C2}" ShortID="715744750">
 															<PropertyList>
+																<Property Name="3DSpatialization" Type="int16" Value="1"/>
 																<Property Name="Highpass" Type="int16">
 																	<ValueList>
 																		<Value>34</Value>
@@ -8430,7 +8576,6 @@
 																	</ModifierList>
 																</Property>
 																<Property Name="OverrideEffect" Type="bool" Value="True"/>
-																<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 																<Property Name="Pitch" Type="int32">
 																	<ModifierList>
@@ -8719,7 +8864,6 @@
 																	</ModifierList>
 																</Property>
 																<Property Name="OverrideEffect" Type="bool" Value="True"/>
-																<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 																<Property Name="Pitch" Type="int32">
 																	<ModifierList>
@@ -8968,7 +9112,6 @@
 														<BlendContainer Name="Keyboards" ID="{01B9C8BF-5DA7-4C83-A623-1B881F9ABB27}" ShortID="645926417">
 															<PropertyList>
 																<Property Name="BlendBehavior" Type="int16" Value="1"/>
-																<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 																<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 																<Property Name="UserAuxSendVolume0" Type="Real64">
@@ -9529,7 +9672,6 @@
 																		<Value>4</Value>
 																	</ValueList>
 																</Property>
-																<Property Name="OverridePositioning" Type="bool" Value="True"/>
 																<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 																<Property Name="Volume" Type="Real64">
 																	<ValueList>
@@ -10581,6 +10723,14 @@
 															</PositioningInfo>
 														</BlendContainer>
 													</ChildrenList>
+													<PositioningInfo>
+														<Panner Name="" ID="{982DB5DC-900D-4A97-B9F0-96BC59B4C533}">
+															<PropertyList>
+																<Property Name="PanX" Type="Real64" Value="82.8402366863905"/>
+																<Property Name="PanY" Type="Real64" Value="72.6989079563183"/>
+															</PropertyList>
+														</Panner>
+													</PositioningInfo>
 												</BlendContainer>
 											</ChildrenList>
 										</BlendContainer>
@@ -11349,7 +11499,7 @@
 													<PropertyList>
 														<Property Name="3DPosition" Type="int16" Value="1"/>
 														<Property Name="3DSpatialization" Type="int16" Value="1"/>
-														<Property Name="BlendBehavior" Type="int16" Value="1"/>
+														<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
 														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 														<Property Name="UserAuxSendVolume0" Type="Real64">
@@ -12222,6 +12372,7 @@
 														</RandomSequenceContainer>
 													</ChildrenList>
 													<PositioningInfo>
+														<Panner Name="" ID="{50E4F67A-A9B5-418F-801A-54E02DE6737B}"/>
 														<Position Name="" ID="{9E502537-0567-4C23-B873-99055DC8ACF4}">
 															<PropertyList>
 																<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
@@ -12274,6 +12425,12 @@
 												</BlendContainer>
 												<BlendContainer Name="Voices" ID="{B5A1728F-7933-4861-970D-C1E76DAE1490}" ShortID="474347716">
 													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
 														<Property Name="InitialDelay" Type="Real64">
 															<ModifierList>
 																<ModifierInfo>
@@ -12287,6 +12444,7 @@
 															</ModifierList>
 														</Property>
 														<Property Name="OverrideEffect" Type="bool" Value="True"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>-17</Value>
@@ -12294,6 +12452,9 @@
 														</Property>
 													</PropertyList>
 													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Att_Workspace_ND" ID="{EC05705A-974C-4A3C-BA14-7AFB69E98537}" WorkUnitID="{8A27641A-1EAE-4A5B-8522-DDDDC1563AB7}"/>
+														</Reference>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 														</Reference>
@@ -14737,7 +14898,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
-													<ObjectRef Name="Att_Reception_ND" ID="{424193DC-2C67-4834-AEC2-3CE83AFB4115}" WorkUnitID="{8A27641A-1EAE-4A5B-8522-DDDDC1563AB7}"/>
+													<ObjectRef Name="Att_Boos_Room" ID="{7DB9B2C7-3B24-479C-8826-2873F3C9EF90}" WorkUnitID="{8A27641A-1EAE-4A5B-8522-DDDDC1563AB7}"/>
 												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
