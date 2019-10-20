@@ -8,7 +8,7 @@ public enum DialogueStyle {basic, fast};
 public class DialogueManager : MonoBehaviour
 {
     private DialogueStyle style = DialogueStyle.basic;
-    
+
     private Queue<string> sentences = new Queue<string>();
     private Dialogue nextDialogue = null;
     private string[] choices = null;
@@ -22,7 +22,11 @@ public class DialogueManager : MonoBehaviour
     private float textDuration = 2f;
     private bool buttonExists = false;
     private int notPossibleChoice;
+    private uint currentSound;
+    private int idVoice;
 
+
+    [SerializeField] private int[] voice;
     [SerializeField] private float slowLetterDuration = 0.06f;
     [SerializeField] private float fastLetterDuration = 0.006f;
     [SerializeField] private GameObject buttonPrefab;
@@ -37,17 +41,25 @@ public class DialogueManager : MonoBehaviour
 
     public void PassDialogue()
     {
+        if (buttonExists)
+        {
+            return;
+        }
         if (sentences.Count > 0 && currentPosition == sentences.Peek().Length)
         {
             if (sentences.Count > 0)
             {
                 currentSentence = "";
                 sentences.Dequeue();
+                if (sentences.Count != 0)
+                {
+                    currentSound = AkSoundEngine.PostEvent(GetVoiceName(voice[idVoice]), gameObject);
+                }
                 currentPosition = 0;
                 counter = 0.0f;
             }
         }
-        else if (sentences.Count == 0)
+        if (sentences.Count == 0)
         {
             Destroy(gameObject);
         }
@@ -62,7 +74,7 @@ public class DialogueManager : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void GiveDialogues(string[] theseSentences, bool auto = true, Dialogue next = null, string[] theseChoices = null, int thisNotPossibleChoice = 2)
+    public void GiveDialogues(string[] theseSentences, int thisIdVoice = 0, bool auto = true, Dialogue next = null, string[] theseChoices = null, int thisNotPossibleChoice = 2)
     {
         if (theseSentences == null)
         {
@@ -80,6 +92,31 @@ public class DialogueManager : MonoBehaviour
         nextDialogue = next;
         choices = theseChoices;
         notPossibleChoice = thisNotPossibleChoice;
+        idVoice = thisIdVoice;
+        currentSound = AkSoundEngine.PostEvent(GetVoiceName(voice[idVoice]),gameObject);
+    }
+
+    private string GetVoiceName(int id)
+    {
+        switch (id)
+        {
+            case 0:
+                {
+                    return "Play_Voice_Text_Male";
+                }
+            case 1:
+                {
+                    return "Play_Voice_Text_Female";
+                }
+            case 2:
+                {
+                    return "Play_Voice_Text_Boss";
+                }
+            default:
+                {
+                    return "Play_Voice_Text_Female";
+                }
+        }
     }
     
     private void Update()
@@ -101,6 +138,19 @@ public class DialogueManager : MonoBehaviour
                     ++currentPosition;
                     text.text = currentSentence;
                 }
+                if(currentPosition >= sentences.Peek().Length)
+                {
+                    AkSoundEngine.StopPlayingID(currentSound);
+
+                    if (sentences.Count == 1 && choices.Length > 0)
+                    {
+                        if (!buttonExists)
+                        {
+                            CreateButtons();
+                            buttonExists = true;
+                        }
+                    }
+                }
             }
             else if(counter > textDuration && autoPass)
             {
@@ -109,17 +159,6 @@ public class DialogueManager : MonoBehaviour
         } else if(sentences.Count == 0 && active && autoPass)
         {
             PassDialogue();
-        }
-        else if(sentences.Count == 0 && active && !autoPass)
-        {
-            if (choices.Length > 0)
-            {
-                if (!buttonExists)
-                {
-                    CreateButtons();
-                    buttonExists = true;
-                }
-            }
         }
     }
 

@@ -13,12 +13,15 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_AI_SECRETAIRE_TYPING = 1429432556U;
+        static const AkUniqueID PLAY_AI_FOOTSTRESS = 2027976871U;
+        static const AkUniqueID PLAY_AI_PEN_CLICK = 1164535753U;
         static const AkUniqueID PLAY_AI_STRESS = 2322580507U;
         static const AkUniqueID PLAY_AMB_ELEVATOR_LOOP = 2101409896U;
         static const AkUniqueID PLAY_AMB_ELEVATOR_OPEN = 917943910U;
         static const AkUniqueID PLAY_AMB_RECEPTION = 2157442200U;
         static const AkUniqueID PLAY_AMB_WORKSPACE = 4111603208U;
+        static const AkUniqueID PLAY_BOSS_HIT = 1138009151U;
+        static const AkUniqueID PLAY_BOSS_LAUGH = 3854046427U;
         static const AkUniqueID PLAY_CLOCK_BOSS_LP = 1964598239U;
         static const AkUniqueID PLAY_CLOCK_LOOP = 4009980857U;
         static const AkUniqueID PLAY_FAN_LP = 2167671212U;
@@ -29,6 +32,7 @@ namespace AK
         static const AkUniqueID PLAY_KEYBOARD_05 = 3674702601U;
         static const AkUniqueID PLAY_OBJECT_COFFEEMACHINE_ACTIVATED = 1106433289U;
         static const AkUniqueID PLAY_OBJECT_COFFEEMACHINE_LP = 858668496U;
+        static const AkUniqueID PLAY_SECRETAIRE_TYPING = 3519258715U;
         static const AkUniqueID PLAY_VOICE_TEXT_BOSS = 1952082182U;
         static const AkUniqueID PLAY_VOICE_TEXT_FEMALE = 3113663929U;
         static const AkUniqueID PLAY_VOICE_TEXT_MALE = 4019994706U;

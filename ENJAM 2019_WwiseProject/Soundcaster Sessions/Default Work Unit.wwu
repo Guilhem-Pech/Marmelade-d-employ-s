@@ -30,15 +30,19 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Keyboard_01" ID="{4A95A3BB-82A0-49EA-B290-AF8401475C62}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<ObjectRef Name="Play_Voice_Text_Boss" ID="{2AC4E628-BE9E-4C3B-AB74-AC3963D018CE}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Object_CoffeeMachine_Activated" ID="{3505ECBF-E021-479C-95E2-0664BC008628}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<ObjectRef Name="Play_Keyboard_01" ID="{4A95A3BB-82A0-49EA-B290-AF8401475C62}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
 							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Amb_Workspace" ID="{94913185-2C02-4477-9F9F-7E552B480BF9}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<ObjectRef Name="Play_Object_CoffeeMachine_Activated" ID="{3505ECBF-E021-479C-95E2-0664BC008628}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Amb_Reception" ID="{4DD22D28-B6C0-4F94-AD2D-CFE45DBB982B}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
@@ -50,12 +54,32 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Voice_Text_Male" ID="{F2B46DB1-F46D-4F39-9EBA-30863B18CC42}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<ObjectRef Name="Play_AI_Pen_Click" ID="{4F16492E-BC56-4145-B945-B29E672DC9C2}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Amb_Workspace" ID="{94913185-2C02-4477-9F9F-7E552B480BF9}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Boss_Hit" ID="{F0112BE4-5795-4742-AF85-4A4A67168169}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
 							<Position X="3" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Keyboard_03" ID="{02576368-B379-4CB7-A45C-F19793942647}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
 							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AI_FootStress" ID="{CDEDCBEA-5994-48E9-BD86-E859182BC383}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Boss_Laugh" ID="{CCC5C984-FB8B-43B4-B370-1FC84E20A248}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Clock_Boss_Lp" ID="{BAF559D1-265D-4A3C-8B85-2001BF76861A}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="4" Y="1"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Keyboard_04" ID="{E216F890-386C-4AAA-934A-AAFCEDFF149F}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>

@@ -38,12 +38,15 @@
 			<ShortName>Marmelade</ShortName>
 			<Path>Marmelade.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1429432556" Name="Play_AI_Secretaire_Typing" ObjectPath="\Events\Default Work Unit\Play_AI_Secretaire_Typing" MaxAttenuation="20.000000" DurationType="Infinite"/>
+				<Event Id="2027976871" Name="Play_AI_FootStress" ObjectPath="\Events\Default Work Unit\Play_AI_FootStress" MaxAttenuation="20.000000" DurationType="Infinite"/>
+				<Event Id="1164535753" Name="Play_AI_Pen_Click" ObjectPath="\Events\Default Work Unit\Play_AI_Pen_Click" MaxAttenuation="20.000000" DurationType="Infinite"/>
 				<Event Id="2322580507" Name="Play_AI_Stress" ObjectPath="\Events\Default Work Unit\Play_AI_Stress" MaxAttenuation="20.000000" DurationType="Infinite"/>
 				<Event Id="2101409896" Name="Play_Amb_Elevator_Loop" ObjectPath="\Events\Default Work Unit\Play_Amb_Elevator_Loop" DurationType="Infinite"/>
-				<Event Id="917943910" Name="Play_Amb_Elevator_Open" ObjectPath="\Events\Default Work Unit\Play_Amb_Elevator_Open" DurationType="OneShot" DurationMin="7.272721" DurationMax="7.272721"/>
+				<Event Id="917943910" Name="Play_Amb_Elevator_Open" ObjectPath="\Events\Default Work Unit\Play_Amb_Elevator_Open" DurationType="Infinite"/>
 				<Event Id="2157442200" Name="Play_Amb_Reception" ObjectPath="\Events\Default Work Unit\Play_Amb_Reception" DurationType="Infinite"/>
 				<Event Id="4111603208" Name="Play_Amb_Workspace" ObjectPath="\Events\Default Work Unit\Play_Amb_Workspace" DurationType="Infinite"/>
+				<Event Id="1138009151" Name="Play_Boss_Hit" ObjectPath="\Events\Default Work Unit\Play_Boss_Hit" DurationType="OneShot" DurationMin="7.747143" DurationMax="7.747143"/>
+				<Event Id="3854046427" Name="Play_Boss_Laugh" ObjectPath="\Events\Default Work Unit\Play_Boss_Laugh" DurationType="OneShot" DurationMin="5.477058" DurationMax="5.477058"/>
 				<Event Id="1964598239" Name="Play_Clock_Boss_Lp" ObjectPath="\Events\Default Work Unit\Play_Clock_Boss_Lp" MaxAttenuation="15.000000" DurationType="Infinite"/>
 				<Event Id="4009980857" Name="Play_Clock_Loop" ObjectPath="\Events\Default Work Unit\Play_Clock_Loop" MaxAttenuation="15.000000" DurationType="Infinite"/>
 				<Event Id="2167671212" Name="Play_Fan_Lp" ObjectPath="\Events\Default Work Unit\Play_Fan_Lp" MaxAttenuation="15.000000" DurationType="Infinite"/>
@@ -54,6 +57,7 @@
 				<Event Id="3674702601" Name="Play_Keyboard_05" ObjectPath="\Events\Default Work Unit\Play_Keyboard_05" MaxAttenuation="20.000000" DurationType="Infinite"/>
 				<Event Id="1106433289" Name="Play_Object_CoffeeMachine_Activated" ObjectPath="\Events\Default Work Unit\Play_Object_CoffeeMachine_Activated" MaxAttenuation="40.000000" DurationType="OneShot" DurationMin="11.161111" DurationMax="11.161111"/>
 				<Event Id="858668496" Name="Play_Object_CoffeeMachine_Lp" ObjectPath="\Events\Default Work Unit\Play_Object_CoffeeMachine_Lp" MaxAttenuation="40.000000" DurationType="Infinite"/>
+				<Event Id="3519258715" Name="Play_Secretaire_Typing" ObjectPath="\Events\Default Work Unit\Play_Secretaire_Typing" MaxAttenuation="20.000000" DurationType="Infinite"/>
 				<Event Id="1952082182" Name="Play_Voice_Text_Boss" ObjectPath="\Events\Default Work Unit\Play_Voice_Text_Boss" DurationType="Infinite"/>
 				<Event Id="3113663929" Name="Play_Voice_Text_Female" ObjectPath="\Events\Default Work Unit\Play_Voice_Text_Female" DurationType="Infinite"/>
 				<Event Id="4019994706" Name="Play_Voice_Text_Male" ObjectPath="\Events\Default Work Unit\Play_Voice_Text_Male" DurationType="Infinite"/>
@@ -129,6 +133,14 @@
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
 					<Path>SFX\FTS_Female_Asphalt_3D33ABED.wem</Path>
 				</File>
+				<File Id="196656851" Language="SFX">
+					<ShortName>Boss_Hit_Big.wav</ShortName>
+					<Path>SFX\Boss_Hit_Big_777B46A1.wem</Path>
+				</File>
+				<File Id="216372197" Language="SFX">
+					<ShortName>Boss_Growl.wav</ShortName>
+					<Path>SFX\Boss_Growl_DC2B5EC7.wem</Path>
+				</File>
 				<File Id="224668201" Language="SFX">
 					<ShortName>Amb_Voices_01.wav</ShortName>
 					<Path>SFX\Amb_Voices_01_A8EACF41.wem</Path>
@@ -188,6 +200,10 @@
 				<File Id="394179167" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_03.wav</ShortName>
 					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_65F1076C.wem</Path>
+				</File>
+				<File Id="402750840" Language="SFX">
+					<ShortName>Boss_Hit_Table.wav</ShortName>
+					<Path>SFX\Boss_Hit_Table_777B46A1.wem</Path>
 				</File>
 				<File Id="415037296" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_05.wav</ShortName>
@@ -285,6 +301,10 @@
 					<ShortName>Amb_2D_Reception_Lp.wav</ShortName>
 					<Path>SFX\Amb_2D_Reception_Lp_07F66D38.wem</Path>
 				</File>
+				<File Id="734202224" Language="SFX">
+					<ShortName>Boss_Laugh.wav</ShortName>
+					<Path>SFX\Boss_Laugh_20A14712.wem</Path>
+				</File>
 				<File Id="738685224" Language="SFX">
 					<ShortName>Pen_Click_Multiple_02.wav</ShortName>
 					<Path>SFX\Pen_Click_Multiple_02_AB95CB87.wem</Path>
@@ -349,6 +369,10 @@
 					<ShortName>Elevator\Ambiant_Elevator_GoingUp_Lp.wav</ShortName>
 					<Path>SFX\Elevator\Ambiant_Elevator_GoingUp_Lp_2C58F9AF.wem</Path>
 				</File>
+				<File Id="909026969" Language="SFX">
+					<ShortName>Boss_Hit_Low.wav</ShortName>
+					<Path>SFX\Boss_Hit_Low_777B46A1.wem</Path>
+				</File>
 				<File Id="915526573" Language="SFX">
 					<ShortName>Pen_Click_02.wav</ShortName>
 					<Path>SFX\Pen_Click_02_777B46A1.wem</Path>
@@ -376,6 +400,10 @@
 				<File Id="981435351" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_01.wav</ShortName>
 					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_01_BD156A1D.wem</Path>
+				</File>
+				<File Id="982100990" Language="SFX">
+					<ShortName>Boss_Caugh.wav</ShortName>
+					<Path>SFX\Boss_Caugh_777B46A1.wem</Path>
 				</File>
 				<File Id="989287488" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_03.wav</ShortName>
