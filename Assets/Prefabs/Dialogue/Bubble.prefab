@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3552d8a142e5914e9a989cfb2de04bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  voice: 000000000000000000000000
+  voice: 000000000100000002000000
   ultraSlowLetterDuration: 0.25
   slowLetterDuration: 0.1
   fastLetterDuration: 0.04

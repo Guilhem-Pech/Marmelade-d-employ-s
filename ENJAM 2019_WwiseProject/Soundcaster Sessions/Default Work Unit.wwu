@@ -38,7 +38,7 @@
 							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_Object_CoffeeMachine_Activated" ID="{3505ECBF-E021-479C-95E2-0664BC008628}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<ObjectRef Name="Play_Gun_Fire" ID="{105736C4-7D2A-4A1A-A97E-1C2A62CA3CF3}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
 							<Position X="1" Y="4"/>
 						</Module>
 						<Module>
@@ -56,6 +56,10 @@
 						<Module>
 							<ObjectRef Name="Play_AI_Pen_Click" ID="{4F16492E-BC56-4145-B945-B29E672DC9C2}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
 							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Amb_End" ID="{37DD6573-6BFC-4DAD-BF03-57E48B4877EF}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Amb_Workspace" ID="{94913185-2C02-4477-9F9F-7E552B480BF9}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>

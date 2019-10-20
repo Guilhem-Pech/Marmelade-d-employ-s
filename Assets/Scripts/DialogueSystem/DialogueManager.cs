@@ -26,8 +26,6 @@ public class DialogueManager : MonoBehaviour
     private int idVoice;
     private Dialogue dialogue;
 
-
-    [SerializeField] private int[] voice;
     [SerializeField] private float ultraSlowLetterDuration = 0.25f;
     [SerializeField] private float slowLetterDuration = 0.1f;
     [SerializeField] private float fastLetterDuration = 0.04f;
@@ -55,7 +53,7 @@ public class DialogueManager : MonoBehaviour
                 sentences.Dequeue();
                 if (sentences.Count != 0)
                 {
-                    currentSound = AkSoundEngine.PostEvent(GetVoiceName(voice[idVoice]), gameObject);
+                    currentSound = AkSoundEngine.PostEvent(GetVoiceName(idVoice), gameObject);
                 }
                 currentPosition = 0;
                 counter = 0.0f;
@@ -97,7 +95,7 @@ public class DialogueManager : MonoBehaviour
         choices = theseChoices;
         notPossibleChoice = thisNotPossibleChoice;
         idVoice = thisIdVoice;
-        currentSound = AkSoundEngine.PostEvent(GetVoiceName(voice[idVoice]),gameObject);
+        currentSound = AkSoundEngine.PostEvent(GetVoiceName(idVoice),gameObject);
         dialogue = parent;
     }
 

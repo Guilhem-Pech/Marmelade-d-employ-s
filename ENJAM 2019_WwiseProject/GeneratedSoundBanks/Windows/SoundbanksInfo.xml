@@ -42,17 +42,21 @@
 				<Event Id="1164535753" Name="Play_AI_Pen_Click" ObjectPath="\Events\Default Work Unit\Play_AI_Pen_Click" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="2101409896" Name="Play_Amb_Elevator_Loop" ObjectPath="\Events\Default Work Unit\Play_Amb_Elevator_Loop" DurationType="Infinite"/>
 				<Event Id="917943910" Name="Play_Amb_Elevator_Open" ObjectPath="\Events\Default Work Unit\Play_Amb_Elevator_Open" DurationType="Infinite"/>
+				<Event Id="1149819680" Name="Play_Amb_End" ObjectPath="\Events\Default Work Unit\Play_Amb_End" DurationType="Infinite"/>
 				<Event Id="2157442200" Name="Play_Amb_Reception" ObjectPath="\Events\Default Work Unit\Play_Amb_Reception" DurationType="Infinite"/>
 				<Event Id="4111603208" Name="Play_Amb_Workspace" ObjectPath="\Events\Default Work Unit\Play_Amb_Workspace" DurationType="Infinite"/>
 				<Event Id="1138009151" Name="Play_Boss_Hit" ObjectPath="\Events\Default Work Unit\Play_Boss_Hit" DurationType="OneShot" DurationMin="7.747143" DurationMax="7.747143"/>
 				<Event Id="3854046427" Name="Play_Boss_Laugh" ObjectPath="\Events\Default Work Unit\Play_Boss_Laugh" DurationType="OneShot" DurationMin="5.477058" DurationMax="5.477058"/>
 				<Event Id="1964598239" Name="Play_Clock_Boss_Lp" ObjectPath="\Events\Default Work Unit\Play_Clock_Boss_Lp" MaxAttenuation="4.000000" DurationType="Infinite"/>
 				<Event Id="4009980857" Name="Play_Clock_Loop" ObjectPath="\Events\Default Work Unit\Play_Clock_Loop" MaxAttenuation="4.000000" DurationType="Infinite"/>
+				<Event Id="3911342322" Name="Play_Door_Boss" ObjectPath="\Events\Default Work Unit\Play_Door_Boss" DurationType="OneShot" DurationMin="4.534159" DurationMax="4.534159"/>
 				<Event Id="2167671212" Name="Play_Fan_Lp" ObjectPath="\Events\Default Work Unit\Play_Fan_Lp" MaxAttenuation="4.000000" DurationType="Infinite"/>
 				<Event Id="2046120060" Name="Play_Gate_Ok" ObjectPath="\Events\Default Work Unit\Play_Gate_Ok" DurationType="OneShot" DurationMin="1.111270" DurationMax="1.111270"/>
 				<Event Id="856672752" Name="Play_Gate_Ok_Bip" ObjectPath="\Events\Default Work Unit\Play_Gate_Ok_Bip" DurationType="OneShot" DurationMin="1.934336" DurationMax="1.934336"/>
 				<Event Id="3665027749" Name="Play_Gate_Wrong" ObjectPath="\Events\Default Work Unit\Play_Gate_Wrong" DurationType="OneShot" DurationMin="2.592948" DurationMax="2.592948"/>
-				<Event Id="979174855" Name="Play_Gun_Fire" ObjectPath="\Events\Default Work Unit\Play_Gun_Fire" DurationType="OneShot" DurationMin="1.741101" DurationMax="2.143547"/>
+				<Event Id="979174855" Name="Play_Gun_Fire" ObjectPath="\Events\Default Work Unit\Play_Gun_Fire" DurationType="Infinite"/>
+				<Event Id="3493251334" Name="Play_Gun_Ground" ObjectPath="\Events\Default Work Unit\Play_Gun_Ground" DurationType="OneShot" DurationMin="0.990522" DurationMax="0.990522"/>
+				<Event Id="535299158" Name="Play_Gun_Take" ObjectPath="\Events\Default Work Unit\Play_Gun_Take" DurationType="OneShot" DurationMin="1.157982" DurationMax="1.157982"/>
 				<Event Id="3674702605" Name="Play_Keyboard_01" ObjectPath="\Events\Default Work Unit\Play_Keyboard_01" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="3674702606" Name="Play_Keyboard_02" ObjectPath="\Events\Default Work Unit\Play_Keyboard_02" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="3674702607" Name="Play_Keyboard_03" ObjectPath="\Events\Default Work Unit\Play_Keyboard_03" MaxAttenuation="5.000000" DurationType="Infinite"/>
@@ -61,7 +65,6 @@
 				<Event Id="1106433289" Name="Play_Object_CoffeeMachine_Activated" ObjectPath="\Events\Default Work Unit\Play_Object_CoffeeMachine_Activated" MaxAttenuation="5.000000" DurationType="OneShot" DurationMin="11.161111" DurationMax="11.161111"/>
 				<Event Id="858668496" Name="Play_Object_CoffeeMachine_Lp" ObjectPath="\Events\Default Work Unit\Play_Object_CoffeeMachine_Lp" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="3519258715" Name="Play_Secretaire_Typing" ObjectPath="\Events\Default Work Unit\Play_Secretaire_Typing" MaxAttenuation="5.000000" DurationType="Infinite"/>
-				<Event Id="2070511356" Name="Play_Take_Gun" ObjectPath="\Events\Default Work Unit\Play_Take_Gun" DurationType="OneShot" DurationMin="1.157982" DurationMax="1.157982"/>
 				<Event Id="1952082182" Name="Play_Voice_Text_Boss" ObjectPath="\Events\Default Work Unit\Play_Voice_Text_Boss" DurationType="Infinite"/>
 				<Event Id="3113663929" Name="Play_Voice_Text_Female" ObjectPath="\Events\Default Work Unit\Play_Voice_Text_Female" DurationType="Infinite"/>
 				<Event Id="4019994706" Name="Play_Voice_Text_Male" ObjectPath="\Events\Default Work Unit\Play_Voice_Text_Male" DurationType="Infinite"/>
@@ -74,9 +77,17 @@
 				<File Id="747241765"/>
 			</ReferencedStreamedFiles>
 			<IncludedMemoryFiles>
+				<File Id="9024104" Language="SFX">
+					<ShortName>Kock_Door\Door_Unlock.wav</ShortName>
+					<Path>SFX\Kock_Door\Door_Unlock_418277F9.wem</Path>
+				</File>
 				<File Id="19293135" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_04.wav</ShortName>
 					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_04_777B46A1.wem</Path>
+				</File>
+				<File Id="26275868" Language="SFX">
+					<ShortName>Cartoon, Voice, Male, Says Uh Ohh SND15466 1.wav</ShortName>
+					<Path>SFX\Cartoon, Voice, Male, Says Uh Ohh SND15466 1_C6ECDEE1.wem</Path>
 				</File>
 				<File Id="31520409" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_05.wav</ShortName>
@@ -98,6 +109,10 @@
 					<ShortName>Elevator\Ambiant_Elevator_High_Lp.wav</ShortName>
 					<Path>SFX\Elevator\Ambiant_Elevator_High_Lp_2C58F9AF.wem</Path>
 				</File>
+				<File Id="88733922" Language="SFX">
+					<ShortName>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</ShortName>
+					<Path>SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_98A90249.wem</Path>
+				</File>
 				<File Id="93263097" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_01.wav</ShortName>
 					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_01_15570136.wem</Path>
@@ -105,6 +120,10 @@
 				<File Id="96391955" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_03.wav</ShortName>
 					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_5A3B67D6.wem</Path>
+				</File>
+				<File Id="111277151" Language="SFX">
+					<ShortName>Gun_Ground\Gun_Hit_Ground.wav</ShortName>
+					<Path>SFX\Gun_Ground\Gun_Hit_Ground_BF883F26.wem</Path>
 				</File>
 				<File Id="116563707" Language="SFX">
 					<ShortName>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</ShortName>
@@ -129,6 +148,10 @@
 				<File Id="139965528" Language="SFX">
 					<ShortName>Gun\Gun_Fire\Bullet_Shells_04.wav</ShortName>
 					<Path>SFX\Gun\Gun_Fire\Bullet_Shells_04_777B46A1.wem</Path>
+				</File>
+				<File Id="142732868" Language="SFX">
+					<ShortName>Drone_Low.wav</ShortName>
+					<Path>SFX\Drone_Low_3ED836A5.wem</Path>
 				</File>
 				<File Id="155973201" Language="SFX">
 					<ShortName>Gun\Gun_Fire\Bullet_Shells_03.wav</ShortName>
@@ -166,10 +189,6 @@
 					<ShortName>02_Shop Channel.wav</ShortName>
 					<Path>SFX\02_Shop Channel_F799059D.wem</Path>
 				</File>
-				<File Id="241693296" Language="SFX">
-					<ShortName>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</ShortName>
-					<Path>SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_98A90249.wem</Path>
-				</File>
 				<File Id="266424499" Language="SFX">
 					<ShortName>Clock\Object_Clock_Lp_V2.wav</ShortName>
 					<Path>SFX\Clock\Object_Clock_Lp_V2_2C58F9AF.wem</Path>
@@ -185,6 +204,10 @@
 				<File Id="276866130" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_03.wav</ShortName>
 					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_03_490F0A51.wem</Path>
+				</File>
+				<File Id="277235786" Language="SFX">
+					<ShortName>Piano_Hit.wav</ShortName>
+					<Path>SFX\Piano_Hit_2CD5586A.wem</Path>
 				</File>
 				<File Id="279153955" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
@@ -210,6 +233,10 @@
 					<ShortName>SFX_TypingText.wav</ShortName>
 					<Path>SFX\SFX_TypingText_245974B3.wem</Path>
 				</File>
+				<File Id="345605123" Language="SFX">
+					<ShortName>Kock_Door\Door_Kock.wav</ShortName>
+					<Path>SFX\Kock_Door\Door_Kock_777B46A1.wem</Path>
+				</File>
 				<File Id="350154472" Language="SFX">
 					<ShortName>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</ShortName>
 					<Path>SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_1E8E718D.wem</Path>
@@ -232,7 +259,7 @@
 				</File>
 				<File Id="401611297" Language="SFX">
 					<ShortName>Boss_Hit_Rumble.wav</ShortName>
-					<Path>SFX\Boss_Hit_Rumble_40F1CDEE.wem</Path>
+					<Path>SFX\Boss_Hit_Rumble_08A37C91.wem</Path>
 				</File>
 				<File Id="402750840" Language="SFX">
 					<ShortName>Boss_Hit_Table.wav</ShortName>
@@ -334,6 +361,10 @@
 					<ShortName>Gun\Gun_Fire\Bullet_Shells_02.wav</ShortName>
 					<Path>SFX\Gun\Gun_Fire\Bullet_Shells_02_777B46A1.wem</Path>
 				</File>
+				<File Id="596372333" Language="SFX">
+					<ShortName>Drone_High.wav</ShortName>
+					<Path>SFX\Drone_High_602B6F57.wem</Path>
+				</File>
 				<File Id="604379601" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
 					<Path>SFX\FTS_Female_Asphalt_18014147.wem</Path>
@@ -356,7 +387,7 @@
 				</File>
 				<File Id="678133255" Language="SFX">
 					<ShortName>Boss_Hit_Glass.wav</ShortName>
-					<Path>SFX\Boss_Hit_Glass_9BC4B506.wem</Path>
+					<Path>SFX\Boss_Hit_Glass_DD47F6A3.wem</Path>
 				</File>
 				<File Id="685633141" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_01.wav</ShortName>
@@ -384,7 +415,7 @@
 				</File>
 				<File Id="793125658" Language="SFX">
 					<ShortName>Boss_Hit_Rocks.wav</ShortName>
-					<Path>SFX\Boss_Hit_Rocks_DE57BEF7.wem</Path>
+					<Path>SFX\Boss_Hit_Rocks_CF82D623.wem</Path>
 				</File>
 				<File Id="797223564" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
@@ -396,7 +427,11 @@
 				</File>
 				<File Id="818016258" Language="SFX">
 					<ShortName>Gate\Gate_Ok_Bip.wav</ShortName>
-					<Path>SFX\Gate\Gate_Ok_Bip_3768A44B.wem</Path>
+					<Path>SFX\Gate\Gate_Ok_Bip_3A6AEA60.wem</Path>
+				</File>
+				<File Id="826903921" Language="SFX">
+					<ShortName>Kock_Door\Door_Open.wav</ShortName>
+					<Path>SFX\Kock_Door\Door_Open_CCD45D84.wem</Path>
 				</File>
 				<File Id="829006532" Language="SFX">
 					<ShortName>Elevator\Ambiant_Elevator_Opening.wav</ShortName>
@@ -474,13 +509,17 @@
 					<ShortName>AI_FTS_Stress.wav</ShortName>
 					<Path>SFX\AI_FTS_Stress_F79C1B64.wem</Path>
 				</File>
+				<File Id="969988237" Language="SFX">
+					<ShortName>Kock_Door\Door_Creak.wav</ShortName>
+					<Path>SFX\Kock_Door\Door_Creak_777B46A1.wem</Path>
+				</File>
 				<File Id="971770019" Language="SFX">
 					<ShortName>SFX_TypingText.wav</ShortName>
 					<Path>SFX\SFX_TypingText_F31CA626.wem</Path>
 				</File>
 				<File Id="973772282" Language="SFX">
 					<ShortName>Gate\Gate_Ok_Bip.wav</ShortName>
-					<Path>SFX\Gate\Gate_Ok_Bip_37C282F8.wem</Path>
+					<Path>SFX\Gate\Gate_Ok_Bip_F62D048E.wem</Path>
 				</File>
 				<File Id="978497906" Language="SFX">
 					<ShortName>Pen_Click_Multiple_02.wav</ShortName>
@@ -506,10 +545,6 @@
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_02.wav</ShortName>
 					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_02_930033F7.wem</Path>
 				</File>
-				<File Id="1009989541" Language="SFX">
-					<ShortName>Cartoon, Voice, Male, Says Uh Ohh SND15466 1.wav</ShortName>
-					<Path>SFX\Cartoon, Voice, Male, Says Uh Ohh SND15466 1_C6ECDEE1.wem</Path>
-				</File>
 				<File Id="1013561681" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
 					<Path>SFX\FTS_Female_Asphalt_AE71BE8C.wem</Path>
@@ -525,6 +560,10 @@
 				<File Id="1027884627" Language="SFX">
 					<ShortName>Gun\Explosion_Gore\Explosion_Gore.wav</ShortName>
 					<Path>SFX\Gun\Explosion_Gore\Explosion_Gore_777B46A1.wem</Path>
+				</File>
+				<File Id="1028515003" Language="SFX">
+					<ShortName>Amb_2D_Reception_Lp.wav</ShortName>
+					<Path>SFX\Amb_2D_Reception_Lp_AD35D621.wem</Path>
 				</File>
 				<File Id="1028730438" Language="SFX">
 					<ShortName>Clock\Object_Clock_Lp.wav</ShortName>
