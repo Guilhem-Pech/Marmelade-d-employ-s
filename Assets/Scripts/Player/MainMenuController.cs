@@ -4,32 +4,43 @@ using System.Collections.Generic;
 using Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Playables;
 using UnityEngine.Serialization;
 
 public class MainMenuController : MonoBehaviour
 {
+    public CinemachineBrain brain;
     public CinemachineVirtualCamera _camera;
+    public CinemachineVirtualCamera _cameraAfter;
     public float timeOpening = 0f;
-    public BoxCollider2D door;
+    public PlayableDirector director;
     public PlayerController playerController;
     public GameObject disableMask;
-    
+    public GameObject main;
+    private bool singleTime = false;
     public void OnClick(InputAction.CallbackContext context)
     {
-        StartCoroutine(Open(timeOpening));
+        if(!singleTime)
+            StartCoroutine(Open(timeOpening));
     }
 
-    public IEnumerator Open(float time)
+    private IEnumerator Open(float time)
     {
-        playerController.enabled = true;
+        yield return new WaitForSeconds(0.2f);
+        singleTime = true;
+        main.SetActive(true);
         _camera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_AmplitudeGain = 0;
+        director.Play();
         yield return new WaitForSeconds(time);
         this.enabled = false;
+        _camera.Priority = 9;
+        _cameraAfter.Priority = 10;
+        playerController.StartAutoMove(-43f);
+        playerController.enabled = true;
     }
     
     private void OnDisable()
     {
-        door.enabled = false;
         disableMask.SetActive(false);
     }
 }
