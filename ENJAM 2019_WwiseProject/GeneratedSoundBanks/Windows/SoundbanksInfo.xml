@@ -109,6 +109,10 @@
 					<ShortName>Elevator\Ambiant_Elevator_High_Lp.wav</ShortName>
 					<Path>SFX\Elevator\Ambiant_Elevator_High_Lp_2C58F9AF.wem</Path>
 				</File>
+				<File Id="49804521" Language="SFX">
+					<ShortName>muzak_-_2.wav</ShortName>
+					<Path>SFX\muzak_-_2_2C58F9AF.wem</Path>
+				</File>
 				<File Id="88733922" Language="SFX">
 					<ShortName>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</ShortName>
 					<Path>SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_98A90249.wem</Path>
@@ -160,10 +164,6 @@
 				<File Id="164702294" Language="SFX">
 					<ShortName>Keyboard &amp; Mouse\SFX_Tap_Keyboard_01.wav</ShortName>
 					<Path>SFX\Keyboard &amp; Mouse\SFX_Tap_Keyboard_01_15C5B982.wem</Path>
-				</File>
-				<File Id="166708709" Language="SFX">
-					<ShortName>Bossa Nova Game Theme Loop by Mrthenoronha Id-371844.wav</ShortName>
-					<Path>SFX\Bossa Nova Game Theme Loop by Mrthenoronha Id-371844_2C58F9AF.wem</Path>
 				</File>
 				<File Id="170329498" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>

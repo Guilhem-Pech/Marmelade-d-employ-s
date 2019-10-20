@@ -8001,6 +8001,16 @@
 								<BlendContainer Name="Walking" ID="{3AAD686B-9703-4949-B24F-3DD66110642C}" ShortID="1025056628">
 									<PropertyList>
 										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -10456,7 +10466,7 @@
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>4</Value>
+																<Value>1</Value>
 															</ValueList>
 															<ModifierList>
 																<ModifierInfo>
@@ -11223,7 +11233,7 @@
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-3</Value>
+																<Value>-5</Value>
 															</ValueList>
 															<ModifierList>
 																<ModifierInfo>
@@ -13455,12 +13465,12 @@
 										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
 										<Property Name="UserAuxSendVolume0" Type="Real64">
 											<ValueList>
-												<Value>4</Value>
+												<Value>-4</Value>
 											</ValueList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -13472,23 +13482,28 @@
 											<Custom>
 												<Effect Name="Wwise_Guitar_Distortion_(Custom)" ID="{C5C542FD-C1F4-43FD-AEEC-9F54F3194C29}" ShortID="533673010" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
 													<PropertyList>
-														<Property Name="DistortionDrive" Type="Real32" Value="22"/>
+														<Property Name="DistortionDrive" Type="Real32" Value="34"/>
 														<Property Name="DistortionTone" Type="Real32" Value="17"/>
 														<Property Name="DistortionType" Type="int32" Value="4"/>
 														<Property Name="OutputLevel" Type="Real32" Value="-18"/>
 														<Property Name="PostEQBand1Frequency" Type="Real32" Value="390"/>
+														<Property Name="PostEQBand3Enable" Type="bool" Value="True"/>
+														<Property Name="PostEQBand3FilterType" Type="int32" Value="1"/>
+														<Property Name="PostEQBand3Frequency" Type="Real32" Value="3512"/>
+														<Property Name="PostEQBand3Gain" Type="Real32" Value="-8"/>
+														<Property Name="PostEQBand3QFactor" Type="Real32" Value="4.7"/>
 														<Property Name="PreEQBand1Enable" Type="bool" Value="True"/>
 														<Property Name="PreEQBand1FilterType" Type="int32" Value="4"/>
-														<Property Name="PreEQBand1Frequency" Type="Real32" Value="950"/>
+														<Property Name="PreEQBand1Frequency" Type="Real32" Value="778"/>
 														<Property Name="PreEQBand1Gain" Type="Real32" Value="-38"/>
 														<Property Name="PreEQBand2Enable" Type="bool" Value="True"/>
 														<Property Name="PreEQBand2FilterType" Type="int32" Value="2"/>
 														<Property Name="PreEQBand2Frequency" Type="Real32" Value="921"/>
-														<Property Name="PreEQBand2Gain" Type="Real32" Value="1.5"/>
+														<Property Name="PreEQBand2Gain" Type="Real32" Value="-2"/>
 														<Property Name="PreEQBand3Enable" Type="bool" Value="True"/>
 														<Property Name="PreEQBand3FilterType" Type="int32" Value="3"/>
 														<Property Name="PreEQBand3Frequency" Type="Real32" Value="3225"/>
-														<Property Name="Rectification" Type="Real32" Value="19"/>
+														<Property Name="Rectification" Type="Real32" Value="26"/>
 													</PropertyList>
 												</Effect>
 											</Custom>
@@ -13505,6 +13520,11 @@
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>6</Value>
 													</ValueList>
@@ -13550,20 +13570,13 @@
 													<Language>SFX</Language>
 													<AudioFile>Bossa Nova Game Theme Loop by Mrthenoronha Id-371844.wav</AudioFile>
 												</AudioFileSource>
-												<AudioFileSource Name="02_Shop Channel" ID="{53D134FB-404B-48C7-ADF2-D6CA95C367AC}" ShortID="237864822">
-													<PropertyList>
-														<Property Name="CrossfadeDuration" Type="Real64" Value="30"/>
-														<Property Name="LoopBegin" Type="Real64" Value="6.30500264359811"/>
-														<Property Name="LoopEnd" Type="Real64" Value="110.142953638549"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimEnd" Type="Real64" Value="110.183386872781"/>
-													</PropertyList>
+												<AudioFileSource Name="muzak_-_2" ID="{82896E21-0F16-4538-93DE-F46F8CABC994}" ShortID="49804521">
 													<Language>SFX</Language>
-													<AudioFile>02_Shop Channel.wav</AudioFile>
+													<AudioFile>muzak_-_2.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Bossa Nova Game Theme Loop by Mrthenoronha Id-371844" ID="{832AAE2C-F396-4720-9C94-14C637F58BFF}" Platform="Linked"/>
+												<ActiveSource Name="muzak_-_2" ID="{82896E21-0F16-4538-93DE-F46F8CABC994}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
