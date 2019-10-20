@@ -101,7 +101,7 @@ TextureImporter:
       name: Anim pied_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 0
         width: 50
         height: 100
@@ -112,7 +112,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cb64c7de3c0bbd46895df74b606cccc
+      spriteID: 17ce5c4ab1967914a9f0ab17b81bdeab
       internalID: -1283035042282897761
       vertices: []
       indices: 
@@ -122,9 +122,9 @@ TextureImporter:
       name: Anim pied_1
       rect:
         serializedVersion: 2
-        x: 51
+        x: 50
         y: 0
-        width: 49.5
+        width: 50
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -133,7 +133,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 725c429fedf619840baf77068d1feb96
+      spriteID: 5f9f9f44e72985644b155ae0c691ab10
       internalID: -8236818298576995069
       vertices: []
       indices: 
@@ -145,7 +145,7 @@ TextureImporter:
         serializedVersion: 2
         x: 100
         y: 0
-        width: 49.5
+        width: 50
         height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -154,7 +154,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db687f04d256ec348948d407b65d0405
+      spriteID: b845591b0c21eeb4a9baba4121f9af3e
       internalID: -7462619371781114144
       vertices: []
       indices: 
@@ -164,7 +164,7 @@ TextureImporter:
       name: Anim pied_3
       rect:
         serializedVersion: 2
-        x: 149
+        x: 150
         y: 0
         width: 50
         height: 100
@@ -175,7 +175,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d62105f3392673542a47052f449a87c0
+      spriteID: b827399f9a29c4649a76ca4e06ea95da
       internalID: 5035717412546060523
       vertices: []
       indices: 
