@@ -12,6 +12,7 @@
             <e p="Controls.cs" t="Include" />
           </e>
           <e p="DialogueSystem" t="Include">
+            <e p="Charles.cs" t="Include" />
             <e p="Dialogue.cs" t="Include" />
             <e p="DialogueChoice.cs" t="Include" />
             <e p="DialogueManager.cs" t="Include" />
@@ -25,10 +26,12 @@
           </e>
           <e p="Objects" t="Include">
             <e p="Mask.cs" t="Include" />
+            <e p="SoundTriggerInAnimation.cs" t="Include" />
             <e p="Talkable.cs" t="Include" />
             <e p="Usable.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
+            <e p="CollisionBarking.cs" t="Include" />
             <e p="MainMenuController.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
           </e>
