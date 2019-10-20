@@ -367,7 +367,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Take_Gun" ID="{4169B38F-F4A7-453F-A7D0-E0B0775F8272}">
+				<Event Name="Play_Gun_Take" ID="{4169B38F-F4A7-453F-A7D0-E0B0775F8272}">
 					<ChildrenList>
 						<Action Name="" ID="{D5A0362C-023F-410A-B6DD-BA1DFB9DE983}" ShortID="265193278">
 							<ReferenceList>
@@ -406,6 +406,43 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Gate_Ok" ID="{B9F6B369-2AEC-41B9-95F9-39F61121F094}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Door_Boss" ID="{601D85B5-E2A8-4EDE-9AFF-78A661AFF3D7}">
+					<ChildrenList>
+						<Action Name="" ID="{71070FC6-70DC-4E91-A77B-453DB406BA35}" ShortID="931734265">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Boss" ID="{A1823A58-4264-45B2-99D8-0B77058DFDD5}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Amb_End" ID="{37DD6573-6BFC-4DAD-BF03-57E48B4877EF}">
+					<ChildrenList>
+						<Action Name="" ID="{36066431-0375-4493-A906-0612CDFAC6B5}" ShortID="920062166">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="6.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_End" ID="{95F80F90-F25A-446F-B57E-643F42D74936}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Gun_Ground" ID="{6D73DFAF-9184-4C39-9586-1EC392AA118A}">
+					<ChildrenList>
+						<Action Name="" ID="{4A356B75-A5CC-41FE-A768-1BF58CCD5ABB}" ShortID="456466452">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gun_Ground" ID="{9A27DECD-5FAA-41B4-9DE9-42CCA6315908}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
