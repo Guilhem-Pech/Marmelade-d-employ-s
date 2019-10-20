@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 6177cb08ba364b24c84526a3fecc751a
 TextureImporter:
   internalIDToNameTable:
@@ -41,6 +42,11 @@ TextureImporter:
   - first:
       213: 5391862930778985853
     second: animation flingue_12
+=======
+guid: db12392a0c89c934495a9b4c29df5e89
+TextureImporter:
+  internalIDToNameTable: []
+>>>>>>> master
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -70,7 +76,11 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
+<<<<<<< HEAD
     filterMode: 0
+=======
+    filterMode: -1
+>>>>>>> master
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -79,7 +89,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
   spriteMode: 2
+=======
+  spriteMode: 1
+>>>>>>> master
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -102,6 +116,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -115,6 +130,9 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
+=======
+    textureCompression: 1
+>>>>>>> master
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,6 +141,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
     sprites:
     - serializedVersion: 2
       name: animation flingue_0
@@ -397,6 +416,9 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+=======
+    sprites: []
+>>>>>>> master
     outline: []
     physicsShape: []
     bones: []

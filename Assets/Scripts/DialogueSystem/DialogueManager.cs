@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public enum DialogueStyle {basic, fast};
+public enum DialogueStyle {basic, slow, ultraslow};
 
 public class DialogueManager : MonoBehaviour
 {
@@ -26,10 +26,9 @@ public class DialogueManager : MonoBehaviour
     private int idVoice;
     private Dialogue dialogue;
 
-
-    [SerializeField] private int[] voice;
-    [SerializeField] private float slowLetterDuration = 0.06f;
-    [SerializeField] private float fastLetterDuration = 0.006f;
+    [SerializeField] private float ultraSlowLetterDuration = 0.25f;
+    [SerializeField] private float slowLetterDuration = 0.1f;
+    [SerializeField] private float fastLetterDuration = 0.04f;
     [SerializeField] private GameObject buttonPrefab;
 
 
@@ -54,7 +53,7 @@ public class DialogueManager : MonoBehaviour
                 sentences.Dequeue();
                 if (sentences.Count != 0)
                 {
-                    currentSound = AkSoundEngine.PostEvent(GetVoiceName(voice[idVoice]), gameObject);
+                    currentSound = AkSoundEngine.PostEvent(GetVoiceName(idVoice), gameObject);
                 }
                 currentPosition = 0;
                 counter = 0.0f;
@@ -96,7 +95,7 @@ public class DialogueManager : MonoBehaviour
         choices = theseChoices;
         notPossibleChoice = thisNotPossibleChoice;
         idVoice = thisIdVoice;
-        currentSound = AkSoundEngine.PostEvent(GetVoiceName(voice[idVoice]),gameObject);
+        currentSound = AkSoundEngine.PostEvent(GetVoiceName(idVoice),gameObject);
         dialogue = parent;
     }
 
@@ -128,13 +127,18 @@ public class DialogueManager : MonoBehaviour
         if (active && sentences.Count > 0)
         {
             counter += Time.deltaTime;
-            if ((currentPosition < sentences.Peek().Length) && ((style != DialogueStyle.fast && counter > slowLetterDuration) || (style == DialogueStyle.fast && counter > fastLetterDuration)))
+            if ((currentPosition < sentences.Peek().Length) && ((style == DialogueStyle.slow && counter > slowLetterDuration) || (style == DialogueStyle.ultraslow && counter > ultraSlowLetterDuration) || (style == DialogueStyle.basic && counter > fastLetterDuration)))
             {
                 counter = 0.0f;
                 if (sentences.Peek().Substring(currentPosition, 1).Equals("*"))
                 {
                     ++currentPosition;
-                    style = style == DialogueStyle.fast ? DialogueStyle.basic : DialogueStyle.fast;
+                    style = style == DialogueStyle.slow ? DialogueStyle.basic : DialogueStyle.slow;
+                }
+                else if (sentences.Peek().Substring(currentPosition, 1).Equals("#"))
+                {
+                    ++currentPosition;
+                    style = style == DialogueStyle.ultraslow ? DialogueStyle.basic : DialogueStyle.ultraslow;
                 }
                 else
                 {

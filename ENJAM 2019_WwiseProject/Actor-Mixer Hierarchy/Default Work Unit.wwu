@@ -168,6 +168,9 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Ambiant_Elevator_Opening" ID="{EEDE910C-7DF0-454B-8470-65720C43E3ED}" ShortID="829006532">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Elevator\Ambiant_Elevator_Opening.wav</AudioFile>
 														</AudioFileSource>
@@ -6754,6 +6757,143 @@
 										</BlendContainer>
 									</ChildrenList>
 								</BlendContainer>
+								<BlendContainer Name="Amb_End" ID="{95F80F90-F25A-446F-B57E-643F42D74936}" ShortID="764724493">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>33</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="OpenSpace" ID="{2729BA07-189E-4926-B813-42610ECE0EA3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Amb_2D_Reception_Lp" ID="{652DAF67-AC3B-42B1-836C-211630A3436C}" ShortID="65273146">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="AMBIANCES_2D" ID="{27CFADF9-C42B-45A1-A7A7-749187B9F852}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Amb_2D_Reception_Lp" ID="{80DB86A9-6627-4F43-A233-A53E6EC3784C}" ShortID="1028515003">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="467.127556905114"/>
+														<Property Name="LoopBegin" Type="Real64" Value="1.12110613657228"/>
+														<Property Name="LoopEnd" Type="Real64" Value="21.8304278260324"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.887542358119723"/>
+														<Property Name="TrimEnd" Type="Real64" Value="22.21970079012"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Amb_2D_Reception_Lp.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Amb_2D_Reception_Lp" ID="{80DB86A9-6627-4F43-A233-A53E6EC3784C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Drone_Low" ID="{B4F31E0D-0F0C-4AD6-903A-8812E2A5B2EC}" ShortID="945124554">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Drone_Low" ID="{1A6B475B-370D-46CD-B9F0-7F287CB41BE8}" ShortID="142732868">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="1051.153"/>
+														<Property Name="LoopBegin" Type="Real64" Value="1.36080581241744"/>
+														<Property Name="LoopEnd" Type="Real64" Value="18.9957382794597"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.52765939665166"/>
+														<Property Name="TrimEnd" Type="Real64" Value="19.606712317688"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Drone_Low.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Drone_Low" ID="{1A6B475B-370D-46CD-B9F0-7F287CB41BE8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Drone_High" ID="{0A754D8B-E5F2-49E2-8C59-8DF450D9DE35}" ShortID="912125201">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>23</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>11</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Drone_High" ID="{E634D029-5E7C-4E06-A436-9C2B18A6BDF3}" ShortID="596372333">
+													<PropertyList>
+														<Property Name="CrossfadeDuration" Type="Real64" Value="958.877"/>
+														<Property Name="LoopBegin" Type="Real64" Value="1.84513136650521"/>
+														<Property Name="LoopEnd" Type="Real64" Value="27.7571936004697"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.842342580361075"/>
+														<Property Name="TrimEnd" Type="Real64" Value="28.8803170409511"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Drone_High.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Drone_High" ID="{E634D029-5E7C-4E06-A436-9C2B18A6BDF3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Amb_3D" ID="{8E64168A-41E8-48CA-B53E-A788AA68A212}" ShortID="569951643">
@@ -8854,7 +8994,427 @@
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Piano_OneHit" ID="{09D69E6A-6D62-4636-BC9D-E5CE32113B7A}" ShortID="583676145">
+													<PropertyList>
+														<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+														<Property Name="MaxSoundPerInstance" Type="int16">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
+														<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismLoopCount" Type="int32" Value="1"/>
+														<Property Name="PlayMechanismResetPlaylistEachPlay" Type="bool" Value="False"/>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+														<Property Name="UseMaxSoundPerInstance" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Piano_Hit" ID="{B32B99CC-782B-4163-A909-449B176E3A08}" ShortID="623894026">
+															<PropertyList>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-6</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="OpenSpace" ID="{2729BA07-189E-4926-B813-42610ECE0EA3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Piano_Hit" ID="{A05355DE-CE47-43D7-9ADB-F99AF8F2D36F}" ShortID="277235786">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="1.81284279453746E-02"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="2.09383342769076"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="7.25137117814982E-02"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="4.40520799072601"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Piano_Hit.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Piano_Hit" ID="{A05355DE-CE47-43D7-9ADB-F99AF8F2D36F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence" ID="{E7B13151-A8F3-4185-A3FA-2D23B3022FB5}" ShortID="488864642">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Wwise Silence" ID="{C8D32E3D-B1C5-49C4-86C3-D5480A77CDAE}" ShortID="665708191" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wwise Silence" ID="{C8D32E3D-B1C5-49C4-86C3-D5480A77CDAE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_01" ID="{DA581A3E-0CCC-4DB2-9C35-D306CE8E1A0F}" ShortID="652374684">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-6</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="OpenSpace" ID="{2729BA07-189E-4926-B813-42610ECE0EA3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Wwise Silence" ID="{EB465755-DF63-4AC3-8466-4D14DAACC912}" ShortID="1013067755" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wwise Silence" ID="{EB465755-DF63-4AC3-8466-4D14DAACC912}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_02" ID="{0993759C-783B-4286-AB77-341EEF443700}" ShortID="502799066">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-6</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="OpenSpace" ID="{2729BA07-189E-4926-B813-42610ECE0EA3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Wwise Silence" ID="{BEE3B576-7516-4E32-A322-CF44DD0F713C}" ShortID="172039892" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wwise Silence" ID="{BEE3B576-7516-4E32-A322-CF44DD0F713C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_03" ID="{4B2AA829-990A-4B77-8A2C-279BA6EDE8CD}" ShortID="857772580">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-6</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="OpenSpace" ID="{2729BA07-189E-4926-B813-42610ECE0EA3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Wwise Silence" ID="{34164C5D-E52F-4E3D-802D-F5F1F86C8D71}" ShortID="491479377" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wwise Silence" ID="{34164C5D-E52F-4E3D-802D-F5F1F86C8D71}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_04" ID="{47E3B65F-EBA8-4BEE-A0A5-0D37F7DF561E}" ShortID="79304521">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-6</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="OpenSpace" ID="{2729BA07-189E-4926-B813-42610ECE0EA3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Wwise Silence" ID="{2C696968-547A-47B1-BDEB-2E8A515238D8}" ShortID="218181071" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wwise Silence" ID="{2C696968-547A-47B1-BDEB-2E8A515238D8}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_05" ID="{B5022FDA-2A03-4F81-AA9A-639E33F12CAF}" ShortID="815469430">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-6</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="OpenSpace" ID="{2729BA07-189E-4926-B813-42610ECE0EA3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Wwise Silence" ID="{A322DCEC-D1F2-4F04-BF94-28BE3BC3BCD5}" ShortID="387318802" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wwise Silence" ID="{A322DCEC-D1F2-4F04-BF94-28BE3BC3BCD5}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_06" ID="{A29D5E9F-1FAF-4379-B5A1-9ED622FF247A}" ShortID="253097796">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-6</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="OpenSpace" ID="{2729BA07-189E-4926-B813-42610ECE0EA3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Wwise Silence" ID="{C520D3C4-E929-4B44-870E-70DB1F264C66}" ShortID="90049729" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wwise Silence" ID="{C520D3C4-E929-4B44-870E-70DB1F264C66}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_07" ID="{D01A5A9D-7891-497B-B03F-4F4181BA45B6}" ShortID="598428629">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-6</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="OpenSpace" ID="{2729BA07-189E-4926-B813-42610ECE0EA3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Wwise Silence" ID="{FDFA76EA-998B-44C3-9F9C-6D1BBCB0D4CF}" ShortID="882858650" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wwise Silence" ID="{FDFA76EA-998B-44C3-9F9C-6D1BBCB0D4CF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_08" ID="{8EF9769F-107C-4B2E-9C3B-2E54C0E6397D}" ShortID="92575951">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-6</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="OpenSpace" ID="{2729BA07-189E-4926-B813-42610ECE0EA3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Wwise Silence" ID="{ED834C8B-756C-4E0E-9127-8BAA27AE57B3}" ShortID="379743182" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wwise Silence" ID="{ED834C8B-756C-4E0E-9127-8BAA27AE57B3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Silence_09" ID="{69EA0227-5157-4D55-9618-4C7FB6CFAE59}" ShortID="662127938">
+															<PropertyList>
+																<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>-6</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="OpenSpace" ID="{2729BA07-189E-4926-B813-42610ECE0EA3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<SourcePlugin Name="Wwise Silence" ID="{8A9B8893-A9AA-429D-AA65-F8DB4CDC3DFE}" ShortID="788742225" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																	<Language>SFX</Language>
+																</SourcePlugin>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Wwise Silence" ID="{8A9B8893-A9AA-429D-AA65-F8DB4CDC3DFE}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<Playlist>
+														<ItemRef Name="Piano_Hit" ID="{B32B99CC-782B-4163-A909-449B176E3A08}"/>
+														<ItemRef Name="Silence" ID="{E7B13151-A8F3-4185-A3FA-2D23B3022FB5}"/>
+														<ItemRef Name="Silence_01" ID="{DA581A3E-0CCC-4DB2-9C35-D306CE8E1A0F}"/>
+														<ItemRef Name="Silence_02" ID="{0993759C-783B-4286-AB77-341EEF443700}"/>
+														<ItemRef Name="Silence_03" ID="{4B2AA829-990A-4B77-8A2C-279BA6EDE8CD}"/>
+														<ItemRef Name="Silence_04" ID="{47E3B65F-EBA8-4BEE-A0A5-0D37F7DF561E}"/>
+														<ItemRef Name="Silence_08" ID="{8EF9769F-107C-4B2E-9C3B-2E54C0E6397D}"/>
+														<ItemRef Name="Silence_05" ID="{B5022FDA-2A03-4F81-AA9A-639E33F12CAF}"/>
+														<ItemRef Name="Silence_07" ID="{D01A5A9D-7891-497B-B03F-4F4181BA45B6}"/>
+														<ItemRef Name="Silence_06" ID="{A29D5E9F-1FAF-4379-B5A1-9ED622FF247A}"/>
+														<ItemRef Name="Silence_09" ID="{69EA0227-5157-4D55-9618-4C7FB6CFAE59}"/>
+													</Playlist>
+												</RandomSequenceContainer>
 											</ChildrenList>
+										</BlendContainer>
+										<BlendContainer Name="Gun_Ground" ID="{9A27DECD-5FAA-41B4-9DE9-42CCA6315908}" ShortID="252156801">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reception" ID="{152D5731-6A43-4C7B-AA3B-196CC1E7BC26}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gun_Hit_Ground" ID="{AD8567BB-5FA1-4676-9143-E9E64AD225C3}" ShortID="136769708">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gun_Hit_Ground" ID="{2D54EA4B-FD60-4793-A46E-3DB282F21187}" ShortID="111277151">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.589350191860099"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.990521901406973"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Gun_Ground\Gun_Hit_Ground.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gun_Hit_Ground" ID="{2D54EA4B-FD60-4793-A46E-3DB282F21187}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{1868F656-890F-4E66-ADB3-EFE251E64BAE}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="-41.4201183431953"/>
+														<Property Name="PanY" Type="Real64" Value="82.6833073322933"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
 										</BlendContainer>
 									</ChildrenList>
 								</BlendContainer>
@@ -9062,6 +9622,371 @@
 												</Sound>
 											</ChildrenList>
 										</BlendContainer>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="Door_Boss" ID="{A1823A58-4264-45B2-99D8-0B77058DFDD5}" ShortID="630441608">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Kock_Door" ID="{585CDDEE-8AB8-4A9D-8A60-BDB240123107}" ShortID="154301076">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{6818484B-B051-495D-B609-610943D2CE65}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Door_Kock" ID="{234EEDD1-8BCD-4B5C-82DD-32B26673E839}" ShortID="1007697901">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Door_Kock" ID="{1EBFDECB-DC26-4721-BDD4-9E875A6BBD68}" ShortID="345605123">
+															<Language>SFX</Language>
+															<AudioFile>Kock_Door\Door_Kock.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Door_Kock" ID="{1EBFDECB-DC26-4721-BDD4-9E875A6BBD68}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<BlendContainer Name="Door_Open_Creak" ID="{9CCBC95A-8D13-481F-A362-06DA30981664}" ShortID="36423926">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="Voice" ID="{BB17B1E8-0F2D-483B-A2FE-365C01A39DE5}" ShortID="282049647">
+															<PropertyList>
+																<Property Name="InitialDelay" Type="Real64">
+																	<ValueList>
+																		<Value>0.5</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+																<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>-910</Value>
+																	</ValueList>
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{7BDBDB42-451A-4DB4-8DBA-177C0D41764D}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Min" Type="Real64" Value="-632"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
+																<Property Name="PlayMechanismLoopCount" Type="int32" Value="1"/>
+																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+																<Property Name="UserAuxSendVolume0" Type="Real64">
+																	<ValueList>
+																		<Value>6</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>3</Value>
+																	</ValueList>
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{3B2AE2AC-6FF9-4D89-ADB5-274D34FD8673}"/>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+																<Property Name="Weight" Type="Real64">
+																	<ValueList>
+																		<Value>21</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+																<Reference Name="UserAuxSend0">
+																	<ObjectRef Name="OpenSpace" ID="{2729BA07-189E-4926-B813-42610ECE0EA3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Voice_01" ID="{08F4F9EF-39BA-4127-BE2E-E30EF51FB56F}" ShortID="341169002">
+																	<PropertyList>
+																		<Property Name="Weight" Type="Real64">
+																			<ValueList>
+																				<Value>47.001</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B719F101-F240-481F-BF11-B0C83B0AC25D}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431" ID="{2ABA0953-5897-4B3B-ADCF-2D059CF5E281}" ShortID="88733922">
+																			<PropertyList>
+																				<Property Name="FadeInDuration" Type="Real64" Value="4.9842442756495E-03"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="2.99054656538972E-03"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.241237422941436"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="0.28509877256715"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</AudioFile>
+																		</AudioFileSource>
+																		<AudioFileSource Name="Cartoon, Voice, Male, Says Uh Ohh SND15466 1" ID="{373F82CC-445A-4F6A-A183-C6F6C051AFFB}" ShortID="26275868">
+																			<PropertyList>
+																				<Property Name="FadeInDuration" Type="Real64" Value="6.27983267283135E-03"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="2.04094561867019E-02"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="5.25935986349627E-02"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Cartoon, Voice, Male, Says Uh Ohh SND15466 1.wav</AudioFile>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Cartoon, Voice, Male, Says Uh Ohh SND15466 1" ID="{373F82CC-445A-4F6A-A183-C6F6C051AFFB}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Silence" ID="{BE7A60BC-65C2-438B-A0E3-00776A572F17}" ShortID="528172938">
+																	<PropertyList>
+																		<Property Name="Weight" Type="Real64">
+																			<ValueList>
+																				<Value>9</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<SourcePlugin Name="Wwise Silence" ID="{30399D90-775C-4EF9-BE75-1B0B55C68026}" ShortID="435705031" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+																			<PropertyList>
+																				<Property Name="Length" Type="Real32" Value="0.001"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																		</SourcePlugin>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Wwise Silence" ID="{30399D90-775C-4EF9-BE75-1B0B55C68026}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Voice_04" ID="{68F5159A-5556-453D-989E-C1EF4DB3D6AA}" ShortID="142893440">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64">
+																			<ValueList>
+																				<Value>3</Value>
+																			</ValueList>
+																		</Property>
+																		<Property Name="Weight" Type="Real64">
+																			<ValueList>
+																				<Value>47.001</Value>
+																			</ValueList>
+																		</Property>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431" ID="{F9B1627C-9130-47F9-9516-7972C1B0DC74}" ShortID="942178555">
+																			<PropertyList>
+																				<Property Name="FadeInDuration" Type="Real64" Value="4.9842442756495E-03"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="2.99054656538972E-03"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.241237422941436"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="0.28509877256715"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</AudioFile>
+																			<ConvertedFileIDList>
+																				<File ID="88733922"/>
+																			</ConvertedFileIDList>
+																		</AudioFileSource>
+																		<AudioFileSource Name="Cartoon, Voice, Male, Says Uh Ohh SND15466 1" ID="{421A8D22-998F-4972-9E75-3237F5336020}" ShortID="145962925">
+																			<PropertyList>
+																				<Property Name="FadeInDuration" Type="Real64" Value="6.27983267283135E-03"/>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="2.04094561867019E-02"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="0.376789960369881"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="0.449008036107442"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Cartoon, Voice, Male, Says Uh Ohh SND15466 1.wav</AudioFile>
+																			<ConvertedFileIDList>
+																				<File ID="741352547"/>
+																			</ConvertedFileIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Cartoon, Voice, Male, Says Uh Ohh SND15466 1" ID="{421A8D22-998F-4972-9E75-3237F5336020}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+															<PositioningInfo>
+																<Panner Name="" ID="{A3A53493-EEDD-4598-9F43-500D2CBC8E58}">
+																	<PropertyList>
+																		<Property Name="PanX" Type="Real64" Value="85.5029585798817"/>
+																		<Property Name="PanY" Type="Real64" Value="83.9313572542902"/>
+																	</PropertyList>
+																</Panner>
+															</PositioningInfo>
+														</RandomSequenceContainer>
+														<BlendContainer Name="Door_Open" ID="{4601111B-C00A-470B-BD3A-A20F2FCDC1F9}" ShortID="179004984">
+															<PropertyList>
+																<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-6</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Door_Creak" ID="{23FD635C-78BE-4F52-89E9-CB9E38143E8F}" ShortID="925700940">
+																	<PropertyList>
+																		<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+																	</PropertyList>
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																		</Reference>
+																		<Reference Name="UserAuxSend0">
+																			<ObjectRef Name="OpenSpace" ID="{2729BA07-189E-4926-B813-42610ECE0EA3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Door_Creak" ID="{2883AA11-7065-40AA-B32A-7784B2FE8CA3}" ShortID="969988237">
+																			<Language>SFX</Language>
+																			<AudioFile>Kock_Door\Door_Creak.wav</AudioFile>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Door_Creak" ID="{2883AA11-7065-40AA-B32A-7784B2FE8CA3}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Door_Open" ID="{0837B3AC-3D12-465A-B92B-3F2C5679F313}" ShortID="130009381">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Door_Open" ID="{D393F79E-48BC-4038-8986-95F12495BE0C}" ShortID="826903921">
+																			<PropertyList>
+																				<Property Name="LoopBegin" Type="Real64" Value="8.18612676246192E-02"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimBegin" Type="Real64" Value="8.18612676246192E-02"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Kock_Door\Door_Open.wav</AudioFile>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Door_Open" ID="{D393F79E-48BC-4038-8986-95F12495BE0C}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+																<Sound Name="Door_Unlock" ID="{B42C9723-081D-46DB-A703-8D0412DF265A}" ShortID="713107888">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Door_Unlock" ID="{CD49DA12-FEA0-4438-9538-C0EBB85D5FF7}" ShortID="9024104">
+																			<PropertyList>
+																				<Property Name="FadeOutDuration" Type="Real64" Value="0.813473401690046"/>
+																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																				<Property Name="TrimEnd" Type="Real64" Value="1.54619760541821"/>
+																			</PropertyList>
+																			<Language>SFX</Language>
+																			<AudioFile>Kock_Door\Door_Unlock.wav</AudioFile>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Door_Unlock" ID="{CD49DA12-FEA0-4438-9538-C0EBB85D5FF7}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+														</BlendContainer>
+													</ChildrenList>
+												</BlendContainer>
+											</ChildrenList>
+											<Playlist>
+												<ItemRef Name="Door_Kock" ID="{234EEDD1-8BCD-4B5C-82DD-32B26673E839}"/>
+												<ItemRef Name="Door_Open_Creak" ID="{9CCBC95A-8D13-481F-A362-06DA30981664}"/>
+											</Playlist>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</BlendContainer>
 							</ChildrenList>
@@ -9592,7 +10517,7 @@
 																	<Language>SFX</Language>
 																	<AudioFile>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</AudioFile>
 																	<ConvertedFileIDList>
-																		<File ID="241693296"/>
+																		<File ID="88733922"/>
 																	</ConvertedFileIDList>
 																</AudioFileSource>
 															</ChildrenList>
@@ -10359,7 +11284,7 @@
 																	<Language>SFX</Language>
 																	<AudioFile>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</AudioFile>
 																	<ConvertedFileIDList>
-																		<File ID="241693296"/>
+																		<File ID="88733922"/>
 																	</ConvertedFileIDList>
 																</AudioFileSource>
 															</ChildrenList>
@@ -11269,7 +12194,7 @@
 																	<Language>SFX</Language>
 																	<AudioFile>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</AudioFile>
 																	<ConvertedFileIDList>
-																		<File ID="241693296"/>
+																		<File ID="88733922"/>
 																	</ConvertedFileIDList>
 																</AudioFileSource>
 																<AudioFileSource Name="Cartoon, Voice, Male, Says Uh Ohh SND15466 1" ID="{958009E1-C543-488B-A2E9-9AD2CE28B041}" ShortID="1009989541">
@@ -11281,6 +12206,9 @@
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>Cartoon, Voice, Male, Says Uh Ohh SND15466 1.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="26275868"/>
+																	</ConvertedFileIDList>
 																</AudioFileSource>
 															</ChildrenList>
 															<ActiveSourceList>
@@ -11377,7 +12305,7 @@
 																	<Language>SFX</Language>
 																	<AudioFile>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</AudioFile>
 																	<ConvertedFileIDList>
-																		<File ID="241693296"/>
+																		<File ID="88733922"/>
 																	</ConvertedFileIDList>
 																</AudioFileSource>
 																<AudioFileSource Name="Cartoon, Voice, Male, Says Uh Ohh SND15466 1" ID="{9CB57222-9676-4B51-B116-02735BAB6B93}" ShortID="576970077">
@@ -11424,7 +12352,7 @@
 																	<Language>SFX</Language>
 																	<AudioFile>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</AudioFile>
 																	<ConvertedFileIDList>
-																		<File ID="241693296"/>
+																		<File ID="88733922"/>
 																	</ConvertedFileIDList>
 																</AudioFileSource>
 																<AudioFileSource Name="Cartoon, Voice, Male, Says Uh Ohh SND15466 1" ID="{91E8AC2D-3FD4-4F99-B0F6-4494054B57A2}" ShortID="1029157515">
@@ -11471,7 +12399,7 @@
 																	<Language>SFX</Language>
 																	<AudioFile>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</AudioFile>
 																	<ConvertedFileIDList>
-																		<File ID="241693296"/>
+																		<File ID="88733922"/>
 																	</ConvertedFileIDList>
 																</AudioFileSource>
 																<AudioFileSource Name="Cartoon, Voice, Male, Says Uh Ohh SND15466 1" ID="{0C07114B-433F-4E93-B364-8DFC040288FB}" ShortID="741352547">
@@ -12639,6 +13567,48 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="Music_Boss" ID="{72D60A4C-B4D2-43B1-958B-89002A1B34A7}" ShortID="172245206">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>22</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>42</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Workspace" ID="{05F8B9F2-DF43-4608-8B44-3A09A1E4D742}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+										</Reference>
+									</ReferenceList>
+									<PositioningInfo>
+										<Panner Name="" ID="{6B7578BC-8972-4E77-A32A-6C4636BEE6F4}">
+											<PropertyList>
+												<Property Name="PanX" Type="Real64" Value="0.295857988165673"/>
+												<Property Name="PanY" Type="Real64" Value="92.0436817472699"/>
+											</PropertyList>
+										</Panner>
+									</PositioningInfo>
 								</BlendContainer>
 							</ChildrenList>
 						</BlendContainer>
