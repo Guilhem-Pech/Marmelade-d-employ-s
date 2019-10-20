@@ -9,7 +9,7 @@ public class Killable : MonoBehaviour , Usable
    public SpriteRenderer youButDed;
    private OutlineEffect _outlineEffect;
 
-   private void Awake()
+   public void SetOutline()
    {
       if (!GetComponent<OutlineEffect>())
       {
