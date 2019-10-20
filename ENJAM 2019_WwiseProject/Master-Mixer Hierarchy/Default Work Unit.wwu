@@ -9,6 +9,53 @@
 							<ObjectRef Name="System" ID="{E377316A-ED3C-4CEA-B88A-2E94913F7396}" WorkUnitID="{3AA8F3AF-140A-4C40-9607-32A4F70B2116}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="AMBIANCES" ID="{66148E0E-C297-43E8-BB7E-B034F6E945E8}">
+							<ChildrenList>
+								<Bus Name="AMBIANCES_2D" ID="{27CFADF9-C42B-45A1-A7A7-749187B9F852}"/>
+								<Bus Name="AMBIANCES_3D" ID="{178C31AE-E3E0-4065-9010-10DDF303D238}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="OBJECTS" ID="{D3D6E6A7-72BB-4FCA-A4C8-5044B8D0F8D6}"/>
+						<Bus Name="SFX" ID="{83B5B3EA-0A88-429A-B5CC-1A3C9F9CA98A}">
+							<ChildrenList>
+								<Bus Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}"/>
+								<Bus Name="AI" ID="{BCA007A5-9B91-45F3-B9A9-962C58768098}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="MUSIC" ID="{961CA982-BE7E-4EBA-B98C-D5514B93A0A8}">
+							<ChildrenList>
+								<Bus Name="Music_In" ID="{DFA9E9A6-35C2-4079-8760-43C7E581C387}"/>
+								<Bus Name="Music_Out" ID="{CE916D4B-1BC4-436E-BB33-DBB19B901218}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="REVERBS" ID="{2E388419-9B47-4B90-BF58-03D670858B89}">
+							<ChildrenList>
+								<AuxBus Name="Elevator" ID="{207C22B7-A721-4805-88EA-8C476CFCDC1D}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Aluminium_Tank" ID="{0D20C91A-F750-47E0-AE32-00E5F2AA1272}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="OpenSpace" ID="{2729BA07-189E-4926-B813-42610ECE0EA3}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Room_Medium_High_Absorbtion" ID="{E22DBBB6-7656-4B93-A28D-C003FD416889}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+								<AuxBus Name="Welcome" ID="{152D5731-6A43-4C7B-AA3B-196CC1E7BC26}"/>
+								<AuxBus Name="Workspace" ID="{05F8B9F2-DF43-4608-8B44-3A09A1E4D742}">
+									<ReferenceList>
+										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="My_Closet" ID="{384A82A1-3C92-4AC5-AFC2-474F2080642C}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

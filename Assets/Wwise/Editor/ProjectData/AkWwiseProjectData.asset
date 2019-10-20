@@ -17,21 +17,73 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3790e99a5dd4a7409c9b540a5f2e6174
     GuidInternal: 
-    m_lastTime: -8586301343551872313
+    m_lastTime: -8586301291585167705
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: c2123d2667a31f4e99b73846efbbbe3e
     GuidInternal: 
-    m_lastTime: -8586301343552570684
-    List: []
+    m_lastTime: -8586300920973803974
+    List:
+    - name: Elevator
+      guid: b7227c2021a7054888ea8c476cfcdc1d
+      id: 3705378287
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: REVERBS
+        ObjectType: 2
+      - ElementName: Elevator
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\REVERBS\Elevator
+    - name: OpenSpace
+      guid: 07ba29279e182649b81342610ece0ea3
+      id: 920540693
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: REVERBS
+        ObjectType: 2
+      - ElementName: OpenSpace
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\REVERBS\OpenSpace
+    - name: Welcome
+      guid: 31572d15436a7b4caa3b196cc1e7bc26
+      id: 2421980327
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: REVERBS
+        ObjectType: 2
+      - ElementName: Welcome
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\REVERBS\Welcome
+    - name: Workspace
+      guid: f2b9f80543df08468b443a09a1e4d742
+      id: 1777547212
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: REVERBS
+        ObjectType: 2
+      - ElementName: Workspace
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\REVERBS\Workspace
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 31e9206dfc5d43408b21fbebfdad0ab8
     GuidInternal: 
-    m_lastTime: -8586301293562449877
+    m_lastTime: -8586301096898844436
     List:
     - name: Marmelade
       guid: c9f1ad2b34682248a241270851b0669d
@@ -47,53 +99,197 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3a01f2064617d344bbc0014585fcda00
     GuidInternal: 
-    m_lastTime: -8586301295846795098
+    m_lastTime: -8586300921391805974
     List:
-    - name: Play_Tension_Test
-      guid: 454d95be9ab7b348bac4e59dd49dc61e
-      id: 2362122491
+    - name: Play_Amb_Workspace
+      guid: 85319194022c77449f9f7e552b480bf9
+      id: 4111603208
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_Tension_Test
+      - ElementName: Play_Amb_Workspace
         ObjectType: 3
-      Path: Default Work Unit\Play_Tension_Test
+      Path: Default Work Unit\Play_Amb_Workspace
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Test2D
-      guid: 73060ebc2d81c24aba9d9e60dd1c4fbb
-      id: 2238930752
+    - name: Play_Fan_Lp
+      guid: bc356064fd7900489f7444cf299c4b0f
+      id: 2167671212
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_Test2D
+      - ElementName: Play_Fan_Lp
         ObjectType: 3
-      Path: Default Work Unit\Play_Test2D
+      Path: Default Work Unit\Play_Fan_Lp
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_Test3D
-      guid: 33baa360646fca439555e3688a0e5229
-      id: 2255708371
+    - name: Play_Keyboard_01
+      guid: bba3954aa082ea49b290af8401475c62
+      id: 3674702605
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Play_Test3D
+      - ElementName: Play_Keyboard_01
         ObjectType: 3
-      Path: Default Work Unit\Play_Test3D
+      Path: Default Work Unit\Play_Keyboard_01
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Stop_Test2D
-      guid: ade89a8822a5ab46a3523c2cc955c34f
-      id: 868960062
+    - name: Play_Keyboard_02
+      guid: 993e7aaabd1a514c9fd6cfc0a84e6889
+      id: 3674702606
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Stop_Test2D
+      - ElementName: Play_Keyboard_02
         ObjectType: 3
-      Path: Default Work Unit\Stop_Test2D
+      Path: Default Work Unit\Play_Keyboard_02
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Keyboard_03
+      guid: 6863570279b3b74ca45cf19793942647
+      id: 3674702607
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Keyboard_03
+        ObjectType: 3
+      Path: Default Work Unit\Play_Keyboard_03
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Keyboard_04
+      guid: 90f816e26c38aa4a934aaafcedff149f
+      id: 3674702600
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Keyboard_04
+        ObjectType: 3
+      Path: Default Work Unit\Play_Keyboard_04
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Keyboard_05
+      guid: 8a0484a5dbf9ed4cab7bf85415acd135
+      id: 3674702601
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Keyboard_05
+        ObjectType: 3
+      Path: Default Work Unit\Play_Keyboard_05
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Object_CoffeeMachine_Activated
+      guid: bfec053521e09c4795e20664bc008628
+      id: 1106433289
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Object_CoffeeMachine_Activated
+        ObjectType: 3
+      Path: Default Work Unit\Play_Object_CoffeeMachine_Activated
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Object_CoffeeMachine_Lp
+      guid: 91ac3c5e51950f40846a6a628e9c28ad
+      id: 858668496
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Object_CoffeeMachine_Lp
+        ObjectType: 3
+      Path: Default Work Unit\Play_Object_CoffeeMachine_Lp
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Voice_Text_Boss
+      guid: 28e6c42a9ebe3b4cab74ac3963d018ce
+      id: 1952082182
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Voice_Text_Boss
+        ObjectType: 3
+      Path: Default Work Unit\Play_Voice_Text_Boss
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Voice_Text_Female
+      guid: d3c8ca5ba80f5f4da843716ea9d448fb
+      id: 3113663929
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Voice_Text_Female
+        ObjectType: 3
+      Path: Default Work Unit\Play_Voice_Text_Female
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Voice_Text_Male
+      guid: b16db4f26df4394f9eba30863b18cc42
+      id: 4019994706
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Voice_Text_Male
+        ObjectType: 3
+      Path: Default Work Unit\Play_Voice_Text_Male
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Walking
+      guid: 28e404050af8594ba77978f95f2ebb30
+      id: 1733885923
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Walking
+        ObjectType: 3
+      Path: Default Work Unit\Play_Walking
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Voice_Text_Boss
+      guid: 5efa4ee6a0952846a8bcba621b636208
+      id: 2851638236
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Voice_Text_Boss
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Voice_Text_Boss
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Voice_Text_Female
+      guid: fcb5cdfcfbe7324daa0539b044ae54ad
+      id: 3343170315
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Voice_Text_Female
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Voice_Text_Female
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Voice_Text_Male
+      guid: 6b0b3255fbcc674e8203c430d9be7a53
+      id: 1076911320
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Voice_Text_Male
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Voice_Text_Male
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -102,7 +298,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 7d8ea5dc4ede4c4cba3ec7662ccf3688
     GuidInternal: 
-    m_lastTime: -8586301297825799629
+    m_lastTime: -8586301291586125230
     List:
     - name: RTPC_Tension
       guid: f92d340feaee8345a5d82a20272ec287
@@ -118,21 +314,21 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: d05f0b839e0bb94b89146c1aea7712ff
     GuidInternal: 
-    m_lastTime: -8586301343552002245
+    m_lastTime: -8586301291584150419
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: f8c907c0c9ae05429857bc83d634bb6e
     GuidInternal: 
-    m_lastTime: -8586301343551942400
+    m_lastTime: -8586301291584559034
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 084a5c34028ce749b3e042c331e05d96
     GuidInternal: 
-    m_lastTime: -8586301343552959687
+    m_lastTime: -8586301291585875536
     List: []
   ExpandedItems:
   - /ENJAM 2019_WwiseProject

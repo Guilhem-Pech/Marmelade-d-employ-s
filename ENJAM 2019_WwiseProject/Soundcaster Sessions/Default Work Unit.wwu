@@ -1,6 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9B76FDC3-2F98-4CB1-8633-64A78AE40075}" SchemaVersion="94">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{9B76FDC3-2F98-4CB1-8633-64A78AE40075}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9B76FDC3-2F98-4CB1-8633-64A78AE40075}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Marmelade" ID="{965866D4-558E-4F26-965C-C0DCF57A46A6}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Amb_Elevator_Loop" ID="{CD9783F6-205C-41D5-B2EC-DD5AE7C9DE05}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Walking" ID="{0504E428-F80A-4B59-A779-78F95F2EBB30}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Fan_Lp" ID="{646035BC-79FD-4800-9F74-44CF299C4B0F}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Object_CoffeeMachine_Lp" ID="{5E3CAC91-9551-400F-846A-6A628E9C28AD}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Amb_Elevator_Open" ID="{6C3919FE-5A85-4FD1-82EF-8DD18A5C5BDA}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Voice_Text_Boss" ID="{2AC4E628-BE9E-4C3B-AB74-AC3963D018CE}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Keyboard_01" ID="{4A95A3BB-82A0-49EA-B290-AF8401475C62}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Object_CoffeeMachine_Activated" ID="{3505ECBF-E021-479C-95E2-0664BC008628}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Amb_Workspace" ID="{94913185-2C02-4477-9F9F-7E552B480BF9}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Voice_Text_Female" ID="{5BCAC8D3-0FA8-4D5F-A843-716EA9D448FB}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Keyboard_02" ID="{AA7A3E99-1ABD-4C51-9FD6-CFC0A84E6889}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Voice_Text_Male" ID="{F2B46DB1-F46D-4F39-9EBA-30863B18CC42}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Keyboard_03" ID="{02576368-B379-4CB7-A45C-F19793942647}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Keyboard_04" ID="{E216F890-386C-4AAA-934A-AAFCEDFF149F}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Keyboard_05" ID="{A584048A-F9DB-4CED-AB7B-F85415ACD135}" WorkUnitID="{06F2013A-1746-44D3-BBC0-014585FCDA00}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Tension" ID="{0F342DF9-EEEA-4583-A5D8-2A20272EC287}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
