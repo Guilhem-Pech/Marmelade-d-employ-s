@@ -21,7 +21,6 @@ public class Killable : MonoBehaviour , Usable
    
    public void Use(PlayerController user)
    {
-      print("ksddfbfgddf");
       // TODO MUSIC AND FADE
       foreach (SpriteRenderer sprite in alive)
       {
