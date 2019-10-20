@@ -7,7 +7,16 @@ namespace Objects
     {
         public float distance = 2;
 
-        
+        private void Awake()
+        {
+            if (!GetComponent<OutlineEffect>())
+            {
+                gameObject.AddComponent<OutlineEffect>();
+                gameObject.tag = "Usable"; 
+            }
+                
+        }
+
         public void Use(PlayerController user)
         {
            
