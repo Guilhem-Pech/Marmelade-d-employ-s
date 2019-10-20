@@ -34,10 +34,12 @@ public class PlayerController : MonoBehaviour
     {
         if(!context.performed || Math.Abs(XAxis) > 0.2f) return;
         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
- 
-        if(hit.collider != null && hit.transform.parent && hit.transform.parent.gameObject.CompareTag("Usable") )
+        if(hit.collider != null  && hit.transform.gameObject.CompareTag("Usable") )
         {
-            hit.transform.parent.gameObject.GetComponent<Usable>().Use(this);
+            if(!GameManager.bersekModActivated)
+                hit.transform.gameObject.GetComponent<Talkable>().Use(this);
+            else
+                hit.transform.gameObject.GetComponent<Killable>().Use(this);
         }
 
     }
