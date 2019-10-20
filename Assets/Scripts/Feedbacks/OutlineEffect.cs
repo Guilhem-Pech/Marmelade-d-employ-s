@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+[ExecuteAlways]
 [RequireComponent(typeof(SpriteRenderer))]
 public class OutlineEffect : MonoBehaviour
 {
