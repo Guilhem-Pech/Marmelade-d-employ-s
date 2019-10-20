@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c7c315ad40aabff46aa1eb9e7eafef11, type: 3}
-  m_Name: 55320B6B-CCFB-4E67-8203-C430D9BE7A53
+  m_Name: 02576368-B379-4CB7-A45C-F19793942647
   m_EditorClassIdentifier: 
-  objectName: Stop_Voice_Text_Male
-  id: 1076911320
-  guid: 55320B6B-CCFB-4E67-8203-C430D9BE7A53
+  objectName: Play_Keyboard_03
+  id: 3674702607
+  guid: 02576368-B379-4CB7-A45C-F19793942647

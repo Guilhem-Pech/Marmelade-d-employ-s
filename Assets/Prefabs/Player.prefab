@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3316147651508769500}
   - component: {fileID: 3316147651508769503}
   - component: {fileID: 3316147651508769490}
+  - component: {fileID: 9126696641521860332}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -113,6 +114,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 9126696641521860332}
+        m_MethodName: OnClick
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 35898d19-173d-429f-b2ed-47939a684dea
     m_ActionName: Player/Action[/Mouse/leftButton]
   m_NeverAutoSwitchControlSchemes: 0
@@ -141,6 +153,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &9126696641521860332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3316147651508769502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a0a622453391841ae782f002fd5bf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _camera: {fileID: 0}
+  timeOpening: 0
+  door: {fileID: 0}
+  playerController: {fileID: 3316147651508769500}
+  TEMPTODISABLE: {fileID: 0}
 --- !u!1 &3316147651887018028
 GameObject:
   m_ObjectHideFlags: 0
@@ -152,6 +181,7 @@ GameObject:
   - component: {fileID: 3316147651887018029}
   - component: {fileID: 3316147651887018018}
   - component: {fileID: 3316147651887018019}
+  - component: {fileID: 9011665264220337039}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -211,7 +241,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: f41fde2b4fad2b64bb848a7b3d09c71d, type: 3}
+  m_Sprite: {fileID: -3668517725909923341, guid: e3832a0014368fe4fa9c13f12439ee90,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -235,7 +266,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0034542084, y: -0.022075772}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -246,5 +277,24 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.6360893, y: 1.7182443}
   m_EdgeRadius: 0
+--- !u!95 &9011665264220337039
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3316147651887018028}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 97c34349233aff1459823df9b3702409, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

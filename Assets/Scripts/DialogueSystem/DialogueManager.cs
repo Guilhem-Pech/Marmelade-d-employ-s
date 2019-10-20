@@ -24,6 +24,7 @@ public class DialogueManager : MonoBehaviour
     private int notPossibleChoice;
     private uint currentSound;
     private int idVoice;
+    private Dialogue dialogue;
 
 
     [SerializeField] private int[] voice;
@@ -61,6 +62,7 @@ public class DialogueManager : MonoBehaviour
         }
         if (sentences.Count == 0)
         {
+            dialogue.TriggerAtEndOfDialogue();
             Destroy(gameObject);
         }
     }
@@ -71,10 +73,11 @@ public class DialogueManager : MonoBehaviour
         {
             nextDialogue.TriggerDialogue();
         }
+        dialogue.TriggerAtEndOfDialogue();
         Destroy(gameObject);
     }
 
-    public void GiveDialogues(string[] theseSentences, int thisIdVoice = 0, bool auto = true, Dialogue next = null, string[] theseChoices = null, int thisNotPossibleChoice = 2)
+    public void GiveDialogues(string[] theseSentences, Dialogue parent, int thisIdVoice = 0, bool auto = true, Dialogue next = null, string[] theseChoices = null, int thisNotPossibleChoice = 2)
     {
         if (theseSentences == null)
         {
@@ -94,6 +97,7 @@ public class DialogueManager : MonoBehaviour
         notPossibleChoice = thisNotPossibleChoice;
         idVoice = thisIdVoice;
         currentSound = AkSoundEngine.PostEvent(GetVoiceName(voice[idVoice]),gameObject);
+        dialogue = parent;
     }
 
     private string GetVoiceName(int id)

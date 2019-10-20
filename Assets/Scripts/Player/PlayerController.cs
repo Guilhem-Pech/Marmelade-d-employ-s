@@ -14,10 +14,13 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D _rigidbody2D;
     private bool isAutoMoving = false;
     private Coroutine automove;
-    
-    
+    private Animator _animator;
+    private static readonly int Speed = Animator.StringToHash("Speed");
+    private bool facingRight = true;
+
     private void Start()
     {
+        _animator = GetComponentInChildren<Animator>();
         _rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
@@ -73,8 +76,22 @@ public class PlayerController : MonoBehaviour
         XAxis = key;
     }
 
+    void Flip ()
+    {
+        facingRight = !facingRight;
+        Vector3 theScale = transform.localScale;
+        theScale.x *= -1;
+        transform.localScale = theScale;
+    }
+
     private void FixedUpdate()
     {
         _rigidbody2D.velocity = speedModifier * XAxis * Vector2.right;
+        _animator.SetFloat(Speed,_rigidbody2D.velocity.magnitude);
+        
+        if(XAxis > 0 && !facingRight)
+            Flip();
+        else if(XAxis < 0 && facingRight)
+            Flip();
     }
 }

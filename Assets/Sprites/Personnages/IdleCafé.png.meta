@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 4afd314cf7d48b844baf45aa27030988
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1618896357624907766
+    second: "IdleCaf\xE9_0"
+  - first:
+      213: 5111431978041087596
+    second: "IdleCaf\xE9_1"
+  - first:
+      213: 1322058342040466705
+    second: "IdleCaf\xE9_2"
+  - first:
+      213: -9179660745898063668
+    second: "IdleCaf\xE9_3"
+  - first:
+      213: 6645650705178487813
+    second: "IdleCaf\xE9_4"
+  - first:
+      213: -1982027656574365118
+    second: "IdleCaf\xE9_5"
+  - first:
+      213: -8556143443913408191
+    second: "IdleCaf\xE9_6"
+  - first:
+      213: -7614732139160272020
+    second: "IdleCaf\xE9_7"
+  - first:
+      213: 2328635692193266464
+    second: "IdleCaf\xE9_8"
+  - first:
+      213: 6829312113600773791
+    second: "IdleCaf\xE9_9"
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -31,7 +61,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +70,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -63,7 +93,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -72,7 +114,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "IdleCaf\xE9_0"
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b66e4e3f0c9e734da67c0c56bfd0a5f
+      internalID: 1618896357624907766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "IdleCaf\xE9_1"
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089bfa6cca4679d48b1a4a0ad4c36107
+      internalID: 5111431978041087596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "IdleCaf\xE9_2"
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47f6b4a837eb0d48805eab8837d8a34
+      internalID: 1322058342040466705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "IdleCaf\xE9_3"
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5aa2dd6a7b758c4d86d7d9f59e7e538
+      internalID: -9179660745898063668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "IdleCaf\xE9_4"
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce254319f7922a4c8ff5752530624d6
+      internalID: 6645650705178487813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "IdleCaf\xE9_5"
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb21eb0ec17e814e8b3cf390f95d3b6
+      internalID: -1982027656574365118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "IdleCaf\xE9_6"
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 1
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01888c91a981a94f9c40bd232913997
+      internalID: -8556143443913408191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "IdleCaf\xE9_7"
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5e3e819cbe9ec4e90d56568def6512
+      internalID: -7614732139160272020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "IdleCaf\xE9_8"
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e89511581407864da87b5d7ba57920c
+      internalID: 2328635692193266464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "IdleCaf\xE9_9"
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146a5805c1d65bf4f8b6386908d26407
+      internalID: 6829312113600773791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
