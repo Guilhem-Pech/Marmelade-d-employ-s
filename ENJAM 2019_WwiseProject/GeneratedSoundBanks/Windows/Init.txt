@@ -19,6 +19,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	3705378287	Elevator			\Default Work Unit\Master Audio Bus\REVERBS\Elevator	
 
 Effect plug-ins	ID	Name	Type				Notes
+	437991063	Wwise_Compressor_(Custom)	Wwise Compressor			
 	2891462749	Room_Medium_High_Absorbtion	Wwise RoomVerb			
 	2945072214	My_Closet	Wwise RoomVerb			
 	3290519051	Aluminium_Tank	Wwise RoomVerb			
