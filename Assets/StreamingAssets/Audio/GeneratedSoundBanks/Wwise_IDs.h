@@ -13,6 +13,10 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID ND_AMB_BOSS_ROOM = 2749318824U;
+        static const AkUniqueID ND_AMB_ELEVATOR_LOOP = 4064697344U;
+        static const AkUniqueID ND_AMB_RECEPTION = 2113161056U;
+        static const AkUniqueID ND_AMB_WORKSPACE = 3999182656U;
         static const AkUniqueID PLAY_AI_FOOTSTRESS = 2027976871U;
         static const AkUniqueID PLAY_AI_PEN_CLICK = 1164535753U;
         static const AkUniqueID PLAY_AMB_ELEVATOR_LOOP = 2101409896U;

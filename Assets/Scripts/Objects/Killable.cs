@@ -8,7 +8,7 @@ public class Killable : MonoBehaviour , Usable
    
    public SpriteRenderer youButDed;
    private OutlineEffect _outlineEffect;
-
+   
    public void SetOutline()
    {
       if (!GetComponent<OutlineEffect>())
@@ -22,6 +22,7 @@ public class Killable : MonoBehaviour , Usable
    public void Use(PlayerController user)
    {
       // TODO MUSIC AND FADE
+      user.GetComponentInChildren<BlackPanelEffect>().enabled = true;
       foreach (SpriteRenderer sprite in alive)
       {
          sprite.enabled = false;

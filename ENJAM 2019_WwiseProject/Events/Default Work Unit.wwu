@@ -448,6 +448,70 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="ND_Amb_Elevator_Loop" ID="{7F64A23A-2BCB-4A16-8F08-F7A139C04CE3}">
+					<ChildrenList>
+						<Action Name="" ID="{3FB19341-A261-4FF0-A94D-BBEB138017E2}" ShortID="706884243">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Elevator_Loop_ND" ID="{E9771950-5683-4C58-93F2-728B7C36EC16}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5CFB6FAA-6562-483D-B1E4-B1426A286920}" ShortID="498728736">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="4.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Elevator" ID="{CF6E15E1-D0BB-47B9-9187-47C1D7A813E6}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ND_Amb_Workspace" ID="{11721B6A-B306-4A58-B244-D9A89DF9F7DC}">
+					<ChildrenList>
+						<Action Name="" ID="{56BC1165-9B54-4558-92FE-8F3DB2347ED6}" ShortID="290292995">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Workspace_ND" ID="{1FBA60A9-6E73-42B5-A3A8-C167D711B856}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ND_Amb_Reception" ID="{DE42A730-9317-4BF5-BF87-6B658D23259E}">
+					<ChildrenList>
+						<Action Name="" ID="{87F3B439-EB4D-4054-B68E-3C3C414B8C9A}" ShortID="664953709">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Reception_ND" ID="{853831C0-F685-4B3F-8187-81036A382C84}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ND_Amb_Boss_Room" ID="{58D345DE-9A68-43AE-9BCA-EC49865E1920}">
+					<ChildrenList>
+						<Action Name="" ID="{D86A736B-ABEC-44A4-9C75-84933DC44B15}" ShortID="245619967">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Boss_Room_ND" ID="{6795FB2B-24BB-4596-B342-0CED3F5C6C8F}" WorkUnitID="{09E4D44A-47B4-47AF-A041-CF9578DC98CA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
