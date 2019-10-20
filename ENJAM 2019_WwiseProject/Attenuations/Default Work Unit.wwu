@@ -320,7 +320,7 @@
 						</FocusUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
-				<Attenuation Name="Att_AI_Stress" ID="{A722863D-3C27-4AFA-9923-95736B3191D9}" ShortID="902772331">
+				<Attenuation Name="Att_AI" ID="{A722863D-3C27-4AFA-9923-95736B3191D9}" ShortID="902772331">
 					<PropertyList>
 						<Property Name="ConeUse" Type="bool">
 							<ValueList>

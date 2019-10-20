@@ -45,7 +45,13 @@
 										</Reference>
 									</ReferenceList>
 								</AuxBus>
-								<AuxBus Name="Welcome" ID="{152D5731-6A43-4C7B-AA3B-196CC1E7BC26}"/>
+								<AuxBus Name="Reception" ID="{152D5731-6A43-4C7B-AA3B-196CC1E7BC26}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="My_Closet" ID="{384A82A1-3C92-4AC5-AFC2-474F2080642C}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
 								<AuxBus Name="Workspace" ID="{05F8B9F2-DF43-4608-8B44-3A09A1E4D742}">
 									<ReferenceList>
 										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
