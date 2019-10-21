@@ -524,6 +524,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &152659541 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3178023351011863988, guid: 3c0f67e99366f474493d2118cfd64d70,
+    type: 3}
+  m_PrefabInstance: {fileID: 3178023351293790040}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &152659543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 152659541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47af971d8396a4c4189f1f6f53ea0528, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  open: {fileID: 627882850}
+  close: {fileID: 1412944541}
 --- !u!1 &287659608 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 876445287202881761, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
@@ -699,6 +719,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &627882850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3178023350251104214, guid: 3c0f67e99366f474493d2118cfd64d70,
+    type: 3}
+  m_PrefabInstance: {fileID: 3178023351293790040}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &645975651
 GameObject:
   m_ObjectHideFlags: 0
@@ -1745,7 +1771,7 @@ MonoBehaviour:
   bubble: {fileID: 5350984738605046153, guid: fce1d1118c6a5d048957393c3553819c, type: 3}
   heightBubble: 1
   voice: 1
-  nextDialogue: {fileID: 1164293772}
+  nextDialogue: {fileID: 1164293779}
   choices:
   - "I let him the time he needs. He is an artist, that\u2019s not an easy situation
     these days."
@@ -1759,24 +1785,6 @@ SpriteRenderer:
     type: 3}
   m_PrefabInstance: {fileID: 8022033780514381681}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1164293772
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1164293768}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f76a08017f305bb4a9eaf115e016dfa6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sentences:
-  - I see, I hope that I am not such a burden to deal with, Alyssia. did you know
-    that my son just *Blahblahblahblahblahblah*
-  bubble: {fileID: 5350984738605046153, guid: fce1d1118c6a5d048957393c3553819c, type: 3}
-  heightBubble: 1
-  voice: 1
 --- !u!61 &1164293774
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1818,6 +1826,25 @@ MonoBehaviour:
   alive:
   - {fileID: 1164293771}
   youButDed: {fileID: 346081021}
+--- !u!114 &1164293779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164293768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed3b9cc29551b844786cd46307f304c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sentences:
+  - I see, I hope that I am not such a burden to deal with, Alyssia. did you know
+    that my son just *Blahblahblahblahblahblah*
+  bubble: {fileID: 5350984738605046153, guid: fce1d1118c6a5d048957393c3553819c, type: 3}
+  heightBubble: 1
+  voice: 0
+  gate: {fileID: 152659543}
 --- !u!1 &1200551381
 GameObject:
   m_ObjectHideFlags: 3
@@ -2543,6 +2570,12 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!1 &1412944541 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3178023350048963336, guid: 3c0f67e99366f474493d2118cfd64d70,
+    type: 3}
+  m_PrefabInstance: {fileID: 3178023351293790040}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1499663026 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7988813817477191002, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
@@ -3725,12 +3758,12 @@ PrefabInstance:
     - target: {fileID: 3178023350048963336, guid: 3c0f67e99366f474493d2118cfd64d70,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3178023350251104214, guid: 3c0f67e99366f474493d2118cfd64d70,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3178023350251104200, guid: 3c0f67e99366f474493d2118cfd64d70,
         type: 3}
@@ -3757,6 +3790,11 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6463658378358774060, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8022033780439492031, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
         type: 3}
       propertyPath: m_IsActive
       value: 1
