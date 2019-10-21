@@ -16456,13 +16456,26 @@
 												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>1</Value>
+														<Value>-3</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise_Parametric_EQ_(Custom)" ID="{D337C6BF-E186-48C2-B0D4-B0F4D53BABBD}" ShortID="66346186" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+															<PropertyList>
+																<Property Name="FrequencyBand2" Type="Real32" Value="3799"/>
+																<Property Name="FrequencyBand3" Type="Real32" Value="4373"/>
+																<Property Name="GainBand2" Type="Real32" Value="-24"/>
+																<Property Name="GainBand3" Type="Real32" Value="-24"/>
+																<Property Name="QFactorBand2" Type="Real32" Value="2.6"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
@@ -16474,6 +16487,11 @@
 											<ChildrenList>
 												<Sound Name="Gate_Ok_Bip" ID="{F4CFFAA1-A984-4C0E-8A69-7267684EBAC1}" ShortID="406870874">
 													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>46</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
 																<Value>-7</Value>
@@ -16498,13 +16516,27 @@
 															<Language>SFX</Language>
 															<AudioFile>Gate\Gate_Ok_Bip.wav</AudioFile>
 														</AudioFileSource>
+														<AudioFileSource Name="Gate_Ok_Bip_V2" ID="{FA46F025-0FE1-4715-B430-AC91823227A9}" ShortID="793514514">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.67304103499622E-03"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.69632718961649"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Gate_Ok_Bip_V2.wav</AudioFile>
+														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Gate_Ok_Bip" ID="{E0EEE49E-7A3C-428D-9E80-6B54EC39839A}" Platform="Linked"/>
+														<ActiveSource Name="Gate_Ok_Bip_V2" ID="{FA46F025-0FE1-4715-B430-AC91823227A9}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Gate_Ok_Bip_01" ID="{FE92678C-86FA-4A48-86D7-740D8177E2DB}" ShortID="732123290">
+												<Sound Name="Gate_Ok_Bip_02" ID="{D5594685-E4B6-401E-BB66-8863AC8B5B7C}" ShortID="778004241">
 													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>46</Value>
+															</ValueList>
+														</Property>
 														<Property Name="Pitch" Type="int32">
 															<ValueList>
 																<Value>480</Value>
@@ -16523,25 +16555,41 @@
 														<Reference Name="OutputBus">
 															<ObjectRef Name="Player" ID="{49477D21-84C6-466D-ABE2-C7BC1540939E}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
 														</Reference>
+														<Reference Name="UserAuxSend0">
+															<ObjectRef Name="Reception" ID="{152D5731-6A43-4C7B-AA3B-196CC1E7BC26}" WorkUnitID="{263D12C2-A367-4E1F-99B7-3846EFBBBE3E}"/>
+														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Gate_Ok_Bip" ID="{62F483D6-A06E-490E-92DF-8F99B4748BCE}" ShortID="973772282">
+														<AudioFileSource Name="Gate_Ok_Bip" ID="{36B3B354-7ECE-4716-9C5F-4F4D62663D8D}" ShortID="321969753">
 															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.697648073760548"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.696311583197788"/>
 															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Gate\Gate_Ok_Bip.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="818016258"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+														<AudioFileSource Name="Gate_Ok_Bip_V2" ID="{1EC597DB-9D1E-494E-8C47-3FFABFA988C2}" ShortID="233502958">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="2.67304103499622E-03"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.697663710133988"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Gate_Ok_Bip_V2.wav</AudioFile>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Gate_Ok_Bip" ID="{62F483D6-A06E-490E-92DF-8F99B4748BCE}" Platform="Linked"/>
+														<ActiveSource Name="Gate_Ok_Bip_V2" ID="{1EC597DB-9D1E-494E-8C47-3FFABFA988C2}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
 											<Playlist>
 												<ItemRef Name="Gate_Ok_Bip" ID="{F4CFFAA1-A984-4C0E-8A69-7267684EBAC1}"/>
-												<ItemRef Name="Gate_Ok_Bip_01" ID="{FE92678C-86FA-4A48-86D7-740D8177E2DB}"/>
+												<ItemRef Name="Gate_Ok_Bip_02" ID="{D5594685-E4B6-401E-BB66-8863AC8B5B7C}"/>
 											</Playlist>
 										</RandomSequenceContainer>
 										<BlendContainer Name="Gate_Wrong" ID="{44764EA6-7B00-423B-923F-58808C90B551}" ShortID="348435463">
@@ -16555,6 +16603,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="Gate_Wrong" ID="{97D05A19-1649-4298-ADE1-2075F9A02C9B}" ShortID="74685918">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-8</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -16588,7 +16643,7 @@
 														</Property>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
-																<Value>-8</Value>
+																<Value>-17</Value>
 															</ValueList>
 														</Property>
 													</PropertyList>

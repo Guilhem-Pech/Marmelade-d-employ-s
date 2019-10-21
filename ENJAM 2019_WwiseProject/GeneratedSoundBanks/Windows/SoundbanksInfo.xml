@@ -56,7 +56,7 @@
 				<Event Id="3911342322" Name="Play_Door_Boss" ObjectPath="\Events\Default Work Unit\Play_Door_Boss" DurationType="OneShot" DurationMin="4.534159" DurationMax="4.534159"/>
 				<Event Id="2167671212" Name="Play_Fan_Lp" ObjectPath="\Events\Default Work Unit\Play_Fan_Lp" MaxAttenuation="5.000000" DurationType="Infinite"/>
 				<Event Id="2046120060" Name="Play_Gate_Ok" ObjectPath="\Events\Default Work Unit\Play_Gate_Ok" DurationType="OneShot" DurationMin="1.111270" DurationMax="1.111270"/>
-				<Event Id="856672752" Name="Play_Gate_Ok_Bip" ObjectPath="\Events\Default Work Unit\Play_Gate_Ok_Bip" DurationType="OneShot" DurationMin="1.934336" DurationMax="1.934336"/>
+				<Event Id="856672752" Name="Play_Gate_Ok_Bip" ObjectPath="\Events\Default Work Unit\Play_Gate_Ok_Bip" DurationType="OneShot" DurationMin="1.934357" DurationMax="1.934357"/>
 				<Event Id="3665027749" Name="Play_Gate_Wrong" ObjectPath="\Events\Default Work Unit\Play_Gate_Wrong" DurationType="OneShot" DurationMin="2.592948" DurationMax="2.592948"/>
 				<Event Id="979174855" Name="Play_Gun_Fire" ObjectPath="\Events\Default Work Unit\Play_Gun_Fire" DurationType="Infinite"/>
 				<Event Id="3493251334" Name="Play_Gun_Ground" ObjectPath="\Events\Default Work Unit\Play_Gun_Ground" DurationType="OneShot" DurationMin="0.990522" DurationMax="0.990522"/>
@@ -192,6 +192,10 @@
 				<File Id="224668201" Language="SFX">
 					<ShortName>Amb_Voices_01.wav</ShortName>
 					<Path>SFX\Amb_Voices_01_A8EACF41.wem</Path>
+				</File>
+				<File Id="233502958" Language="SFX">
+					<ShortName>Gate_Ok_Bip_V2.wav</ShortName>
+					<Path>SFX\Gate_Ok_Bip_V2_E5996B23.wem</Path>
 				</File>
 				<File Id="262256158" Language="SFX">
 					<ShortName>muzak_-_2.wav</ShortName>
@@ -425,6 +429,10 @@
 					<ShortName>Boss_Hit_Rocks.wav</ShortName>
 					<Path>SFX\Boss_Hit_Rocks_CF82D623.wem</Path>
 				</File>
+				<File Id="793514514" Language="SFX">
+					<ShortName>Gate_Ok_Bip_V2.wav</ShortName>
+					<Path>SFX\Gate_Ok_Bip_V2_FAD9075B.wem</Path>
+				</File>
 				<File Id="797223564" Language="SFX">
 					<ShortName>FTS_Female_Asphalt.wav</ShortName>
 					<Path>SFX\FTS_Female_Asphalt_A6B499F2.wem</Path>
@@ -432,10 +440,6 @@
 				<File Id="813121715" Language="SFX">
 					<ShortName>Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431.wav</ShortName>
 					<Path>SFX\Cartoon, Voice, High Pitched, Says Lol, Excited 1 SND15431_46619BF2.wem</Path>
-				</File>
-				<File Id="818016258" Language="SFX">
-					<ShortName>Gate\Gate_Ok_Bip.wav</ShortName>
-					<Path>SFX\Gate\Gate_Ok_Bip_3A6AEA60.wem</Path>
 				</File>
 				<File Id="826903921" Language="SFX">
 					<ShortName>Kock_Door\Door_Open.wav</ShortName>
@@ -524,10 +528,6 @@
 				<File Id="971770019" Language="SFX">
 					<ShortName>SFX_TypingText.wav</ShortName>
 					<Path>SFX\SFX_TypingText_F31CA626.wem</Path>
-				</File>
-				<File Id="973772282" Language="SFX">
-					<ShortName>Gate\Gate_Ok_Bip.wav</ShortName>
-					<Path>SFX\Gate\Gate_Ok_Bip_F62D048E.wem</Path>
 				</File>
 				<File Id="978497906" Language="SFX">
 					<ShortName>Pen_Click_Multiple_02.wav</ShortName>
