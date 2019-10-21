@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Simon\Documents\Gamedev\Marmelade-d-employes\ENJAM 2019_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Simon\Documents\Gamedev\Marmelade-d-employes\ENJAM 2019_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Simon\Documents\Gamedev\Marmelade-d-employes\ENJAM 2019_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Sessions\ENJAM 2019\ENJAM 2019_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Simon\Documents\Gamedev\Marmelade-d-employes\ENJAM 2019_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles>
