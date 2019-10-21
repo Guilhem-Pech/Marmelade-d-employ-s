@@ -10,12 +10,18 @@ public class Crosshair : MonoBehaviour
     // Start is called before the first frame update
     private Vector2 mousePos;
     private RectTransform _rectTransform;
-    private Image img;
+    public Image img;
 
-    private void Start()
+    private void Awake()
     {
         _rectTransform = GetComponent<RectTransform>();
         img = GetComponent<Image>();
+        
+    }
+
+    private void Start()
+    {
+        FindObjectOfType<PlayerInput>().actions["MousePos"].performed += OnMouseChangePos;
     }
 
     public void OnMouseChangePos(InputAction.CallbackContext context)
