@@ -4073,6 +4073,11 @@ PrefabInstance:
       propertyPath: aliciaDesk
       value: 
       objectReference: {fileID: 1674925632}
+    - target: {fileID: 7863293192152624946, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.73
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e53c2fc4e030cc4d91db9f54aed7ae2, type: 3}
 --- !u!114 &8022033780514381682 stripped
