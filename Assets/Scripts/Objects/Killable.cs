@@ -27,7 +27,8 @@ public class Killable : MonoBehaviour , Usable
       {
          sprite.enabled = false;
       }
-
+      AkSoundEngine.PostEvent("Play_Gun_Fire", gameObject);
       youButDed.enabled = true;
+        
    }
 }
