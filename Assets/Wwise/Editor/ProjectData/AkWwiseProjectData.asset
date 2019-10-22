@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: c2123d2667a31f4e99b73846efbbbe3e
     GuidInternal: 
-    m_lastTime: -8586300221777823168
+    m_lastTime: -8586300205452528045
     List:
     - name: Elevator
       guid: b7227c2021a7054888ea8c476cfcdc1d
@@ -99,7 +99,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3a01f2064617d344bbc0014585fcda00
     GuidInternal: 
-    m_lastTime: -8586300016675527248
+    m_lastTime: -8586299999789520034
     List:
     - name: ND_Amb_Boss_Room
       guid: de45d358689aae439bcaec49865e1920
