@@ -1,4 +1,4 @@
-#The last pot
+# The last pot
 
 The game :
 
